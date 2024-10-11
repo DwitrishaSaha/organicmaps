@@ -67,7 +67,7 @@ function qt_version {
 
 function usage {
   cat << EOF
-Prints Organic Maps version in specified format.
+Prints Oma version in specified format.
 Version is the last git commit's date plus a number of commits on that day.
 Usage: $0 <format>
 Where format is one of the following arguments (shows current values):

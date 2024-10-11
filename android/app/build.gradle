@@ -81,8 +81,8 @@ def getCommitMessage() {
 
 def osName = System.properties['os.name'].toLowerCase()
 
-project.ext.appId = 'app.organicmaps'
-project.ext.appName = 'Organic Maps'
+project.ext.appId = 'app.oma'
+project.ext.appName = 'Oma'
 
 java {
   toolchain {
@@ -101,6 +101,8 @@ android {
   compileSdk propCompileSdkVersion.toInteger()
 
   ndkVersion '27.0.12077973'
+
+  compileSdkVersion 34
 
   defaultConfig {
     // Default package name is taken from the manifest and should be app.organicmaps
@@ -304,7 +306,7 @@ android {
       // To learn more, go to the documentation section about R8 configuration files.
       proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
       matchingFallbacks = ['debug', 'release']
-      resValue 'string', 'app_name', 'Beta Organic Maps'
+      resValue 'string', 'app_name', 'Beta Oma'
       // Full size symbols are too big for Google, 217mb aab vs 95mb.
       ndk.debugSymbolLevel = 'symbol_table'
 
