@@ -1,0 +1,112 @@
+Subject: [PATCH] removed extra buttons and osm profile option
+---
+Index: android/app/src/main/java/app/organicmaps/settings/SettingsPrefsFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/app/src/main/java/app/organicmaps/settings/SettingsPrefsFragment.java b/android/app/src/main/java/app/organicmaps/settings/SettingsPrefsFragment.java
+--- a/android/app/src/main/java/app/organicmaps/settings/SettingsPrefsFragment.java	(revision 1f9880a8ba0e9ec41181ff6ad9ff58168b61dfca)
++++ b/android/app/src/main/java/app/organicmaps/settings/SettingsPrefsFragment.java	(date 1728802126936)
+@@ -78,24 +78,13 @@
+     pref.setSummary(RoutingOptions.hasAnyOptions() ? R.string.on : R.string.off);
+   }
+ 
+-  private void updateProfileSettingsPrefsSummary()
+-  {
+-    final Preference pref = getPreference(getString(R.string.pref_osm_profile));
+-    if (OsmOAuth.isAuthorized(requireContext()))
+-    {
+-      final String username = OsmOAuth.getUsername(requireContext());
+-      pref.setSummary(username);
+-    }
+-    else
+-      pref.setSummary(R.string.not_signed_in);
+-  }
++ 
+ 
+   @Override
+   public void onResume()
+   {
+     super.onResume();
+ 
+-    updateProfileSettingsPrefsSummary();
+     updateVoiceInstructionsPrefsSummary();
+     updateRoutingSettingsPrefsSummary();
+   }
+@@ -106,11 +95,7 @@
+     final String key = preference.getKey();
+     if (key != null)
+     {
+-      if (key.equals(getString(R.string.pref_osm_profile)))
+-      {
+-        startActivity(new Intent(requireActivity(), ProfileActivity.class));
+-      }
+-      else if (key.equals(getString(R.string.pref_tts_screen)))
++      if (key.equals(getString(R.string.pref_tts_screen)))
+       {
+         getSettingsActivity().stackFragment(VoiceInstructionsSettingsFragment.class, getString(R.string.pref_tts_enable_title), null);
+       }
+Index: android/app/src/main/java/app/organicmaps/MwmActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/app/src/main/java/app/organicmaps/MwmActivity.java b/android/app/src/main/java/app/organicmaps/MwmActivity.java
+--- a/android/app/src/main/java/app/organicmaps/MwmActivity.java	(revision 1f9880a8ba0e9ec41181ff6ad9ff58168b61dfca)
++++ b/android/app/src/main/java/app/organicmaps/MwmActivity.java	(date 1728800095645)
+@@ -2334,16 +2334,12 @@
+     if (id.equals(MAIN_MENU_ID))
+     {
+       ArrayList<MenuBottomSheetItem> items = new ArrayList<>();
+-      items.add(new MenuBottomSheetItem(R.string.placepage_add_place_button, R.drawable.ic_plus, this::onAddPlaceOptionSelected));
+       items.add(new MenuBottomSheetItem(
+           R.string.download_maps,
+           R.drawable.ic_download,
+           getDownloadMapsCounter(),
+           this::onDownloadMapsOptionSelected
+       ));
+-      mDonatesUrl = Config.getDonateUrl(getApplicationContext());
+-      if (!TextUtils.isEmpty(mDonatesUrl))
+-        items.add(new MenuBottomSheetItem(R.string.donate, R.drawable.ic_donate, this::onDonateOptionSelected));
+       items.add(new MenuBottomSheetItem(R.string.settings, R.drawable.ic_settings, this::onSettingsOptionSelected));
+       items.add(new MenuBottomSheetItem(R.string.start_track_recording, R.drawable.ic_track_recording_off, -1, this::onTrackRecordingOptionSelected));
+       items.add(new MenuBottomSheetItem(R.string.share_my_location, R.drawable.ic_share, this::onShareLocationOptionSelected));
+Index: android/app/src/main/res/xml/prefs_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/app/src/main/res/xml/prefs_main.xml b/android/app/src/main/res/xml/prefs_main.xml
+--- a/android/app/src/main/res/xml/prefs_main.xml	(revision 1f9880a8ba0e9ec41181ff6ad9ff58168b61dfca)
++++ b/android/app/src/main/res/xml/prefs_main.xml	(date 1728801707680)
+@@ -4,12 +4,7 @@
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools">
+ 
+-  <Preference
+-    android:key="@string/pref_osm_profile"
+-    android:title="@string/profile"
+-    tools:summary="LongLongUsernameHere"
+-    app:singleLineTitle="false"
+-    android:order="1"/>
++
+   <androidx.preference.PreferenceCategory
+     android:key="@string/pref_settings_general"
+     android:title="@string/prefs_group_general"
+Index: android/app/src/main/res/values/donottranslate.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/app/src/main/res/values/donottranslate.xml b/android/app/src/main/res/values/donottranslate.xml
+--- a/android/app/src/main/res/values/donottranslate.xml	(revision 1f9880a8ba0e9ec41181ff6ad9ff58168b61dfca)
++++ b/android/app/src/main/res/values/donottranslate.xml	(date 1728801713488)
+@@ -29,7 +29,6 @@
+   <string name="pref_autodownload" translatable="false">AutoDownloadMap</string>
+   <string name="pref_3d" translatable="false">3D</string>
+   <string name="pref_3d_buildings" translatable="false">3DBuildings</string>
+-  <string name="pref_osm_profile" translatable="false">Osm profile</string>
+   <string name="pref_auto_zoom" translatable="false">AutoZoom</string>
+   <string name="pref_large_fonts_size" translatable="false">LargeFontSize</string>
+   <string name="pref_use_mobile_data" translatable="false">UseMobileData</string>

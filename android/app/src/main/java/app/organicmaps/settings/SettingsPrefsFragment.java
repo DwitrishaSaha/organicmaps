@@ -78,24 +78,13 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment
     pref.setSummary(RoutingOptions.hasAnyOptions() ? R.string.on : R.string.off);
   }
 
-  private void updateProfileSettingsPrefsSummary()
-  {
-    final Preference pref = getPreference(getString(R.string.pref_osm_profile));
-    if (OsmOAuth.isAuthorized(requireContext()))
-    {
-      final String username = OsmOAuth.getUsername(requireContext());
-      pref.setSummary(username);
-    }
-    else
-      pref.setSummary(R.string.not_signed_in);
-  }
+ 
 
   @Override
   public void onResume()
   {
     super.onResume();
 
-    updateProfileSettingsPrefsSummary();
     updateVoiceInstructionsPrefsSummary();
     updateRoutingSettingsPrefsSummary();
   }
@@ -106,11 +95,7 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment
     final String key = preference.getKey();
     if (key != null)
     {
-      if (key.equals(getString(R.string.pref_osm_profile)))
-      {
-        startActivity(new Intent(requireActivity(), ProfileActivity.class));
-      }
-      else if (key.equals(getString(R.string.pref_tts_screen)))
+      if (key.equals(getString(R.string.pref_tts_screen)))
       {
         getSettingsActivity().stackFragment(VoiceInstructionsSettingsFragment.class, getString(R.string.pref_tts_enable_title), null);
       }
