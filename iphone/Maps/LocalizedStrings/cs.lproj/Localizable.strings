@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Oma. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "Nahrávání záložek";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Vaše poloha zatím nebyla určena";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Koukni na moji značku na mapě v Organic Maps";
+"bookmark_share_email_subject" = "Koukni na moji značku na mapě v Oma";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Podívej se na mou aktuální polohu na mapě na Organic Maps";
+"my_position_share_email_subject" = "Podívej se na mou aktuální polohu na mapě na Oma";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -202,7 +202,7 @@
 "done" = "Hotovo";
 
 /* Prints version number in About dialog */
-"version" = "Verze Organic Maps: %@";
+"version" = "Verze Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Stopy";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Webové stránky";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Novinky";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Ke stažení potřebujete více volného místa. Odstraňte prosím nepotřebná data.";
 
-"editor_sharing_title" = "Vylepšil jsem mapy Organic Maps";
+"editor_sharing_title" = "Vylepšil jsem mapy Oma";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d z %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Podrobný komentář";
 
-"editor_detailed_description" = "Vámi navržené změny odešleme do komunity OpenStreetMap. Popište podrobnosti, které nelze upravit v Organic Maps.";
+"editor_detailed_description" = "Vámi navržené změny odešleme do komunity OpenStreetMap. Popište podrobnosti, které nelze upravit v Oma.";
 
 "editor_more_about_osm" = "Více o projektu OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Zapnutí služeb určování polohy";
 
-"location_services_disabled_on_device_additional_message" = "Nebo pokračujte v používání aplikace Organic Maps bez polohy";
+"location_services_disabled_on_device_additional_message" = "Nebo pokračujte v používání aplikace Oma bez polohy";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Fotografie, recenze, rezervace";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Bonus za každou rezervaci provedenou prostřednictvím tohoto odkazu je určen na rozvoj služby Organic Maps.";
+"dialog_kayak_disclaimer" = "Bonus za každou rezervaci provedenou prostřednictvím tohoto odkazu je určen na rozvoj služby Oma.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Podrobnosti na Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Odjezd";
 
-"recent_track_background_dialog_message" = "Organic Maps používají geopozici na pozadí, aby se zaznamenala vaše nedávno ujetá trasa.";
+"recent_track_background_dialog_message" = "Oma používají geopozici na pozadí, aby se zaznamenala vaše nedávno ujetá trasa.";
 
 "general_settings" = "Obecná nastavení";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Rych. varování";
 
-"download_map_carplay" = "Stáhněte si prosím mapy do aplikace Organic Maps ve vašem zařízení";
+"download_map_carplay" = "Stáhněte si prosím mapy do aplikace Oma ve vašem zařízení";
 
 "carplay_roundabout_exit" = "%@ výjezd";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/cs/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Naším hlavním cílem je vytvářet rychlé, na soukromí zaměřené a snadno použitelné mapy, které si zamilujete.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Na obrazovce telefonu nyní používáte aplikaci Organic Maps";
+"car_used_on_the_phone_screen" = "Na obrazovce telefonu nyní používáte aplikaci Oma";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Na obrazovce auta nyní používáte aplikaci Organic Maps";
+"car_used_on_the_car_screen" = "Na obrazovce auta nyní používáte aplikaci Oma";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Pokračujte v telefonu";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Odkaz na menu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Chcete poslat vývojářům hlášení o chybě?\nSpoléháme na naše uživatele, protože společnost Organic Maps neshromažďuje žádné informace o chybách automaticky. Předem vám děkujeme za podporu Organic Maps!";
+"bugreport_alert_message" = "Chcete poslat vývojářům hlášení o chybě?\nSpoléháme na naše uživatele, protože společnost Oma neshromažďuje žádné informace o chybách automaticky. Předem vám děkujeme za podporu Oma!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Povolení synchronizace s iCloudem";

@@ -15,9 +15,9 @@ Característiques clau:
 • Exportació i importació d'adreces d'interès en formats KML, KMZ i GPX
 • Mode fosc per a protegir els ulls
 
-No hi ha <i>de moment</i> transport públic, mapes per satèl·lit i altres funcions interessants a l'Organic Maps. Però amb <i>la vostra ajuda i suport</i>, podem millorar aquest món pas a pas.
+No hi ha <i>de moment</i> transport públic, mapes per satèl·lit i altres funcions interessants a l'Oma. Però amb <i>la vostra ajuda i suport</i>, podem millorar aquest món pas a pas.
 
-L'Organic Maps és <b>pur i orgànic, fet amb amor</b>:
+L'Oma és <b>pur i orgànic, fet amb amor</b>:
 
 • Experiència fora de línia ràpida i brillant
 • Respecta la vostra privadesa
@@ -38,9 +38,9 @@ Lliure de rastrejadors i altres coses dolentes:
 • Sense crapware
 • So̶ns̶o̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶e̶s̶ Purament orgànic
 
-A Organic Maps, creiem que la privadesa <b> és un dret humà fonamental</b>:
+A Oma, creiem que la privadesa <b> és un dret humà fonamental</b>:
 
-• Organic Maps és un projecte de codi obert impulsat per la comunitat independent
+• Oma és un projecte de codi obert impulsat per la comunitat independent
 • Protegim la privadesa de les mirades indiscretes de les grans multinacionals
 • Estigueu segurs siguis on siguis
 

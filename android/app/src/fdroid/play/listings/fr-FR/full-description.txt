@@ -16,9 +16,9 @@ Principales fonctionnalités :
 - Exportation et importation de marque-pages et de tracés aux formats KML, KMZ et GPX
 - Mode sombre pour protéger vos yeux
 
-Organic Maps ne propose pas encore de transports publics, de cartes satellites et d'autres fonctionnalités intéressantes. Mais avec <i>votre aide et votre soutien</i>, nous pouvons améliorer les cartes étape par étape.
+Oma ne propose pas encore de transports publics, de cartes satellites et d'autres fonctionnalités intéressantes. Mais avec <i>votre aide et votre soutien</i>, nous pouvons améliorer les cartes étape par étape.
 
-Organic Maps est <b>pur et organique, fait avec amour</b> :
+Oma est <b>pur et organique, fait avec amour</b> :
 
 - Une expérience hors ligne ultra-rapide
 - Respecte votre vie privée
@@ -39,9 +39,9 @@ Exempt de trackers et d'autres éléments nuisibles :
 - Pas de logiciels malveillants
 - N̶o̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶e̶s̶ Purement organique
 
-Chez Organic Maps, nous pensons que <b>la vie privée est un droit humain fondamental</b> :
+Chez Oma, nous pensons que <b>la vie privée est un droit humain fondamental</b> :
 
-- Organic Maps est un projet open-source mené par une communauté indépendante.
+- Oma est un projet open-source mené par une communauté indépendante.
 - Nous protégeons la vie privée des regards indiscrets des grandes entreprises.
 - Restez en sécurité où que vous soyez
 
@@ -50,4 +50,4 @@ Selon le rapport de confidentialité d'Exodus, il n'y a aucun traceur et les aut
 Veuillez visiter le site Web <b><i>organicmaps.app</i></b> pour plus de détails et une FAQ, et contactez-nous directement à @OrganicMapsApp sur Telegram.
 
 Rejetez la surveillance - embrassez votre liberté.
-<b>Donnez une chance à Organic Maps!</b>
+<b>Donnez une chance à Oma!</b>

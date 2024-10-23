@@ -16,9 +16,9 @@ Klíčové funkce:
 • Export a import záložek a tras ve formátech KML, KMZ a GPX
 • Tmavý režim pro ochranu vašich očí
 
-Organic Maps <i>zatím</i> neobsahují cool vychytávky jako veřejnou dopravu nebo satelitní mapy, <i>s vaší pomocí a podporou</i> ale můžeme postupně mapy vylepšovat.
+Oma <i>zatím</i> neobsahují cool vychytávky jako veřejnou dopravu nebo satelitní mapy, <i>s vaší pomocí a podporou</i> ale můžeme postupně mapy vylepšovat.
 
-Aplikace Organic Maps je <b>čistá a organická, vytvořená s láskou</b>:
+Aplikace Oma je <b>čistá a organická, vytvořená s láskou</b>:
 
 • Neskutečně rychlý offline zážitek
 • Respektuje vaše soukromí
@@ -39,9 +39,9 @@ Neobsahuje sledovací prvky a další špatnosti:
 • Žádný crapware
 • Ž̶á̶d̶n̶é̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶y̶ Plně organické
 
-V Organic Maps věříme, že <b>soukromí je základní lidské právo</b>:
+V Oma věříme, že <b>soukromí je základní lidské právo</b>:
 
-• Organic Maps jsou nezávislý komunitní open-source projekt
+• Oma jsou nezávislý komunitní open-source projekt
 • Chráníme vaše soukromí před zvědavýma očima Big Tech firem
 • Nezávisle na vašem umístění jste v bezpečí
 
@@ -50,4 +50,4 @@ Podle hlášení Exodus Privacy neobsahuje aplikace žádné sledovací prvky a 
 Pro další podrobnosti a často kladené dotazy prosím navštivte webové stránky <b><i>organicmaps.app</i></b>. Kontaktovat nás můžete přes @OrganicMapsApp na Telegramu.
 
 Odmítněte sledování - přijměte svou svobodu.
-<b>Vyzkoušejte Organic Maps!</b>
+<b>Vyzkoušejte Oma!</b>

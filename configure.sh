@@ -23,7 +23,7 @@ SAVED_PRIVATE_BRANCH_FILE="$BASE_PATH/.private_repository_branch"
 TMP_REPO_DIR="$BASE_PATH/.tmp.private.repo"
 
 usage() {
-  echo "This tool configures Organic Maps for an opensource build by default"
+  echo "This tool configures Oma for an opensource build by default"
   echo "and bootstraps the Boost submodule after that."
   echo
   echo "To e.g. publish in app stores populate following configs with your own private keys etc."

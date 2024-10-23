@@ -16,9 +16,9 @@ Características principales:
 • Exportación e importación de marcadores y pistas en formatos KML, KMZ, GPX
 • Modo oscuro para proteger tus ojos
 
-<i>Todavía</i> no hay transporte público, mapas satelitales y otras características interesantes en Organic Maps. Pero con <i>su ayuda y apoyo</i>, podemos hacer mejores mapas paso a paso.
+<i>Todavía</i> no hay transporte público, mapas satelitales y otras características interesantes en Oma. Pero con <i>su ayuda y apoyo</i>, podemos hacer mejores mapas paso a paso.
 
-Organic Maps es <b>puro y orgánico, hecho con amor</b>:
+Oma es <b>puro y orgánico, hecho con amor</b>:
 
 • Experiencia offline ultrarrápida
 • Respeta tu privacidad
@@ -39,9 +39,9 @@ Libre de rastreadores y otras cosas malas:
 • Sin crapware
 • N̶o̶p̶e̶s̶t̶i̶i̶i̶i̶e̶s̶s̶ puramente orgánico
 
-En Organic Maps, creemos que <b>la privacidad es un derecho humano fundamental</b>:
+En Oma, creemos que <b>la privacidad es un derecho humano fundamental</b>:
 
-• Organic Maps es un proyecto independiente de código abierto impulsado por la comunidad
+• Oma es un proyecto independiente de código abierto impulsado por la comunidad
 • Protegemos la privacidad de las miradas indiscretas de las grandes tecnológicas
 • Mantente seguro estés donde estés
 
@@ -50,4 +50,4 @@ De acuerdo con el Informe de privacidad de Exodus, no se encuentran rastreadores
 Visite <b><i>organicmaps.app</i></b> sitio web para obtener más detalles y preguntas frecuentes, y contáctenos directamente en @OrganicMapsApp en Telegram.
 
 Rechaza la vigilancia, abraza tu libertad.
-<b>¡Dale una oportunidad a Organic Maps!</b>
+<b>¡Dale una oportunidad a Oma!</b>

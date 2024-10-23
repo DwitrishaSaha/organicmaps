@@ -33,7 +33,7 @@
 	<string name="country_status_download_failed">Η λήψη απέτυχε</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Δοκιμάστε ξανά</string>
-	<string name="about_menu_title">Σχετικά με το Organic Maps</string>
+	<string name="about_menu_title">Σχετικά με το Oma</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Δωρεάν για όλους, φτιαγμένα με αγάπη</string>
 	<!-- Text in About screen -->
@@ -50,7 +50,7 @@
 	<string name="unsupported_phone">Η εφαρμογή απαιτεί OpenGL με επιτάχυνση υλικού. Δυστυχώς, η συσκευή σας δεν το υποστηρίζει.</string>
 	<string name="download">Λήψη</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Αποσυνδέστε το καλώδιο USB ή τοποθετήστε την κάρτα μνήμης για να χρησιμοποιήσετε το Organic Maps</string>
+	<string name="disconnect_usb_cable">Αποσυνδέστε το καλώδιο USB ή τοποθετήστε την κάρτα μνήμης για να χρησιμοποιήσετε το Oma</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">Ελευθερώσετε  χώρο αποθήκευσης στην SD κάρτα/USB πρώτα προκειμένου να χρησιμοποιήσετε την εφαρμογή</string>
 	<string name="download_resources">Πριν ξεκινήσετε τη χρήση της εφαρμογής, επιτρέψτε μας να κατεβάσουμε το γενικό παγκόσμιο χάρτη στη συσκευή σας.\nΘα χρησιμοποιήσει %s αποθηκευτικού χώρου.</string>
@@ -163,8 +163,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Σημειώσεις</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Κοινοποιήθηκαν τα αγαπημένα από το Organic Maps σε εσάς</string>
-	<string name="share_bookmarks_email_body">Γειa!\n\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το Organic Maps. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://omaps.app/get?kmz\n\nΚαλή διασκέδαση ταξιδεύοντας με το Organic Maps!</string>
+	<string name="share_bookmarks_email_subject">Κοινοποιήθηκαν τα αγαπημένα από το Oma σε εσάς</string>
+	<string name="share_bookmarks_email_body">Γειa!\n\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το Oma. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://omaps.app/get?kmz\n\nΚαλή διασκέδαση ταξιδεύοντας με το Oma!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Φορτώνονται τα αγαπημένα</string>
 	<!-- Kmz file successful loading -->
@@ -173,7 +173,7 @@
 	<string name="load_kmz_failed">Η φόρτωση των αγαπημένων απέτυχε. Το αρχείο μπορεί να είναι κατεστραμμένο ή ελαττωματικό.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Ο τύπος αρχείου δεν αναγνωρίζεται από την εφαρμογή:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Αποτυχία ανοίγματος του αρχείου %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Επεξεργασία</string>
@@ -184,11 +184,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Λήψη χάρτη βρίσκεται σε εξέλιξη.</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">Δες την τρέχουσα τοποθεσία μου στο Organic Maps! %1$s ή %2$s Αν δεν έχεις τους χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: https://omaps.app/get</string>
+	<string name="my_position_share_sms">Δες την τρέχουσα τοποθεσία μου στο Oma! %1$s ή %2$s Αν δεν έχεις τους χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Γεια, δες τις τοποθεσίες που έχω καρφιτσώσει στο Organic Maps!</string>
+	<string name="bookmark_share_email_subject">Γεια, δες τις τοποθεσίες που έχω καρφιτσώσει στο Oma!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Γεια, δες την τρέχουσα τοποθεσία μου στο χάρτη του Organic Maps!</string>
+	<string name="my_position_share_email_subject">Γεια, δες την τρέχουσα τοποθεσία μου στο χάρτη του Oma!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Γεια,\n\nΑυτή τη στιγμή είμαι εδώ: %1$s. Κάνε κλικ σε αυτό το σύνδεσμο %2$s ή σε αυτόν %3$s για να δεις την τοποθεσία στο χάρτη.\n\nΕυχαριστώ.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -250,7 +250,7 @@
 	<string name="menu">Μενού</string>
 	<!-- Text in menu -->
 	<string name="website">Ιστότοπος</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Νέα</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Σχόλια</string>
@@ -504,7 +504,7 @@
 	<!-- Title for OSM note section in the editor -->
 	<string name="editor_other_info">Σημείωση για τους εθελοντές του OpenStreetMap (προαιρετική)</string>
 	<!-- Hint of the input field in the OSM note section of the editor -->
-	<string name="editor_note_hint">Περιγράψτε λάθη στο χάρτη ή πράγματα που δεν μπορούν να επεξεργαστούν με τους Organic Maps</string>
+	<string name="editor_note_hint">Περιγράψτε λάθη στο χάρτη ή πράγματα που δεν μπορούν να επεξεργαστούν με τους Oma</string>
 	<!-- Information about OSM at the top of the editing page -->
 	<string name="editor_about_osm">Οι επεξεργασίες σας μεταφορτώνονται στη δημόσια βάση δεδομένων <a href="https://wiki.openstreetmap.org/wiki/El:About_OpenStreetMap">OpenStreetMap</a>. Παρακαλούμε μην προσθέτετε προσωπικές πληροφορίες ή πληροφορίες που προστατεύονται από πνευματικά δικαιώματα.</string>
 	<string name="editor_more_about_osm">Περισσότερα σχετικά με το OpenStreetMap</string>
@@ -528,7 +528,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Φωτογραφίες, κριτικές, κράτηση</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">Το μπόνους παραπομπής που λαμβάνετε για κάθε κράτηση μέσω αυτού του συνδέσμου πηγαίνει στην ανάπτυξη του Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">Το μπόνους παραπομπής που λαμβάνετε για κάθε κράτηση μέσω αυτού του συνδέσμου πηγαίνει στην ανάπτυξη του Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Λεπτομέρειες στο Kayak</string>
 	<string name="placepage_edit_bookmark_button">Επεξεργασία αγαπημένου</string>
@@ -573,7 +573,7 @@
 	<string name="mobile_data_option_ask">Να γίνεται πάντα ερώτηση</string>
 	<string name="traffic_update_maps_text">Για να εμφανιστούν πληροφορίες για την κίνηση, πρέπει να ενημερωθούν οι χάρτες.</string>
 	<string name="big_font">Αύξηση μεγέθους γραμματοσειράς στο χάρτη</string>
-	<string name="traffic_update_app">Κάντε ενημέρωση του Organic Maps</string>
+	<string name="traffic_update_app">Κάντε ενημέρωση του Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Οι πληροφορίες για την κίνηση δεν είναι διαθέσιμες</string>
 	<string name="enable_logging">Ενεργοποίηση δυνατότητας καταγραφής</string>
@@ -663,7 +663,7 @@
 	<string name="power_managment_setting_never">Ποτέ</string>
 	<string name="power_managment_setting_auto">Αυτόματα</string>
 	<string name="power_managment_setting_manual_max">Πάντα</string>
-	<string name="enable_logging_warning_message">Αυτή η λειτουργία είναι ενεργοποιημένη για την καταγραφή ενεργειών για διαγνωστικούς σκοπούς. Αυτό βοηθά την ομάδα να εντοπίζει προβλήματα με την εφαρμογή. Να ενεργοποιείτε τη λειτουργία μόνο κατόπιν αιτήματος της υποστήριξης του Organic Maps.</string>
+	<string name="enable_logging_warning_message">Αυτή η λειτουργία είναι ενεργοποιημένη για την καταγραφή ενεργειών για διαγνωστικούς σκοπούς. Αυτό βοηθά την ομάδα να εντοπίζει προβλήματα με την εφαρμογή. Να ενεργοποιείτε τη λειτουργία μόνο κατόπιν αιτήματος της υποστήριξης του Oma.</string>
 	<string name="access_rules_author_only">Online επεξεργασία</string>
 	<string name="driving_options_title">Ρυθμίσεις δρομολόγησης</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -789,9 +789,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Ο κύριος στόχος μας είναι να δημιουργήσουμε γρήγορους, εύχρηστους και με σεβασμό στην ιδιωτικότητα χάρτες που θα λατρέψετε.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Αυτή τη στιγμή το Organic Maps βρίσκεται στην οθόνη του κινητού</string>
+	<string name="car_used_on_the_phone_screen">Αυτή τη στιγμή το Oma βρίσκεται στην οθόνη του κινητού</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Αυτή τη στιγμή το Organic Maps βρίσκεται στην οθόνη του αυτοκινήτου.</string>
+	<string name="car_used_on_the_car_screen">Αυτή τη στιγμή το Oma βρίσκεται στην οθόνη του αυτοκινήτου.</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Είστε συνδεδεμένοι στο Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

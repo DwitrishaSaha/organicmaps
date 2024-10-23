@@ -1,12 +1,12 @@
 # Governance
 
-Organic Maps Project (organicmaps.app) is an open-source project.
+Oma Project (organicmaps.app) is an open-source project.
 
 ## The Governing Board
 
-The focus of the Governing Board is to assist and guide in the progress and development of Organic Maps, as well as to lead and promote Organic Maps.
+The focus of the Governing Board is to assist and guide in the progress and development of Oma, as well as to lead and promote Oma.
 
-The Governing Board is the governing body responsible for the overall oversight of the Organic Maps Project. The Board also has the responsibility to ensure the goals, brands, and marks of Organic Maps and community are protected. The Board serves as the final authority within the Organic Maps Project.
+The Governing Board is the governing body responsible for the overall oversight of the Oma Project. The Board also has the responsibility to ensure the goals, brands, and marks of Oma and community are protected. The Board serves as the final authority within the Oma Project.
 
 ## Governing Board Responsibilities
 

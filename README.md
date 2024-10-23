@@ -1,8 +1,8 @@
-# Organic Maps
+# Oma
 
 <a name="install"/>
 
-[Organic Maps](https://organicmaps.app) is a free Android & iOS offline maps app for travellers, tourists, drivers, hikers, and cyclists.
+[Oma](https://organicmaps.app) is a free Android & iOS offline maps app for travellers, tourists, drivers, hikers, and cyclists.
 It uses crowd-sourced [OpenStreetMap](https://www.openstreetmap.org) data and is developed with love by the creators of **MapsWithMe** (later renamed to **Maps.Me**) and by our community.
 No ads, no tracking, no data collection, no crapware. Your [donations](https://organicmaps.app/donate/) and positive reviews motivate and inspire us, thanks ❤️!
 
@@ -21,7 +21,7 @@ No ads, no tracking, no data collection, no crapware. Your [donations](https://o
 
 ## Features
 
-Organic Maps is the ultimate companion app for travellers, tourists, hikers, and cyclists:
+Oma is the ultimate companion app for travellers, tourists, hikers, and cyclists:
 
 - Detailed offline maps with places that don't exist on other maps, thanks to [OpenStreetMap](https://openstreetmap.org)
 - Cycling routes, hiking trails, and walking paths
@@ -35,13 +35,13 @@ Organic Maps is the ultimate companion app for travellers, tourists, hikers, and
 
 ## Why Organic?
 
-Organic Maps is pure and organic, made with love:
+Oma is pure and organic, made with love:
 
 - Respects your privacy
 - Saves your battery
 - No unexpected mobile data charges
 
-Organic Maps is free from trackers and other bad stuff:
+Oma is free from trackers and other bad stuff:
 
 - No ads
 - No tracking
@@ -66,22 +66,22 @@ The iOS application is verified by <a href="https://ios.trackercontrol.org/analy
 
 <br/>
 
-Organic Maps doesn't request excessive permissions to spy on you:
+Oma doesn't request excessive permissions to spy on you:
 
 <p float="left">
   <img src="docs/privacy/om.jpg" width="400">
   <img src="docs/privacy/mm.jpg" width="400">
 </p>
 
-At Organic Maps, we believe that privacy is a fundamental human right:
+At Oma, we believe that privacy is a fundamental human right:
 
-- Organic Maps is an indie community-driven open-source project
+- Oma is an indie community-driven open-source project
 - We protect your privacy from Big Tech's prying eyes
 - Stay safe no matter where you are
 
 Reject surveillance - embrace your freedom.
 
-[**Give Organic Maps a try!**](#install)
+[**Give Oma a try!**](#install)
 
 ## Who is paying for the development?
 
@@ -119,7 +119,7 @@ Beloved institutional sponsors below have provided targeted grants to cover some
       <a href="https://futo.org"><img src="docs/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
+      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Oma in February 2023.
     </td>
   </tr>
 </table>
@@ -174,4 +174,4 @@ and [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 [Instagram](https://instagram.com/organicmaps.app/).
   - Güncellemelerimizi [Instagram](https://instagram.com/organicmapstr/) üzerinden takip edin.
 
-The Organic Maps community abides by the CNCF [code of conduct](https://github.com/organicmaps/organicmaps/blob/master/docs/CODE_OF_CONDUCT.md).
+The Oma community abides by the CNCF [code of conduct](https://github.com/organicmaps/organicmaps/blob/master/docs/CODE_OF_CONDUCT.md).

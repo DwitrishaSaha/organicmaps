@@ -70,7 +70,7 @@ UNIT_TEST(SearchApiSmoke)
   TEST_ALMOST_EQUAL_ABS(latlon.m_lat, 35.3166654, kEps, ());
   TEST_ALMOST_EQUAL_ABS(latlon.m_lon, 33.2833322, kEps, ());
   TEST_EQUAL(request.m_locale, "ru", ());
-  TEST_EQUAL(test.GetAppName(), "Organic Maps", ());
+  TEST_EQUAL(test.GetAppName(), "Oma", ());
   TEST(request.m_isSearchOnMap, ());
 }
 

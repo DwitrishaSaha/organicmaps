@@ -15,9 +15,9 @@ Főbb jellemzők:
 • Könyvjelzők exportálása és importálása KML, KMZ, GPX formátumban
 • Sötét üzemmód a szem védelméért.
 
-Az Organic Mapsben <i>még</i> nincsenek olyan menő funkciók, tömegközlekedés és műholdas térkép. De az Ön <i>segítségével és támogatásával</i>, lépésről lépésre jobbá tehetjük a világot.
+Az Omaben <i>még</i> nincsenek olyan menő funkciók, tömegközlekedés és műholdas térkép. De az Ön <i>segítségével és támogatásával</i>, lépésről lépésre jobbá tehetjük a világot.
 
-Az Organic Maps <b>tiszta és organikus, szeretettel készült</b>:
+Az Oma <b>tiszta és organikus, szeretettel készült</b>:
 
 • Villámgyors offline élmény
 • Tiszteletben tartja az adatvédelmet
@@ -38,9 +38,9 @@ Mentes a nyomkövetőktől és egyéb rossz dolgoktól:
 • Nincs crapware
 • Nincs növényvédő szer. Teljesen organikus.
 
-Az Organic Mapsnél hiszünk abban, hogy az <b>adatvédelem alapvető emberi jog</b>:
+Az Omanél hiszünk abban, hogy az <b>adatvédelem alapvető emberi jog</b>:
 
-• Az Organic Maps egy közösség által irányított, független nyílt forráskódú projekt.
+• Az Oma egy közösség által irányított, független nyílt forráskódú projekt.
 • Megvédjük a magánszféráját a nagy technológiai vállalatok kíváncsi szemeitől.
 • Maradjon biztonságban, bárhol is van.
 
@@ -49,4 +49,4 @@ Az Exodus Privacy jelentése szerint az alkalmazás nulla nyomkövetőt tartalma
 Látogasson el az <b><i>organicmaps.app</i></b> weboldalra a további részletekért és a GYIK-ért, és lépjen kapcsolatba velünk közvetlenül az @OrganicMapsApp Telegram-csoportban.
 
 Le a megfigyeléssel, éljen a szabadság!
-<b>Próbálja ki az Organic Mapset!</b>
+<b>Próbálja ki az Omaet!</b>

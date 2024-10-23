@@ -35,7 +35,7 @@
 	<string name="country_status_download_failed">Помилка завантаження</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Спробуйте ще раз</string>
-	<string name="about_menu_title">Про Organic Maps</string>
+	<string name="about_menu_title">Про Oma</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Безкоштовно для всіх, зроблене з любов\'ю</string>
 	<!-- Text in About screen -->
@@ -165,8 +165,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Примітка</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">З вами поділилися мiтками Organic Maps</string>
-	<string name="share_bookmarks_email_body">Привіт!\n\nДодаю мої мiтки; відкрийте їх у Organic Maps. Якщо застосунок не встановлено, ви можете завантажити його тут: https://omaps.app/get?kmz\n\nНасолоджуйтесь подорожами з Organic Maps!</string>
+	<string name="share_bookmarks_email_subject">З вами поділилися мiтками Oma</string>
+	<string name="share_bookmarks_email_body">Привіт!\n\nДодаю мої мiтки; відкрийте їх у Oma. Якщо застосунок не встановлено, ви можете завантажити його тут: https://omaps.app/get?kmz\n\nНасолоджуйтесь подорожами з Oma!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Завантаження мiток</string>
 	<!-- Kmz file successful loading -->
@@ -175,7 +175,7 @@
 	<string name="load_kmz_failed">Не вдалося завантажити мітки. Файл може бути пошкодженим або несправним.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Тип файлу не розпізнається програмою:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Не вдалося відкрити файл %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Редагувати</string>
@@ -188,9 +188,9 @@
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
 	<string name="my_position_share_sms">Глянь де я зараз. Іди %1$s або %2$s</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Поглянь на мою мiтку на мапі Organic Maps</string>
+	<string name="bookmark_share_email_subject">Поглянь на мою мiтку на мапі Oma</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Поглянь на моє поточне місцезнаходження на мапі Organic Maps</string>
+	<string name="my_position_share_email_subject">Поглянь на моє поточне місцезнаходження на мапі Oma</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Привіт,\n\nЯ зараз тут: %1$s. Натисни на це посилання %2$s або на це посилання %3$s щоб побачити місце на мапі.\n\nДякую.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -252,7 +252,7 @@
 	<string name="menu">Меню</string>
 	<!-- Text in menu -->
 	<string name="website">Вебсайт</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Новини</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Відгук</string>
@@ -505,7 +505,7 @@
 	<!-- Title for OSM note section in the editor -->
 	<string name="editor_other_info">Примітка для волонтерів OpenStreetMap (необов\'язково)</string>
 	<!-- Hint of the input field in the OSM note section of the editor -->
-	<string name="editor_note_hint">Опишіть помилки на карті або те, що не можна редагувати за допомогою Organic Maps</string>
+	<string name="editor_note_hint">Опишіть помилки на карті або те, що не можна редагувати за допомогою Oma</string>
 	<!-- Information about OSM at the top of the editing page -->
 	<string name="editor_about_osm">Ваші правки завантажуються до публічної бази даних <a href="https://wiki.openstreetmap.org/wiki/Uk:Про_проект">OpenStreetMap</a>. Будь ласка, не додавайте особисту або захищену авторським правом інформацію.</string>
 	<string name="editor_more_about_osm">Більше про OpenStreetMap</string>
@@ -513,7 +513,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Власник: %s</string>
 	<string name="editor_category_unsuitable_title">Не можете знайти відповідну категорію?</string>
-	<string name="editor_category_unsuitable_text">Organic Maps дозволяють додавати до мапи лише прості типи об\'єктів, тобто без міст, доріг, озер та контурів будівель. Будь ласка, додайте такі категорії на сайті <a href="https://www.openstreetmap.org/">OpenStreetMap.org</a>. Ми також рекомендуємо ознайомитися із <a href="https://organicmaps.app/faq/editing/advanced-map-editing/">детальними інструкціями та іншими додатками для редагування карти</a>.</string>
+	<string name="editor_category_unsuitable_text">Oma дозволяють додавати до мапи лише прості типи об\'єктів, тобто без міст, доріг, озер та контурів будівель. Будь ласка, додайте такі категорії на сайті <a href="https://www.openstreetmap.org/">OpenStreetMap.org</a>. Ми також рекомендуємо ознайомитися із <a href="https://organicmaps.app/faq/editing/advanced-map-editing/">детальними інструкціями та іншими додатками для редагування карти</a>.</string>
 	<string name="downloader_no_downloaded_maps_title">Ви не маєте завантажених мап</string>
 	<string name="downloader_no_downloaded_maps_message">Завантажте необхідні мапи, щоб знаходити місця та користуватися навігацією без iнтернету.</string>
 	<string name="current_location_unknown_error_title">Місцезнаходження не знайдено.</string>
@@ -534,7 +534,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Фото, відгуки, бронювання</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">Реферальний бонус, отриманий за кожне бронювання за цим посиланням, йде на розробку Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">Реферальний бонус, отриманий за кожне бронювання за цим посиланням, йде на розробку Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Докладніше на Kayak</string>
 	<string name="placepage_edit_bookmark_button">Редагувати мiтку</string>
@@ -579,7 +579,7 @@
 	<string name="mobile_data_option_ask">Завжди питати</string>
 	<string name="traffic_update_maps_text">Для відображення інформації про трафік необхідно оновити мапи.</string>
 	<string name="big_font">Збільшити розмір шрифту на мапі</string>
-	<string name="traffic_update_app">Будь ласка, встановіть оновлення Organic Maps</string>
+	<string name="traffic_update_app">Будь ласка, встановіть оновлення Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Дані про трафік недоступні</string>
 	<string name="enable_logging">Включити логіювання</string>
@@ -773,7 +773,7 @@
 	<string name="enable_show_on_lock_screen_description">Якщо ввімкнено, вам не потрібно щоразу розблоковувати пристрій під час роботи програми.</string>
 	<!-- OpenStreetMap text on splash screen -->
 	<string name="splash_subtitle">Картографічні дані з OpenStreetMap</string>
-	<!-- Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/uk/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Uk:Про_проект</string>
@@ -798,9 +798,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Наша головна мета – створити швидкі, конфіденційні та прості у використанні карти, які вам сподобаються.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Зараз ви використовуєте Organic Maps на екрані телефону</string>
+	<string name="car_used_on_the_phone_screen">Зараз ви використовуєте Oma на екрані телефону</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ви використовуєте Organic Maps на екрані автомобіля</string>
+	<string name="car_used_on_the_car_screen">Ви використовуєте Oma на екрані автомобіля</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Ви підключені до Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

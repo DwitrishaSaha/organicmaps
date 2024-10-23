@@ -153,7 +153,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Бележки</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Споделени са с вас отметки за Organic Maps</string>
+	<string name="share_bookmarks_email_subject">Споделени са с вас отметки за Oma</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Зареждане на отметки</string>
 	<!-- Kmz file successful loading -->
@@ -162,7 +162,7 @@
 	<string name="load_kmz_failed">Качването на отметките се провали. Файлът може да бъде повреден или дефектен.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Типът на файла не се разпознава от приложението:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Неуспешно отваряне на файл %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Редакция</string>
@@ -173,11 +173,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Изтеглянето на картата вече е в ход.</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">Хей, виж текущото ми местоположение в Organic Maps! %1$s или %2$s</string>
+	<string name="my_position_share_sms">Хей, виж текущото ми местоположение в Oma! %1$s или %2$s</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Хей, виж какво съм отбелязал в Organic Maps!</string>
+	<string name="bookmark_share_email_subject">Хей, виж какво съм отбелязал в Oma!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Хей, виж текущото ми местоположение на картата в Organic Maps!</string>
+	<string name="my_position_share_email_subject">Хей, виж текущото ми местоположение на картата в Oma!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Здравей,\n\nСега съм тук: %1$s. Натисни върху тази връзка %2$s или тази %3$s, за да видиш мястото на картата.\n\nБлагодаря.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -236,7 +236,7 @@
 	<string name="search_show_on_map">Преглед на картата</string>
 	<!-- Text in menu -->
 	<string name="website">Уебсайт</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Новини</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Обратна връзка</string>
@@ -469,7 +469,7 @@
 	<!-- Title for OSM note section in the editor -->
 	<string name="editor_other_info">Забележка към доброволците на OpenStreetMap (по избор)</string>
 	<!-- Hint of the input field in the OSM note section of the editor -->
-	<string name="editor_note_hint">Описване на грешки в картата или неща, които не могат да бъдат редактирани с Organic Maps</string>
+	<string name="editor_note_hint">Описване на грешки в картата или неща, които не могат да бъдат редактирани с Oma</string>
 	<!-- Information about OSM at the top of the editing page -->
 	<string name="editor_about_osm">Вашите редакции се качват в публичната база данни <a href="https://wiki.openstreetmap.org/wiki/Bg:About">OpenStreetMap</a>. Моля, не добавяйте лична информация или информация, защитена с авторски права.</string>
 	<string name="editor_more_about_osm">Повече за OpenStreetMap</string>
@@ -477,7 +477,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Собственик: %s</string>
 	<string name="editor_category_unsuitable_title">Не можете да намерите подходяща категория?</string>
-	<string name="editor_category_unsuitable_text">Organic Maps позволява да се добавят само прости категории точки, т.е. без градове, пътища, езера, очертания на сгради и т.н. Моля, добавяйте такива категории директно в <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Вижте нашето <a href="https://organicmaps.app/faq/editing/advanced-map-editing">ръководство</a> за подробни инструкции стъпка по стъпка.</string>
+	<string name="editor_category_unsuitable_text">Oma позволява да се добавят само прости категории точки, т.е. без градове, пътища, езера, очертания на сгради и т.н. Моля, добавяйте такива категории директно в <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Вижте нашето <a href="https://organicmaps.app/faq/editing/advanced-map-editing">ръководство</a> за подробни инструкции стъпка по стъпка.</string>
 	<string name="downloader_no_downloaded_maps_title">Не сте изтеглили никакви карти</string>
 	<string name="downloader_no_downloaded_maps_message">Изтеглете картите, от които се нуждаете, за да намирате места и да навигирате без интернет.</string>
 	<string name="current_location_unknown_error_title">Настоящото местоположение е неизвестно.</string>
@@ -495,7 +495,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Снимки, отзиви, резервация</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">Полученият бонус за всяка резервация чрез тази връзка отива за развитието на Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">Полученият бонус за всяка резервация чрез тази връзка отива за развитието на Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Подробности в Kayak</string>
 	<string name="placepage_edit_bookmark_button">Редакция на отметка</string>
@@ -532,7 +532,7 @@
 	<string name="mobile_data_option_ask">Винаги питай</string>
 	<string name="traffic_update_maps_text">За да се показват данни за трафика, картите трябва да са актуализирани.</string>
 	<string name="big_font">Увеличаване на размера на шрифта в картата</string>
-	<string name="traffic_update_app">Моля, актуализирайте Organic Maps</string>
+	<string name="traffic_update_app">Моля, актуализирайте Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Няма налични данни за трафика</string>
 	<string name="enable_logging">Активиране на запис на дневник</string>
@@ -709,9 +709,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Нашата основна цел е да създаваме бързи, фокусирани върху поверителността, лесни за използване карти, които ще харесате.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Вече използвате Organic Maps на екрана на телефона</string>
+	<string name="car_used_on_the_phone_screen">Вече използвате Oma на екрана на телефона</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Вече използвате Organic Maps на екрана на автомобила</string>
+	<string name="car_used_on_the_car_screen">Вече използвате Oma на екрана на автомобила</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Свързани сте с Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

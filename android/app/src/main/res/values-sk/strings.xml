@@ -32,7 +32,7 @@
 	<string name="country_status_download_failed">Sťahovanie zlyhalo</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Skúsiť znova</string>
-	<string name="about_menu_title">O aplikácii Organic Maps</string>
+	<string name="about_menu_title">O aplikácii Oma</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Zadarmo pre každého, vyrobené s láskou</string>
 	<!-- Text in About screen -->
@@ -49,7 +49,7 @@
 	<string name="unsupported_phone">Je vyžadovaná hardwarová akcelerácia OpenGL. Bohužial, vaše zariadenie nie je podporované.</string>
 	<string name="download">Stiahnuť</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Prosím, odpojte USB kábel alebo vložte pamäťovú kartu pre použitie s Organic Maps</string>
+	<string name="disconnect_usb_cable">Prosím, odpojte USB kábel alebo vložte pamäťovú kartu pre použitie s Oma</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">Prosím, uvoľnite najprv miesto na SD karte/USB úložisku</string>
 	<string name="download_resources">Skôr ako začnete, bude treba stiahnuť základnú mapu sveta.\nZaberie to %s.</string>
@@ -162,8 +162,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Poznámky</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Zdielané záložky Organic Maps</string>
-	<string name="share_bookmarks_email_body">Ahoj!\n\nV prílohe sú moje záložky z aplikácie Organic Maps. Ak ju nemáš nainštalovanú, môžeš si ju stiahnuť tu: https://omaps.app/get?kmz\n\nPrajem šťastnú cestu s Organic Maps!</string>
+	<string name="share_bookmarks_email_subject">Zdielané záložky Oma</string>
+	<string name="share_bookmarks_email_body">Ahoj!\n\nV prílohe sú moje záložky z aplikácie Oma. Ak ju nemáš nainštalovanú, môžeš si ju stiahnuť tu: https://omaps.app/get?kmz\n\nPrajem šťastnú cestu s Oma!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Načítavanie záložiek</string>
 	<!-- Kmz file successful loading -->
@@ -172,7 +172,7 @@
 	<string name="load_kmz_failed">Načítavanie záložiek sa nepodarilo. Súbor môže byť poškodený alebo chybný.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Aplikácia nerozpoznáva typ súboru:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Nepodarilo sa otvoriť súbor %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Upraviť</string>
@@ -185,9 +185,9 @@
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
 	<string name="my_position_share_sms">Pozri kde som. Otvor odkaz: %1$s alebo %2$s</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Pozri na moju značku na mape Organic Maps</string>
+	<string name="bookmark_share_email_subject">Pozri na moju značku na mape Oma</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Pozrite si moju aktuálnu polohu na mape Organic Maps</string>
+	<string name="my_position_share_email_subject">Pozrite si moju aktuálnu polohu na mape Oma</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Ahoj,\n\nPráve som tu: %1$s. Stlačte jeden z týchto odkazov %2$s, %3$s a uvidíte toto miesto na mape.\n\nVďaka</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -247,7 +247,7 @@
 	<string name="search_show_on_map">Zobraziť na mape</string>
 	<!-- Text in menu -->
 	<string name="website">Webové stránky</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Správy</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Spätná väzba</string>
@@ -530,7 +530,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Fotografie, recenzie, rezervácie</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">Bonus získaný za každú rezerváciu prostredníctvom tohto odkazu ide na rozvoj služby Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">Bonus získaný za každú rezerváciu prostredníctvom tohto odkazu ide na rozvoj služby Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Podrobnosti na Kayak</string>
 	<string name="placepage_edit_bookmark_button">Upraviť záložku</string>
@@ -574,7 +574,7 @@
 	<string name="mobile_data_option_ask">Vždy sa opýtať</string>
 	<string name="traffic_update_maps_text">Na zobrazenie dopravných informácií je potrebné aktualizovať mapy.</string>
 	<string name="big_font">Zväčšiť veľkosť písma na mape</string>
-	<string name="traffic_update_app">Aktualizujte si aplikáciu Organic Maps</string>
+	<string name="traffic_update_app">Aktualizujte si aplikáciu Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Dopravné informácie nie sú k dispozícii</string>
 	<string name="enable_logging">Zapnúť zaznamenávanie</string>
@@ -785,9 +785,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Naším hlavným cieľom je vytvárať rýchle, na súkromie, ľahko použiteľné mapy, ktoré si zamilujete.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Na obrazovke telefónu teraz používate službu Organic Maps</string>
+	<string name="car_used_on_the_phone_screen">Na obrazovke telefónu teraz používate službu Oma</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Na obrazovke auta teraz používate službu Organic Maps</string>
+	<string name="car_used_on_the_car_screen">Na obrazovke auta teraz používate službu Oma</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Ste pripojení k službe Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

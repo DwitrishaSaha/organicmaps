@@ -32,7 +32,7 @@
 	<string name="country_status_download_failed">Letöltése sikertelen</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Újrapróbálkozás</string>
-	<string name="about_menu_title">Az Organic Mapsről</string>
+	<string name="about_menu_title">Az Omaről</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Ingyenes mindenkinek, szeretettel készítve</string>
 	<!-- Text in About screen -->
@@ -49,7 +49,7 @@
 	<string name="unsupported_phone">Hardware-s gyorsítású OpenGL szükséges. Sajnos az Ön eszköze nem támogatott.</string>
 	<string name="download">Letöltés</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Kérjük bontsa az USB kapcsolatot vagy helyezzen be memóriakártyát a Organic Maps használatához</string>
+	<string name="disconnect_usb_cable">Kérjük bontsa az USB kapcsolatot vagy helyezzen be memóriakártyát a Oma használatához</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">Kérjük szabadítson fel helyet az SD kártyán / USB tárolón az alkalmazás használatához!</string>
 	<string name="download_resources">Első használat előtt letöltjük a világtérképet.\n%s tárolóhely szükséges.</string>
@@ -162,7 +162,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Jegyzetek</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Egy Organic Maps könyvjelzőt osztottak meg Önnel</string>
+	<string name="share_bookmarks_email_subject">Egy Oma könyvjelzőt osztottak meg Önnel</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Könyvjelzők letöltése</string>
 	<!-- Kmz file successful loading -->
@@ -171,7 +171,7 @@
 	<string name="load_kmz_failed">Könyvjelzők feltöltése sikertelen. A fájl sérült lehet.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Az alkalmazás nem ismeri fel a fájltípust:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Nem sikerült megnyitni a fájlt %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Szerkeszt</string>
@@ -182,11 +182,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Országletöltés folyamatban.</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">Nézd meg a Organic Maps helyzetemet! %1$s vagy %2$s A program letöltése: https://omaps.app/get</string>
+	<string name="my_position_share_sms">Nézd meg a Oma helyzetemet! %1$s vagy %2$s A program letöltése: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Nézze meg a Organic Maps jelzőmet</string>
+	<string name="bookmark_share_email_subject">Nézze meg a Oma jelzőmet</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Nézze meg a helyzetemet a Organic Maps térképen!</string>
+	<string name="my_position_share_email_subject">Nézze meg a helyzetemet a Oma térképen!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Üdvözlöm!\n\nJelenleg itt vagyok: %1$s Kattintson erre a hivatkozásra %2$s vagy erre %3$s, hogy lássa a helyet a térképen.\n\nKöszönöm.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -244,7 +244,7 @@
 	<string name="search_show_on_map">Megtekintés a térképen</string>
 	<!-- Text in menu -->
 	<string name="website">Honlap</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Újdonságok</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Visszajelzés</string>
@@ -491,7 +491,7 @@
 	<!-- Title for OSM note section in the editor -->
 	<string name="editor_other_info">Megjegyzés az OpenStreetMap önkénteseinek (nem kötelező)</string>
 	<!-- Hint of the input field in the OSM note section of the editor -->
-	<string name="editor_note_hint">Írja le a térképen található hibákat vagy olyan dolgokat, amelyeket nem lehet az Organic Maps segítségével szerkeszteni.</string>
+	<string name="editor_note_hint">Írja le a térképen található hibákat vagy olyan dolgokat, amelyeket nem lehet az Oma segítségével szerkeszteni.</string>
 	<!-- Information about OSM at the top of the editing page -->
 	<string name="editor_about_osm">Az Ön szerkesztései feltöltődnek a nyilvános <a href="https://wiki.openstreetmap.org/wiki/Hu:Névjegy">OpenStreetMap</a> adatbázisba. Kérjük, ne adjon hozzá személyes vagy szerzői jogvédelem alatt álló információkat.</string>
 	<string name="editor_more_about_osm">További részletek az OpenStreetMap-ról</string>
@@ -499,7 +499,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Üzemeltető: %s</string>
 	<string name="editor_category_unsuitable_title">Nem találja a megfelelő kategóriát?</string>
-	<string name="editor_category_unsuitable_text">Az Organic Maps csak egyszerű pontkategóriák hozzáadását teszi lehetővé, azaz nem tartalmaz városokat, utakat, tavakat, épületek körvonalait stb. Kérjük, hogy az ilyen kategóriákat közvetlenül a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> oldalon adja hozzá. A részletes, lépésről lépésre történő útmutatásért tekintse meg <a href="https://organicmaps.app/faq/editing/advanced-map-editing">útmutatónkat</a>.</string>
+	<string name="editor_category_unsuitable_text">Az Oma csak egyszerű pontkategóriák hozzáadását teszi lehetővé, azaz nem tartalmaz városokat, utakat, tavakat, épületek körvonalait stb. Kérjük, hogy az ilyen kategóriákat közvetlenül a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> oldalon adja hozzá. A részletes, lépésről lépésre történő útmutatásért tekintse meg <a href="https://organicmaps.app/faq/editing/advanced-map-editing">útmutatónkat</a>.</string>
 	<string name="downloader_no_downloaded_maps_title">Még nem töltött le térképet</string>
 	<string name="downloader_no_downloaded_maps_message">Töltse le a szükséges térképeket, hogy megtalálja a helyet és internet nélkül is navigálhasson.</string>
 	<!-- abbreviation for meters -->
@@ -519,7 +519,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Fényképek, vélemények, foglalás</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">Az ezen a linken keresztül történő minden egyes foglalásért kapott ajánlói bónusz az Organic Maps fejlesztését szolgálja.</string>
+	<string name="dialog_kayak_disclaimer">Az ezen a linken keresztül történő minden egyes foglalásért kapott ajánlói bónusz az Oma fejlesztését szolgálja.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Részletek a Kayak-on</string>
 	<string name="placepage_edit_bookmark_button">Könyvjelző szerkesztése</string>
@@ -557,7 +557,7 @@
 	<string name="mobile_data_option_ask">Mindig kérdezze meg</string>
 	<string name="traffic_update_maps_text">Forgalmi adatok megjelenítéséhez a térképeket frissíteni kell.</string>
 	<string name="big_font">Betűméret növelése a térképen</string>
-	<string name="traffic_update_app">Kérjük, frissítse a Organic Maps alkalmazást</string>
+	<string name="traffic_update_app">Kérjük, frissítse a Oma alkalmazást</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Forgalmi adatok nem állnak rendelkezésre</string>
 	<string name="enable_logging">Naplózás engedélyezése</string>
@@ -645,7 +645,7 @@
 	<string name="power_managment_setting_never">Soha</string>
 	<string name="power_managment_setting_auto">Automatikus</string>
 	<string name="power_managment_setting_manual_max">Maximális energiatakarékosság</string>
-	<string name="enable_logging_warning_message">Az opció bekapcsolja a diagnosztikai célú naplózást. Hasznos lehet a terméktámogatási csapatunknak, akik elhárítják az alkalmazás hibáit. Csak az Organic Maps terméktámogatásának kérésére kapcsold be ezt az opciót.</string>
+	<string name="enable_logging_warning_message">Az opció bekapcsolja a diagnosztikai célú naplózást. Hasznos lehet a terméktámogatási csapatunknak, akik elhárítják az alkalmazás hibáit. Csak az Oma terméktámogatásának kérésére kapcsold be ezt az opciót.</string>
 	<string name="access_rules_author_only">Online szerkesztés</string>
 	<string name="driving_options_title">Útvonaltervezési lehetőségek</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -739,7 +739,7 @@
 	<string name="enable_show_on_lock_screen_description">Ha engedélyezve van, nem kell minden alkalommal feloldanod a telefonod, amíg az alkalmazás fut.</string>
 	<!-- OpenStreetMap text on splash screen -->
 	<string name="splash_subtitle">Térképadatok az OpenStreetMapből</string>
-	<!-- Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/hu/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Hu:Névjegy</string>
@@ -764,9 +764,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Fő célunk az, hogy gyors, az adatvédelemre fókuszáló, könnyen használható térképeket készítsünk, amelyeket szeretni fog.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Ön most az Organic Maps használja a telefon képernyőjén</string>
+	<string name="car_used_on_the_phone_screen">Ön most az Oma használja a telefon képernyőjén</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ön most az Organic Mapset használja az autó képernyőjén</string>
+	<string name="car_used_on_the_car_screen">Ön most az Omaet használja az autó képernyőjén</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Ön csatlakozik az Android Auto rendszerhez</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

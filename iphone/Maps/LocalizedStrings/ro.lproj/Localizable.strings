@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Bună!\n\nȚi-am atașat locurile mele preferate din aplicația Organic Maps. Deschide-le dacă ai instalată Organic Maps. Dacă nu, o poți descărca pentru iOS sau Android de aici: https://organicmaps.app/";
+"share_bookmarks_email_body" = "Bună!\n\nȚi-am atașat locurile mele preferate din aplicația Oma. Deschide-le dacă ai instalată Oma. Dacă nu, o poți descărca pentru iOS sau Android de aici: https://organicmaps.app/";
 
 /* message title of loading file */
 "load_kmz_title" = "Se încarcă locurile preferate";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Poziția ta nu a fost stabilită încă";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Poți vedea locul meu preferat pe harta Organic Maps!";
+"bookmark_share_email_subject" = "Poți vedea locul meu preferat pe harta Oma!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Poți vedea poziția mea pe harta Organic Maps!";
+"my_position_share_email_subject" = "Poți vedea poziția mea pe harta Oma!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -202,7 +202,7 @@
 "done" = "Gata";
 
 /* Prints version number in About dialog */
-"version" = "Versiunea Organic Maps: %@";
+"version" = "Versiunea Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasee";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Site web";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Știri";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Ai nevoie de mai mult spațiu pentru a descărca. Șterge datele care nu sunt necesare.";
 
-"editor_sharing_title" = "Am îmbunătățit hărțile Organic Maps";
+"editor_sharing_title" = "Am îmbunătățit hărțile Oma";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d din %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Comentariu detaliat";
 
-"editor_detailed_description" = "Modificările aduse hărții, sugerate de tine, vor fi trimise comunității OpenStreetMap. Descrie orice detalii suplimentare care nu pot fi modificate în Organic Maps.";
+"editor_detailed_description" = "Modificările aduse hărții, sugerate de tine, vor fi trimise comunității OpenStreetMap. Descrie orice detalii suplimentare care nu pot fi modificate în Oma.";
 
 "editor_more_about_osm" = "Mai multe despre OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Activează Servicii de localizare";
 
-"location_services_disabled_on_device_additional_message" = "Sau continuă să folosești Organic Maps fără Locație";
+"location_services_disabled_on_device_additional_message" = "Sau continuă să folosești Oma fără Locație";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Fotografii, comentarii, rezervări";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Bonusul de recomandare primit pentru fiecare rezervare prin acest link este destinat dezvoltării Organic Maps.";
+"dialog_kayak_disclaimer" = "Bonusul de recomandare primit pentru fiecare rezervare prin acest link este destinat dezvoltării Oma.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Detalii pe Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Verifică";
 
-"recent_track_background_dialog_message" = "Organic Maps folosește poziția ta geografică pentru a înregistra cel mai recent traseu urmat.";
+"recent_track_background_dialog_message" = "Oma folosește poziția ta geografică pentru a înregistra cel mai recent traseu urmat.";
 
 "general_settings" = "Opțiuni generale";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Info radare";
 
-"download_map_carplay" = "Descarcă hărțile în aplicația Organic Maps din dispozitivul tău";
+"download_map_carplay" = "Descarcă hărțile în aplicația Oma din dispozitivul tău";
 
 "carplay_roundabout_exit" = "%@ ieșire";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Scopul nostru principal este să construim hărți rapide, axate pe confidențialitate și ușor de utilizat, care să vă placă.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Acum utilizați Organic Maps pe ecranul telefonului";
+"car_used_on_the_phone_screen" = "Acum utilizați Oma pe ecranul telefonului";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Acum utilizați Organic Maps pe ecranul mașinii";
+"car_used_on_the_car_screen" = "Acum utilizați Oma pe ecranul mașinii";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Continuați în telefon";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Legătura de meniu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Doriți să trimiteți un raport de eroare dezvoltatorilor?\nNe bazăm pe utilizatorii noștri, deoarece Organic Maps nu colectează automat nicio informație privind erorile. Vă mulțumim anticipat pentru susținerea Organic Maps!";
+"bugreport_alert_message" = "Doriți să trimiteți un raport de eroare dezvoltatorilor?\nNe bazăm pe utilizatorii noștri, deoarece Oma nu colectează automat nicio informație privind erorile. Vă mulțumim anticipat pentru susținerea Oma!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Activați Sincronizarea iCloud";

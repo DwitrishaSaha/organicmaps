@@ -22,7 +22,7 @@ logger = logging.getLogger("maps_generator")
 
 def parse_options():
     parser = ArgumentParser(
-        description="A tool to generate map files in Organic Maps' .mwm format.",
+        description="A tool to generate map files in Oma' .mwm format.",
         epilog="See maps_generator/README.md for setup instructions and usage examples.",
         formatter_class=RawDescriptionHelpFormatter,
         parents=[settings.parser],

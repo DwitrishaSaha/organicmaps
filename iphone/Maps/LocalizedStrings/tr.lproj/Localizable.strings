@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Merhaba!\n\nEktekiler benim Organic Maps yer imlerim. Eğer Organic Maps'i yüklediyseniz lütfen ektekileri açın. Eğer yüklemediyseniz, bu bağlantıyı takip ederek iOS ve Android cihazınız için uygulamayı yükleyebilirsiniz: https://omaps.app/get?kmz\n\nOrganic Maps ile seyahat etmenin keyfini çıkarın!";
+"share_bookmarks_email_body" = "Merhaba!\n\nEktekiler benim Oma yer imlerim. Eğer Oma'i yüklediyseniz lütfen ektekileri açın. Eğer yüklemediyseniz, bu bağlantıyı takip ederek iOS ve Android cihazınız için uygulamayı yükleyebilirsiniz: https://omaps.app/get?kmz\n\nOma ile seyahat etmenin keyfini çıkarın!";
 
 /* message title of loading file */
 "load_kmz_title" = "Yer İmleri Yükleniyor";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Konumunuz henüz belirlenmedi";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, Organic Maps haritasında raptiyemi incele!";
+"bookmark_share_email_subject" = "Hey, Oma haritasında raptiyemi incele!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, Organic Maps’te geçerli konumumu incele!";
+"my_position_share_email_subject" = "Hey, Oma’te geçerli konumumu incele!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-posta";
@@ -202,7 +202,7 @@
 "done" = "Bitti";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps sürümü: %@";
+"version" = "Oma sürümü: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Kayıtlı Rotalar";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Web Sitesi";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Haberler";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "İndirmek için daha fazla alana ihtiyacınız var. Lütfen gereksiz verileri silin.";
 
-"editor_sharing_title" = "Organic Maps haritalarını geliştirdim";
+"editor_sharing_title" = "Oma haritalarını geliştirdim";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Ayrıntılı yorum";
 
-"editor_detailed_description" = "Önerdiğiniz değişiklikler OpenStreetMap topluluğuna gönderilecek. Organic Maps’te düzenlenemeyen ayrıntıları açıklayın.";
+"editor_detailed_description" = "Önerdiğiniz değişiklikler OpenStreetMap topluluğuna gönderilecek. Oma’te düzenlenemeyen ayrıntıları açıklayın.";
 
 "editor_more_about_osm" = "OpenStreetMap hakkında ek bilgi";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Konum Servislerini Açın";
 
-"location_services_disabled_on_device_additional_message" = "Veya Konum olmadan Organic Maps kullanmaya devam edin";
+"location_services_disabled_on_device_additional_message" = "Veya Konum olmadan Oma kullanmaya devam edin";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Fotoğraflar, yorumlar, rezervasyon";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Bu bağlantı üzerinden yapılan her rezervasyon için alınan yönlendirme bonusu Organic Maps'in geliştirilmesine harcanmaktadır.";
+"dialog_kayak_disclaimer" = "Bu bağlantı üzerinden yapılan her rezervasyon için alınan yönlendirme bonusu Oma'in geliştirilmesine harcanmaktadır.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Kayak hakkında detaylar";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "İncele";
 
-"recent_track_background_dialog_message" = "Organic Maps, en son seyahat ettiğiniz rotayı kaydetmek için arka planda coğrafi konumunuzu kullanır.";
+"recent_track_background_dialog_message" = "Oma, en son seyahat ettiğiniz rotayı kaydetmek için arka planda coğrafi konumunuzu kullanır.";
 
 "general_settings" = "Genel ayarlar";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Hız uyarıları";
 
-"download_map_carplay" = "Lütfen haritaları cihazınıza Organic Maps uygulamasından indirin";
+"download_map_carplay" = "Lütfen haritaları cihazınıza Oma uygulamasından indirin";
 
 "carplay_roundabout_exit" = "%@ çıkış";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmapstr";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/tr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Temel amacımız hızlı, gizlilik odaklı, kullanımı kolay, seveceğiniz haritalar oluşturmaktır.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Artık telefon ekranında Organic Maps kullanıyorsunuz";
+"car_used_on_the_phone_screen" = "Artık telefon ekranında Oma kullanıyorsunuz";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Şu anda araç ekranında Organic Maps kullanıyorsunuz";
+"car_used_on_the_car_screen" = "Şu anda araç ekranında Oma kullanıyorsunuz";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Telefonda devam edin";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Menü bağlantısı";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Geliştiricilere bir hata raporu göndermek ister misiniz?\nOrganic Maps otomatik olarak herhangi bir hata bilgisi toplamadığı için kullanıcılarımıza güveniyoruz. Organic Maps'i desteklediğiniz için şimdiden teşekkür ederiz!";
+"bugreport_alert_message" = "Geliştiricilere bir hata raporu göndermek ister misiniz?\nOma otomatik olarak herhangi bir hata bilgisi toplamadığı için kullanıcılarımıza güveniyoruz. Oma'i desteklediğiniz için şimdiden teşekkür ederiz!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud Senkronizasyonunu Etkinleştir";

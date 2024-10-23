@@ -9,13 +9,13 @@
 
 ## System requirements
 
-To build and run Organic Maps you'll need a machine with at least 4Gb of RAM and 20-30Gb of disk space depending on your target platform. Expect to download 5-10Gb of files.
+To build and run Oma you'll need a machine with at least 4Gb of RAM and 20-30Gb of disk space depending on your target platform. Expect to download 5-10Gb of files.
 
 For _Windows_ you need to have [Git for Windows](https://git-scm.com/download/win) installed and Git bash available in the PATH.
 
 ## Getting sources
 
-First of all get the source code. The full Organic Maps sources repository is ~8.5Gb in size, there are various [clone options](#special-cases-options) to reduce the download size to suit your needs.
+First of all get the source code. The full Oma sources repository is ~8.5Gb in size, there are various [clone options](#special-cases-options) to reduce the download size to suit your needs.
 
 For _Windows_, it's necessary to enable symlink support:
 1. Activate _Windows Development Mode_ to enable symlinks globally:
@@ -82,7 +82,7 @@ Check `./configure.sh --help` to see how to copy the configs automatically from 
 
 ### Preparing
 
-You need a Linux or a MacOS machine to build a desktop version of Organic Maps. [Windows](#windows) users can use the [WSL](https://learn.microsoft.com/en-us/windows/wsl/) (Windows Subsystem for Linux) and follow ["Linux or Mac"](#linux-or-mac) steps described below.
+You need a Linux or a MacOS machine to build a desktop version of Oma. [Windows](#windows) users can use the [WSL](https://learn.microsoft.com/en-us/windows/wsl/) (Windows Subsystem for Linux) and follow ["Linux or Mac"](#linux-or-mac) steps described below.
 
 ### Linux or MacOS
 
@@ -183,7 +183,7 @@ brew install cmake ninja qt@6
 
 ### Windows
 
-We haven't compiled Organic Maps on Windows *natively* in a long time, though it is possible.
+We haven't compiled Oma on Windows *natively* in a long time, though it is possible.
 Some files should be updated. There is a work in progress on [windows](https://github.com/organicmaps/organicmaps/tree/windows) branch.
 Please contribute if you have time.
 You'll need to have python3, cmake, ninja, and QT6 in the PATH, and Visual Studio 2022 or Visual Studio 2022 Build Tools installed. Use [Visual Studio Developer Command Prompt](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022) or generate Visual Studio project files with CMake to build the project.
@@ -336,7 +336,7 @@ Steps to generate coverage report:
 
 ### Debug commands
 
-Organic Maps has some "hidden" debug commands that you can trigger by entering them into the search box.
+Oma has some "hidden" debug commands that you can trigger by entering them into the search box.
 
 For example you can switch theme which is very useful for checking [styles](STYLES.md) changes.
 To switch themes you can enter this commands:
@@ -384,7 +384,7 @@ The `build_omim.sh` script basically runs these commands:
 
 ### Preparing
 
-Linux, MacOS, or Windows should work to build Organic Maps for Android.
+Linux, MacOS, or Windows should work to build Oma for Android.
 
 Ensure that you have at least 30GB of free space and Python 3 installed.
 
@@ -496,7 +496,7 @@ To run Android Auto, connect the phone using USB cable and run the Desktop Head 
 [I]: Attached!
 ```
 
-Organic Maps icon will appear in the application list in DHU.
+Oma icon will appear in the application list in DHU.
 
 ### More options
 
@@ -617,7 +617,7 @@ E.g.
 
 ### Preparing
 
-Building Organic Maps for iOS requires a Mac.
+Building Oma for iOS requires a Mac.
 
 Ensure that you have at least 20GB of free space.
 
@@ -629,7 +629,7 @@ xcode-select --install
 
 Then, install [Xcode](https://apps.apple.com/app/xcode/id497799835?mt=12) from the App Store.
 
-Enroll in the [Apple Developer Program](https://developer.apple.com/programs/) (you can run Organic Maps in Simulator without this step).
+Enroll in the [Apple Developer Program](https://developer.apple.com/programs/) (you can run Oma in Simulator without this step).
 
 ### Configuring Xcode
 
@@ -651,7 +651,7 @@ Reconfigure the project to use your developer signing keys:
 - Choose a unique bundle identifier (not app.organicmaps.debug) and your team.
 - Select "Automatically manage signing".
 
-If you want to run Organic Maps on a real device, you have to remove the CarPlay entitlement. Open `iphone/Maps/OMaps-Debug.entitlements`
+If you want to run Oma on a real device, you have to remove the CarPlay entitlement. Open `iphone/Maps/OMaps-Debug.entitlements`
 and remove the `com.apple.developer.carplay-maps` entry. Now you can sign your app again in the "Signing & Capabilities" tab. Testing CarPlay
 on a real device requires [requesting entitlements from Apple](https://developer.apple.com/documentation/carplay/requesting_carplay_entitlements).
 

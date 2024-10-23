@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Kaixo!\nNire markagailuak Organic Maps aplikazioan erantsi ditut. Mesedez, ireki itzazu Organic Maps instalatuta baduzu. Edo, ez baduzu, deskargatu aplikazioa zure iOS edo Android gailurako esteka hau jarraituz: https://omaps.app/get?kmz\n\nGozatu bidaiatzen Organic Maps-ekin!";
+"share_bookmarks_email_body" = "Kaixo!\nNire markagailuak Oma aplikazioan erantsi ditut. Mesedez, ireki itzazu Oma instalatuta baduzu. Edo, ez baduzu, deskargatu aplikazioa zure iOS edo Android gailurako esteka hau jarraituz: https://omaps.app/get?kmz\n\nGozatu bidaiatzen Oma-ekin!";
 
 /* message title of loading file */
 "load_kmz_title" = "Markagailuak kargatzen";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Zure kokapena ez da oraindik zehaztu";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Begiratu nire markagailua Organic Maps mapan!";
+"bookmark_share_email_subject" = "Begiratu nire markagailua Oma mapan!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Ikusi nire uneko kokapena Organic Maps mapan!";
+"my_position_share_email_subject" = "Ikusi nire uneko kokapena Oma mapan!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Posta elektronikoa";
@@ -202,7 +202,7 @@
 "done" = "Eginda";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps bertsioa: %@";
+"version" = "Oma bertsioa: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Arrastoak";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Webgunea";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Albisteak";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Leku gehiago behar duzu deskargatzeko. Ezabatu beharrezkoak ez diren datuak.";
 
-"editor_sharing_title" = "Organic Maps mapak hobetu ditut";
+"editor_sharing_title" = "Oma mapak hobetu ditut";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Aktibatu Kokapen Zerbitzuak";
 
-"location_services_disabled_on_device_additional_message" = "Edo jarraitu kokapenik gabeko Organic Maps erabiltzen";
+"location_services_disabled_on_device_additional_message" = "Edo jarraitu kokapenik gabeko Oma erabiltzen";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Argazkiak, iritziak, erreserba";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Esteka honen bidez erreserba bakoitzeko jasotzen den erreferentzia-bonua Organic Maps garatzera doa.";
+"dialog_kayak_disclaimer" = "Esteka honen bidez erreserba bakoitzeko jasotzen den erreferentzia-bonua Oma garatzera doa.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Xehetasunak Kayak-en";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Egiaztatu";
 
-"recent_track_background_dialog_message" = "Organic Maps-ek zure geokokapena erabiltzen du atzeko planoan egindako azken ibilbidea erregistratzeko.";
+"recent_track_background_dialog_message" = "Oma-ek zure geokokapena erabiltzen du atzeko planoan egindako azken ibilbidea erregistratzeko.";
 
 "general_settings" = "Ezarpen orokorrak";
 
@@ -1035,7 +1035,7 @@
 
 "power_managment_setting_manual_max" = "Energia aurrezpen handiena";
 
-"enable_logging_warning_message" = "Aukera hau diagnostiko helburua duten erregistro ekintzetarako gaituta dago. Honek gure taldeari aplikazioarekin arazoak identifikatzen laguntzen dio. Gaitu aukera Organic Maps laguntzari eskatuta soilik.";
+"enable_logging_warning_message" = "Aukera hau diagnostiko helburua duten erregistro ekintzetarako gaituta dago. Honek gure taldeari aplikazioarekin arazoak identifikatzen laguntzen dio. Gaitu aukera Oma laguntzari eskatuta soilik.";
 
 "driving_options_title" = "Bideratzeko aukerak";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Abiadura alertak.";
 
-"download_map_carplay" = "Deskargatu mapak zure gailuko Organic Maps aplikazioan";
+"download_map_carplay" = "Deskargatu mapak zure gailuko Oma aplikazioan";
 
 "carplay_roundabout_exit" = "%@ irteera";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/eu/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Gure helburu nagusia maite dituzun mapa azkarrak, pribatutasunari begira eta erabilerrazak sortzea da.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Organic Maps telefonoaren pantailan erabiltzen ari zara";
+"car_used_on_the_phone_screen" = "Oma telefonoaren pantailan erabiltzen ari zara";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Organic Maps autoaren pantailan erabiltzen ari zara";
+"car_used_on_the_car_screen" = "Oma autoaren pantailan erabiltzen ari zara";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Jarraitu telefonoan";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Menuaren esteka";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Akatsen txostena bidali nahi diezu garatzaileei?\nGure erabiltzaileengan oinarritzen gara Organic Maps-ek ez baitu automatikoki akatsen informaziorik biltzen. Eskerrik asko aldez aurretik Maps organikoak laguntzeagatik!";
+"bugreport_alert_message" = "Akatsen txostena bidali nahi diezu garatzaileei?\nGure erabiltzaileengan oinarritzen gara Oma-ek ez baitu automatikoki akatsen informaziorik biltzen. Eskerrik asko aldez aurretik Maps organikoak laguntzeagatik!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Gaitu iCloud sinkronizazioa";

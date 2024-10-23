@@ -15,9 +15,9 @@ Ezaugarri nagusiak:
 • Laster-markak esportatu eta inportatu KML, KMZ, GPX formatuetan
 • Modu iluna begiak babesteko
 
-<i>Oraindik</i> ez daude garraio publikoa, satelite bidezko mapak eta beste eginbide polit batzuk Organic Mapsen. Baina <i>zure laguntzarekin</i>, urratsez urrats hobetu dezakegu.
+<i>Oraindik</i> ez daude garraio publikoa, satelite bidezko mapak eta beste eginbide polit batzuk Omaen. Baina <i>zure laguntzarekin</i>, urratsez urrats hobetu dezakegu.
 
-Organic Maps <b>maitasunez egina</b> dago:
+Oma <b>maitasunez egina</b> dago:
 
 • Konexioz kanpoko esperientzia izugarria
 • Zure pribatutasuna errespetatzen du
@@ -38,9 +38,9 @@ Arakatzailerik eta beste gauza txarrik gabe:
 • Crapwarerik ez
 • Pestizidarik ez. Guztiz organikoa
 
-Organic Maps-en, <b>pribatutasuna oinarrizko giza eskubide bat dela uste dugu</b>:
+Oma-en, <b>pribatutasuna oinarrizko giza eskubide bat dela uste dugu</b>:
 
-• Organic Maps komunitate independenteek gidatutako kode irekiko proiektu bat da
+• Oma komunitate independenteek gidatutako kode irekiko proiektu bat da
 • Pribatutasuna, enpresa teknologiko handiengandik babesten zaitugu
 • Egon seguru zauden lekuan zaudela ere
 
@@ -49,4 +49,4 @@ Zero arakatzaile eta gutxieneko baimenak soilik eskatzen dira Exodus Pribatutasu
 Mesedez, bisitatu <b><i>organicmaps.app</i></b> webgunea xehetasun gehiagorako eta ohiko galderetarako, edo jar zaitez zuzenean gurekin harremanetan @OrganicMapsApp Telegram-en.
 
 Baztertu jarraipena - hautatu askatasuna.
-<b>Probatu Organic Maps!</b>
+<b>Probatu Oma!</b>

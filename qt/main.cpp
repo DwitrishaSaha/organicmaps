@@ -109,7 +109,7 @@ int main(int argc, char * argv[])
 
   Platform & platform = GetPlatform();
 
-  LOG(LINFO, ("Organic Maps", platform.Version(), "started, detected CPU cores:", platform.CpuCores()));
+  LOG(LINFO, ("Oma", platform.Version(), "started, detected CPU cores:", platform.CpuCores()));
 
   gflags::SetUsageMessage("Desktop application.");
   gflags::SetVersionString(platform.Version());
@@ -136,9 +136,9 @@ int main(int argc, char * argv[])
 
 
 #ifdef BUILD_DESIGNER
-    QApplication::setApplicationName("Organic Maps Designer");
+    QApplication::setApplicationName("Oma Designer");
 #else
-    QApplication::setApplicationName("Organic Maps");
+    QApplication::setApplicationName("Oma");
 #endif
 
 
@@ -261,6 +261,6 @@ int main(int argc, char * argv[])
   }
 #endif // BUILD_DESIGNER
 
-  LOG_SHORT(LINFO, ("Organic Maps finished with code", returnCode));
+  LOG_SHORT(LINFO, ("Oma finished with code", returnCode));
   return returnCode;
 }

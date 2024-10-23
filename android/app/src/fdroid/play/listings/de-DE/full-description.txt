@@ -18,7 +18,7 @@ Wichtigste Funktionen:
 
 Öffentlichen Verkehrsmittel, Satellitenbildkarten und viele weitere wichtige Merkmale werden <i>noch</i> nicht unterstützt. Aber mit <i>deiner Hilfe und Unterstützung</i> können wir diese Welt und unsere Karten Schritt für Schritt besser machen.
 
-Organic Maps ist <b>rein, organisch und mit Liebe gemacht</b>:
+Oma ist <b>rein, organisch und mit Liebe gemacht</b>:
 
 • Rasend schnelle Offline-Erfahrung
 • Respektiert deine Privatsphäre
@@ -39,9 +39,9 @@ Frei von Trackern und schlechten Dingen:
 • Keine Crapware
 • -K̶e̶i̶n̶e̶ ̶P̶e̶s̶t̶i̶z̶i̶d̶e̶ Rein organisch
 
-Wir bei Organic Maps glauben, dass <b>Privatsphäre ein grundlegendes Menschenrecht</b> ist:
+Wir bei Oma glauben, dass <b>Privatsphäre ein grundlegendes Menschenrecht</b> ist:
 
-• Organic Maps ist ein von einer unabhängigen Gemeinschaft betriebenes Open-Source-Projekt
+• Oma ist ein von einer unabhängigen Gemeinschaft betriebenes Open-Source-Projekt
 • Wir schützen deine Privatsphäre vor den neugierigen Augen der großen Technologiekonzerne
 • Bleib sicher, egal wo du bist
 
@@ -50,4 +50,4 @@ Keine Tracker und nur minimal erforderliche Berechtigungen sind laut dem Exodus-
 Bitte besuche <b><i>organicmaps.app</i></b> Webseite für weitere Details und ein FAQ. Oder kontaktiere uns direkt unter @OrganicMapsApp in Telegram.
 
 Lehne Überwachung ab - lebe deine Freiheit.
-<b>Teste Organic Maps!</b>
+<b>Teste Oma!</b>

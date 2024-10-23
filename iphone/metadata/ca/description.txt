@@ -7,13 +7,13 @@
 • Mode fosc per protegir els ulls
 •... i moltes altres característiques!
 
-Organic Maps és pur i orgànic, fet amb amor:
+Oma és pur i orgànic, fet amb amor:
 
 • Respecta la vostra privadesa
 • Estalvia la bateria
 • Sense càrrecs inesperats de dades mòbils
 
-L'Organic Maps està lliure de rastrejadors i altres coses dolentes:
+L'Oma està lliure de rastrejadors i altres coses dolentes:
 
 • Sense anuncis
 • Sense seguiment
@@ -26,9 +26,9 @@ L'Organic Maps està lliure de rastrejadors i altres coses dolentes:
 • Sense programari perjudicial
 • Sense pesticides
 
-A l'Organic Maps, creiem que la privadesa és un dret humà fonamental:
+A l'Oma, creiem que la privadesa és un dret humà fonamental:
 
-• Organic Maps és un projecte independent impulsat per la comunitat
+• Oma és un projecte independent impulsat per la comunitat
 • És de codi obert
 • Les dades dels mapes estan extretes de l'OpenStreetMap, també projecte impulsat per la seva comunitat
 • Protegim la vostra privadesa de les mirades indiscretes per part de grans multinacionals
@@ -36,4 +36,4 @@ A l'Organic Maps, creiem que la privadesa és un dret humà fonamental:
 
 Rebutgeu la vigilància, accepteu la vostra llibertat i doneu suport a la comunitat.
 
-Proveu l'Organic Maps!
+Proveu l'Oma!

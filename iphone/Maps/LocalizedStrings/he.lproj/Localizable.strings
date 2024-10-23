@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "שלום!\n\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-Organic Maps. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://omaps.app/get?kmz\n\nתהנו לנווט עם Organic Maps!";
+"share_bookmarks_email_body" = "שלום!\n\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-Oma. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://omaps.app/get?kmz\n\nתהנו לנווט עם Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "טוען סימניות";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "מיקומך לא אותר עדיין";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "היי, בדוק את הסיכה שלי במפה של Organic Maps!";
+"bookmark_share_email_subject" = "היי, בדוק את הסיכה שלי במפה של Oma!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "היי, בדקו את המיקום הנוכחי שלי במפה של Organic Maps!";
+"my_position_share_email_subject" = "היי, בדקו את המיקום הנוכחי שלי במפה של Oma!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "דוא\"ל";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "אתר";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "חדשות";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "כדי להוריד, צריך עוד מקום. נא למחוק מידע שאינו הכרחי.";
 
-"editor_sharing_title" = "אני משפר את המפות של Organic Maps";
+"editor_sharing_title" = "אני משפר את המפות של Oma";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d מתוך %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "הערה מפורטת";
 
-"editor_detailed_description" = "ההצעות שלך לשינוי המפה יישלחו לקהילת OpenStreetMap. יש לתאר פרטים נוספים שלא ניתן לערוך ב-Organic Maps.";
+"editor_detailed_description" = "ההצעות שלך לשינוי המפה יישלחו לקהילת OpenStreetMap. יש לתאר פרטים נוספים שלא ניתן לערוך ב-Oma.";
 
 "editor_more_about_osm" = "עוד על OpenStreetMap";
 
@@ -803,7 +803,7 @@
 "more_on_kayak" = "תמונות, ביקורות, הזמנה";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "בונוס ההפניה המתקבל עבור כל הזמנה דרך קישור זה מסייע בפיתוח של Organic Maps.";
+"dialog_kayak_disclaimer" = "בונוס ההפניה המתקבל עבור כל הזמנה דרך קישור זה מסייע בפיתוח של Oma.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "פרטים על Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Check out";
 
-"recent_track_background_dialog_message" = "האפליקצייה Organic Maps משתמשת במיקום שלך ברקע כדי להקליט את המסלול האחרון שלך.";
+"recent_track_background_dialog_message" = "האפליקצייה Oma משתמשת במיקום שלך ברקע כדי להקליט את המסלול האחרון שלך.";
 
 "general_settings" = "הגדרות כלליות";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "המטרה העיקרית שלנו היא לבנות מפות מהירות, ממוקדות פרטיות, קלות לשימוש שתאהבו.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "אתה משתמש כעת ב-Organic Maps במסך הטלפון";
+"car_used_on_the_phone_screen" = "אתה משתמש כעת ב-Oma במסך הטלפון";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "אתה משתמש כעת ב-Organic Maps במסך המכונית";
+"car_used_on_the_car_screen" = "אתה משתמש כעת ב-Oma במסך המכונית";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "המשך בטלפון";

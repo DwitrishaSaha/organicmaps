@@ -7,13 +7,13 @@
 • Modo oscuro para proteger tus ojos
 • … ¡y muchas otras funciones!
 
-Organic Maps es puro y orgánico, hecho con amor:
+Oma es puro y orgánico, hecho con amor:
 
 • Respeta tu privacidad
 • Ahorra batería
 • Sin cargos de datos móviles inesperados
 
-Organic Maps está libre de rastreadores y otras cosas malas:
+Oma está libre de rastreadores y otras cosas malas:
 
 • Sin anuncios
 • Sin seguimiento
@@ -26,9 +26,9 @@ Organic Maps está libre de rastreadores y otras cosas malas:
 • Sin basura
 • Nada de pesticidas
 
-En Organic Maps, creemos que la privacidad es un derecho humano fundamental:
+En Oma, creemos que la privacidad es un derecho humano fundamental:
 
-• Organic Maps es un proyecto independiente impulsado por la comunidad
+• Oma es un proyecto independiente impulsado por la comunidad
 • Es de código abierto
 • Los datos de los mapas se toman de OpenStreetMap, también es un proyecto impulsado por la comunidad
 • Protegemos tu privacidad de las miradas indiscretas de las grandes empresas
@@ -36,4 +36,4 @@ En Organic Maps, creemos que la privacidad es un derecho humano fundamental:
 
 Rechaza la vigilancia, abraza tu libertad y apoya a la comunidad.
 
-¡Prueba los Organic Maps!
+¡Prueba los Oma!

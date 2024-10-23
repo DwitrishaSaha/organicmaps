@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Ciao!\n\nIn allegato ci sono i miei luoghi preferiti. Aprili se hai installato Organic Maps. Oppure, se non ce l'hai, scarica l'app per iOS o Android seguendo questo link: https://omaps.app/\n\nDivertiti a viaggiare con Organic Maps!";
+"share_bookmarks_email_body" = "Ciao!\n\nIn allegato ci sono i miei luoghi preferiti. Aprili se hai installato Oma. Oppure, se non ce l'hai, scarica l'app per iOS o Android seguendo questo link: https://omaps.app/\n\nDivertiti a viaggiare con Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "Caricamento luoghi preferiti";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "La tua posizione non è stata ancora stabilita";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Puoi vedere il mio luogo preferito sulla mappa Organic Maps!";
+"bookmark_share_email_subject" = "Puoi vedere il mio luogo preferito sulla mappa Oma!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Guarda dove mi trovo attualmente sulla mappa Organic Maps!";
+"my_position_share_email_subject" = "Guarda dove mi trovo attualmente sulla mappa Oma!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -202,7 +202,7 @@
 "done" = "Fatto";
 
 /* Prints version number in About dialog */
-"version" = "Versione di Organic Maps: %@";
+"version" = "Versione di Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Percorsi";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Sito web";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Notizia";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Per scaricare, hai bisogno di più spazio. Sei pregato di eliminare i dati non necessari.";
 
-"editor_sharing_title" = "Ho migliorato le mappe Organic Maps";
+"editor_sharing_title" = "Ho migliorato le mappe Oma";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d di %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Commento dettagliato";
 
-"editor_detailed_description" = "Le modifiche alla mappa da te suggerite saranno inviate alla comunità di OpenStreetMap. Descrivi qualsiasi dettaglio aggiuntivo che non può essere modificato in Organic Maps.";
+"editor_detailed_description" = "Le modifiche alla mappa da te suggerite saranno inviate alla comunità di OpenStreetMap. Descrivi qualsiasi dettaglio aggiuntivo che non può essere modificato in Oma.";
 
 "editor_more_about_osm" = "Informazioni su OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Attiva i servizi di localizzazione";
 
-"location_services_disabled_on_device_additional_message" = "Oppure continua a utilizzare le Organic Maps senza la localizzazione";
+"location_services_disabled_on_device_additional_message" = "Oppure continua a utilizzare le Oma senza la localizzazione";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Foto, recensioni, prenotazioni";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Il bonus ricevuto per ogni prenotazione effettuata tramite questo link è destinato allo sviluppo di Organic Maps.";
+"dialog_kayak_disclaimer" = "Il bonus ricevuto per ogni prenotazione effettuata tramite questo link è destinato allo sviluppo di Oma.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Dettagli su Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Controlla";
 
-"recent_track_background_dialog_message" = "Organic Maps usa la tua posizione geografica per registrare il tuo percorso effettuato più di recente.";
+"recent_track_background_dialog_message" = "Oma usa la tua posizione geografica per registrare il tuo percorso effettuato più di recente.";
 
 "general_settings" = "Impostazioni generali";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Info autovelox";
 
-"download_map_carplay" = "Scarica le mappe nell'applicazione Organic Maps sul tuo dispositivo";
+"download_map_carplay" = "Scarica le mappe nell'applicazione Oma sul tuo dispositivo";
 
 "carplay_roundabout_exit" = "%@ uscita";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/it/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Il nostro obiettivo principale è creare mappe veloci, incentrate sulla privacy e facili da usare che adorerai.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Ora stai utilizzando Organic Maps sullo schermo del telefono";
+"car_used_on_the_phone_screen" = "Ora stai utilizzando Oma sullo schermo del telefono";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Ora stai utilizzando le Organic Maps sullo schermo dell'auto";
+"car_used_on_the_car_screen" = "Ora stai utilizzando le Oma sullo schermo dell'auto";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Continua nel telefono";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Link al menu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Vuoi inviare una segnalazione di bug agli sviluppatori?\nCi affidiamo ai nostri utenti perché Organic Maps non raccoglie automaticamente informazioni sugli errori. Ti ringraziamo in anticipo per il supporto a Organic Maps!";
+"bugreport_alert_message" = "Vuoi inviare una segnalazione di bug agli sviluppatori?\nCi affidiamo ai nostri utenti perché Oma non raccoglie automaticamente informazioni sugli errori. Ti ringraziamo in anticipo per il supporto a Oma!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Abilita la sincronizzazione con iCloud";

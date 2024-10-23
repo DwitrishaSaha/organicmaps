@@ -19,7 +19,7 @@ UNIT_TEST(SHA1_Smoke)
     "Hello,",
     "Hello, ",
     "Hello, World!",
-    "Organic Maps is the ultimate companion app for travellers, tourists, hikers, and cyclists!",
+    "Oma is the ultimate companion app for travellers, tourists, hikers, and cyclists!",
   };
 
   SHA1::Hash encoded[] =

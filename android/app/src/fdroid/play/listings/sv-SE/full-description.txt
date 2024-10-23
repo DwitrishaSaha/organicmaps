@@ -16,9 +16,9 @@ Huvudfunktioner:
 • Bokmärken och import och export av inspelade rutter i formaten KML, KMZ och GPX
 • Mörkt läge för att skona ögonen
 
-Kollektivtrafik, flygfoton och andra käcka funktioner finns inte i Organic Maps <i>än</i>. Men med <i>din hjälp och ditt stöd</i> kan vi stegvis göra världen lite bättre.
+Kollektivtrafik, flygfoton och andra käcka funktioner finns inte i Oma <i>än</i>. Men med <i>din hjälp och ditt stöd</i> kan vi stegvis göra världen lite bättre.
 
-Organic Maps är <b>ren och organisk, gjord med kärlek</b>:
+Oma är <b>ren och organisk, gjord med kärlek</b>:
 
 • Blixtsnabbt gränssnitt och full funktionalitet utan internetuppkoppling
 • Respekterar din personliga integritet
@@ -39,9 +39,9 @@ Fri från spårare och annat ont:
 • Ingen skräpprogramvara
 • F̶r̶i̶ ̶f̶r̶å̶n̶ ̶b̶e̶k̶ä̶m̶p̶n̶i̶n̶g̶s̶m̶e̶d̶e̶l ̶ H̶e̶l̶t̶ ̶e̶k̶o̶l̶o̶g̶i̶s̶k̶ 100 % <i>Organic</i>!
 
-På Organic Maps anser vi att <b>personlig integritet är en grundläggande mänsklig rättighet</b>:
+På Oma anser vi att <b>personlig integritet är en grundläggande mänsklig rättighet</b>:
 
-• Organic Maps är ett oberoende och ideellt utvecklat och drivet projekt med öppen källkod
+• Oma är ett oberoende och ideellt utvecklat och drivet projekt med öppen källkod
 • Vi skyddar dig från techjättarnas vakande ögon
 • Var säker oavsett var du befinner dig
 
@@ -50,4 +50,4 @@ Appen innehåller inga spårare och endast absolut nödvändiga behörigheter en
 Besök <b><i>organicmaps.app</i></b> för att läsa mer och få svar på de vanligaste frågorna. Du kan även kontakta oss på @OrganicMapsApp på Telegram.
 
 Vägra övervakning. Välkomna friheten.
-<b>Prova Organic Maps!</b>
+<b>Prova Oma!</b>

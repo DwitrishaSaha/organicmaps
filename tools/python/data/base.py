@@ -52,7 +52,7 @@ def setup(
         setuptools.setup(
             name="omim-data-{}".format(suffix),
             version=str(get_version()),
-            author="Organic Maps",
+            author="Oma",
             author_email="info@organicmaps.app",
             description="This package contains {} data files.".format(suffix),
             url="https://github.com/organicmaps",

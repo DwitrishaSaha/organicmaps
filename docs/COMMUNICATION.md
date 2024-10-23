@@ -14,4 +14,4 @@ If you have some ideas or want to request a new feature, please [start a discuss
 
 ## Code of Conduct
 
-The Organic Maps community abides by the [CNCF code of conduct](CODE_OF_CONDUCT.md).
+The Oma community abides by the [CNCF code of conduct](CODE_OF_CONDUCT.md).

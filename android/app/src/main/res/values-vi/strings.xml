@@ -32,7 +32,7 @@
 	<string name="country_status_download_failed">Tải xuống đã thất bại</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Thử lại</string>
-	<string name="about_menu_title">Giới thiệu về Organic Maps</string>
+	<string name="about_menu_title">Giới thiệu về Oma</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Miễn phí cho mọi người, được làm bằng tình yêu</string>
 	<!-- Text in About screen -->
@@ -49,7 +49,7 @@
 	<string name="unsupported_phone">Cần có OpenGL được tăng tốc phần cứng. Thật không may, thiết bị của bạn không được hỗ trợ.</string>
 	<string name="download">Tải xuống</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Bạn vui lòng tháo cáp USB hoặc lắp thẻ nhớ vào để sử dụng Organic Maps</string>
+	<string name="disconnect_usb_cable">Bạn vui lòng tháo cáp USB hoặc lắp thẻ nhớ vào để sử dụng Oma</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">Bạn vui lòng giải phóng dung lượng trên ổ lưu trữ thẻ SD/USB để có thể sử dụng ứng dụng</string>
 	<string name="download_resources">Trước khi bạn bắt đầu, hãy để chúng tôi tải bản đồ thế giới vào thiết bị của bạn.\nBản đồ này cần %s dữ liệu.</string>
@@ -150,7 +150,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Ghi chú</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Điểm đánh dấu Organic Maps được chia sẻ</string>
+	<string name="share_bookmarks_email_subject">Điểm đánh dấu Oma được chia sẻ</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Tải Điểm đánh dấu</string>
 	<!-- Kmz file successful loading -->
@@ -159,7 +159,7 @@
 	<string name="load_kmz_failed">Không tải lên được điểm đánh dấu. Tập tin có thể bị hỏng hoặc lỗi.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Loại tệp không được ứng dụng nhận dạng:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Không thể mở tập tin %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Sửa</string>
@@ -170,11 +170,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Hiện đang tải xuống quốc gia.</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại Organic Maps! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: https://omaps.app/get</string>
+	<string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại Oma! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Này, hãy xem ghim của tôi tại Organic Maps map</string>
+	<string name="bookmark_share_email_subject">Này, hãy xem ghim của tôi tại Oma map</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Này, hãy xem vị trí hiện tại của tôi tại Organic Maps map!</string>
+	<string name="my_position_share_email_subject">Này, hãy xem vị trí hiện tại của tôi tại Oma map!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Chào,\n\nTôi hiện đang ở đây: %1$s. Hãy nhấn vào liên kết này %2$s hoặc liên kết này %3$s để xem địa điểm trên bản đồ.\n\nCám ơn.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -230,7 +230,7 @@
 	<string name="search_show_on_map">Xem trên bản đồ</string>
 	<!-- Text in menu -->
 	<string name="website">Trang web</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Tin tức</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Phản hồi</string>
@@ -544,7 +544,7 @@
 	<string name="mobile_data_option_ask">Luôn Hỏi</string>
 	<string name="traffic_update_maps_text">Để hiển thị dữ liệu giao thông, cần cập nhật bản đồ.</string>
 	<string name="big_font">Tăng kích cỡ phông chữ trên bản đồ</string>
-	<string name="traffic_update_app">Vui lòng cập nhật Organic Maps</string>
+	<string name="traffic_update_app">Vui lòng cập nhật Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Dữ liệu giao thông không khả dụng</string>
 	<string name="enable_logging">Bật nhật ký</string>
@@ -631,7 +631,7 @@
 	<string name="power_managment_setting_never">Không bao giờ</string>
 	<string name="power_managment_setting_auto">Tự động</string>
 	<string name="power_managment_setting_manual_max">Tiết kiệm năng lượng tối đa</string>
-	<string name="enable_logging_warning_message">Tùy chọn này được kích hoạt để ghi nhật ký đăng nhập cho mục đích chẩn đoán. Điều này sẽ giúp nhóm chúng tôi làm rõ các vấn đề liên quan đến ứng dụng. Hãy bật tùy chọn này chỉ khi nào có yêu cầu hỗ trợ từ Organic Maps.</string>
+	<string name="enable_logging_warning_message">Tùy chọn này được kích hoạt để ghi nhật ký đăng nhập cho mục đích chẩn đoán. Điều này sẽ giúp nhóm chúng tôi làm rõ các vấn đề liên quan đến ứng dụng. Hãy bật tùy chọn này chỉ khi nào có yêu cầu hỗ trợ từ Oma.</string>
 	<string name="access_rules_author_only">Chỉnh sửa trực tuyến</string>
 	<string name="driving_options_title">Thiết lập đi vòng</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->

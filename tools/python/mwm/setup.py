@@ -16,7 +16,7 @@ with chdir(os.path.abspath(os.path.dirname(__file__))):
     setuptools.setup(
         name="omim-mwm",
         version=str(get_version()),
-        author="Organic Maps",
+        author="Oma",
         author_email="info@organicmaps.app",
         description="This package is a library that can work with mwm files.",
         url="https://github.com/organicmaps",

@@ -15,9 +15,9 @@
 • Yer imlerini KML, KMZ ve GPX dosyalarını dışa ve içe aktarma
 • Gözlerinizi korumak için karanlık mod
 
-Organic Maps'te <i>henüz</i> toplu taşıma, uydu haritaları ve diğer harika özellikler yok. Ancak <i>sizin yardımınız ve desteğinizle</i> bu dünyayı adım adım daha iyi hale getirebiliriz.
+Oma'te <i>henüz</i> toplu taşıma, uydu haritaları ve diğer harika özellikler yok. Ancak <i>sizin yardımınız ve desteğinizle</i> bu dünyayı adım adım daha iyi hale getirebiliriz.
 
-Organic Maps; sevgiyle yapılmış, saf ve organiktir:
+Oma; sevgiyle yapılmış, saf ve organiktir:
 
 • Göz alıcı derecede hızlı çevrimdışı deneyim
 • Gizliliğinize saygı duyar
@@ -38,9 +38,9 @@ Organic Maps; sevgiyle yapılmış, saf ve organiktir:
 • Zararlı yazılım yok
 • Böcek ilacı yok. Tamamen organik!
 
-Organic Maps'te <b>gizliliğin temel bir insan hakkı olduğuna</b> inanıyoruz:
+Oma'te <b>gizliliğin temel bir insan hakkı olduğuna</b> inanıyoruz:
 
-• Organic Maps, bağımsız bir topluluk tarafından yürütülen açık kaynaklı bir projedir
+• Oma, bağımsız bir topluluk tarafından yürütülen açık kaynaklı bir projedir
 • Gizliliğinizi büyük teknoloji şirketlerinin meraklı gözlerinden koruyoruz
 • Nerede olursanız olun güvende kalın
 
@@ -49,4 +49,4 @@ Exodus Gizlilik Raporuna göre hiç izleyici içermez ve yalnızca minimum düze
 Ek ayrıntılar ve SSS için lütfen <b><i>organicmaps.app/tr</i></b> adresini ziyaret edin. Ayrıca Telegram'daki @OrganicMapsTR adresinden bizimle doğrudan iletişime geçin.
 
 Gözetlemeyi reddedin - özgürlüğünüzü kucaklayın.
-<b>Organic Maps'i deneyin!</b>
+<b>Oma'i deneyin!</b>

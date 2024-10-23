@@ -34,7 +34,7 @@
 	<string name="country_status_download_failed">Yükləmə uğursuz oldu</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Yenidən cəhd et</string>
-	<string name="about_menu_title">Organic Maps Haqqında</string>
+	<string name="about_menu_title">Oma Haqqında</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Hər kəs üçün ödənişsiz və sevgi ilə hazırlanmış xəritə</string>
 	<!-- Text in About screen -->
@@ -51,7 +51,7 @@
 	<string name="unsupported_phone">Tətbiq aparatla sürətləndirilmiş OpenGL tələb edir. Təəssüf ki, cihazınız dəstəklənmir.</string>
 	<string name="download">Yüklə</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Organic Maps\'dan istifadə etmək üçün zəhmət olmasa USB kabeli ayırın və ya yaddaş kartı daxil edin</string>
+	<string name="disconnect_usb_cable">Oma\'dan istifadə etmək üçün zəhmət olmasa USB kabeli ayırın və ya yaddaş kartı daxil edin</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">Tətbiqdən istifadə etmək üçün SD kartda/USB yaddaş cihazında bir qədər yer boşaldın.</string>
 	<string name="download_resources">Başlamazdan əvvəl gəlin ümumi dünya xəritəsini cihazınıza endirək.\n%s yer tələb olunur.</string>
@@ -164,8 +164,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Qeydlər</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Organic Maps əlfəcinləri sizinlə paylaşıldı</string>
-	<string name="share_bookmarks_email_body">Salam!\n\nOrganic Maps əlfəcinlərim əlavə olunub. Zəhmət olmasa Organic Maps-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://omaps.app/get?kmz\n\nOrganic Maps ilə səyahətdən həzz alın!</string>
+	<string name="share_bookmarks_email_subject">Oma əlfəcinləri sizinlə paylaşıldı</string>
+	<string name="share_bookmarks_email_body">Salam!\n\nOma əlfəcinlərim əlavə olunub. Zəhmət olmasa Oma-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://omaps.app/get?kmz\n\nOma ilə səyahətdən həzz alın!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Əlfəcinlər yüklənir</string>
 	<!-- Kmz file successful loading -->
@@ -174,7 +174,7 @@
 	<string name="load_kmz_failed">Əlfəcinlərin quraşdırılması uğursuz oldu. Fayl zədələnmiş və ya qüsurlu ola bilər.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Fayl növü tətbiq tərəfindən tanınmır:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Faylı açmaq alınmadı %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Redaktə et</string>
@@ -185,11 +185,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Xəritənin endirilməsi hazırda davam edir.</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">Salam, Organic Maps\'da mənim hal-hazırda olduğum ünvanı yoxla! %1$s və ya %2$s Oflayn xəritələriniz yoxdur? Buradan endirin: https://omaps.app/get</string>
+	<string name="my_position_share_sms">Salam, Oma\'da mənim hal-hazırda olduğum ünvanı yoxla! %1$s və ya %2$s Oflayn xəritələriniz yoxdur? Buradan endirin: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Salam, Organic Maps xəritəsində mənim pin kodumu yoxlayın!</string>
+	<string name="bookmark_share_email_subject">Salam, Oma xəritəsində mənim pin kodumu yoxlayın!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Hey, Organic Maps\'da mənim hal-hazırda olduğum ünvana baxın!</string>
+	<string name="my_position_share_email_subject">Hey, Oma\'da mənim hal-hazırda olduğum ünvana baxın!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Salam,\n\nMən hazırda bu ünvandayam: %1$s. Xəritədə yeri görmək üçün %2$s və ya %3$s üzərinə klikləyin.\n\nTəşəkkür edirik.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -249,7 +249,7 @@
 	<string name="search_show_on_map">Xəritədə baxın</string>
 	<!-- Text in menu -->
 	<string name="website">Veb sayt</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Xəbərlər</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Rəy</string>
@@ -532,7 +532,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Şəkillər, rəylər, rezervasiya</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">Bu link vasitəsilə edilən hər rezervasiya üçün alınan tövsiyə bonusu Organic Maps\'in inkişafına sərf olunur.</string>
+	<string name="dialog_kayak_disclaimer">Bu link vasitəsilə edilən hər rezervasiya üçün alınan tövsiyə bonusu Oma\'in inkişafına sərf olunur.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Xizək sürmə haqqında təfərrüatlar</string>
 	<string name="placepage_edit_bookmark_button">Əlfəcini redaktə edin</string>
@@ -577,7 +577,7 @@
 	<string name="mobile_data_option_ask">Həmişə Soruşun</string>
 	<string name="traffic_update_maps_text">Nəqliyyat məlumatlarını göstərmək üçün xəritələr yenilənməlidir.</string>
 	<string name="big_font">Xəritədə şrift ölçüsünü artırın</string>
-	<string name="traffic_update_app">Organic Maps\'i yeniləyin</string>
+	<string name="traffic_update_app">Oma\'i yeniləyin</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Nəqliyyat məlumatları mövcud deyil</string>
 	<string name="enable_logging">Girişi aktivləşdirin</string>
@@ -767,16 +767,16 @@
 	<string name="splash_subtitle">OpenStreetMap-dan xəritə məlumatları</string>
 	<!-- Telegram group url for the "?" About page -->
 	<string name="telegram_url">https://t.me/OrganicMapsTR # Probably better than Ru</string>
-	<!-- Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/tr/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Tr:About</string>
 	<!-- App Tip #00 -->
 	<string name="app_tip_00">İcma tərəfindən yaradılmış xəritələrimizdən istifadə etdiyiniz üçün təşəkkür edirik!</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">İndi telefon ekranında Organic Maps istifadə edirsiniz</string>
+	<string name="car_used_on_the_phone_screen">İndi telefon ekranında Oma istifadə edirsiniz</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Hazırda avtomobil ekranında Organic Maps istifadə edirsiniz</string>
+	<string name="car_used_on_the_car_screen">Hazırda avtomobil ekranında Oma istifadə edirsiniz</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Siz Android Auto-a qoşulmusunuz</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

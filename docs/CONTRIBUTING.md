@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to Organic Maps (OM)!
+Thank you for your interest in contributing to Oma (OM)!
 
 ## How Can I Contribute?
 
@@ -17,9 +17,9 @@ Please check if there are no similar issues already submitted by someone else,
 and give developers as much information as possible: OS and application versions,
 list of actions leading to a bug, a log file produced by the app.
 
-When using Organic Maps app on a device, use the built-in "Report a bug" option:
+When using Oma app on a device, use the built-in "Report a bug" option:
 on Android it creates a new e-mail with a log file attached. Your issue will be processed much
-faster if you send it to <bugs@organicmaps.app>. Enabling logs in Organic Maps settings on Android
+faster if you send it to <bugs@organicmaps.app>. Enabling logs in Oma settings on Android
 before sending the bug report also helps us a lot with debugging.
 
 ### Feature Requests
@@ -45,7 +45,7 @@ Please follow instructions in [INSTALL.md](INSTALL.md) to set up your developmen
 and check the [developer's guidelines](#developers-guidelines).
 You will find a list of issues for new contributors [here](https://github.com/organicmaps/organicmaps/labels/Good%20first%20issue) to help you get started with simple tasks. If you want to focus on the most important issues, please check [this label](https://github.com/organicmaps/organicmaps/labels/Frequently%20Reported%20by%20Users) or our [Milestones](https://github.com/organicmaps/organicmaps/milestones).
 
-Sometimes it's better to discuss and confirm your vision of the fix or implementation before working on an issue. Our main focus is on simplicity and convenience for everyone, not only for geeks. 
+Sometimes it's better to discuss and confirm your vision of the fix or implementation before working on an issue. Our main focus is on simplicity and convenience for everyone, not only for geeks.
 
 **We do not assign issues to first-time contributors.** Any such request notifies our contributors and the development team, and creates unnecessary noise that distracts us from the work. Just make a PR - and it will be reviewed.
 
@@ -53,7 +53,7 @@ Reading everything in the [docs folder](./) of the repository is recommended.
 
 ## Submitting your changes
 
-All contributions to Organic Maps repository should be submitted via
+All contributions to Oma repository should be submitted via
 [Github pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
 and signed-off with the [Developers Certificate of Origin](#legal-requirements).
 

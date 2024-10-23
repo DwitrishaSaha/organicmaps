@@ -16,7 +16,7 @@ with chdir(os.path.abspath(os.path.dirname(__file__))):
     setuptools.setup(
         name="omim-data-files",
         version=str(get_version()),
-        author="Organic Maps",
+        author="Oma",
         author_email="info@organicmaps.app",
         description="This package is a library for dealing with data files.",
         url="https://github.com/organicmaps",

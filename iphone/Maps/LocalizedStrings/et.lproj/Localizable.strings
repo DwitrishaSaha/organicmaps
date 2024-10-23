@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Tere!\nManuses on minu järjehoidjad rakendusest Organic Maps. Palun ava need kui Sul on Organic Maps paigaldatud. Või kui ei ole, lae rakendus alla oma iOS või Android seadmesse, järgides seda linki: https:omaps.appget?kmz\n\nNaudi reisimist Organic Maps-iga!";
+"share_bookmarks_email_body" = "Tere!\nManuses on minu järjehoidjad rakendusest Oma. Palun ava need kui Sul on Oma paigaldatud. Või kui ei ole, lae rakendus alla oma iOS või Android seadmesse, järgides seda linki: https:omaps.appget?kmz\n\nNaudi reisimist Oma-iga!";
 
 /* message title of loading file */
 "load_kmz_title" = "Järjehoidjate laadimine";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Sinu asukoht ei ole veel määratud";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hei, vaata minu asukoha märget Organic Maps kaardil!";
+"bookmark_share_email_subject" = "Hei, vaata minu asukoha märget Oma kaardil!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, vaata minu hetkeasukohta Organic Maps kaardil!";
+"my_position_share_email_subject" = "Hei, vaata minu hetkeasukohta Oma kaardil!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-post";
@@ -202,7 +202,7 @@
 "done" = "Valmis";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps versioon: %@";
+"version" = "Oma versioon: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Rajad";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Veebileht";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Uudised";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Alla laadimiseks vajad rohkem ruumi. Palun kustuta ebavajalikke andmeid.";
 
-"editor_sharing_title" = "Parandasin Organic Maps kaarte";
+"editor_sharing_title" = "Parandasin Oma kaarte";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Üksikasjalik kommentaar";
 
-"editor_detailed_description" = "Teie soovitatud kaardimuudatused saadetakse OpenStreetMapi kogukonnale. Kirjeldage kõiki täiendavaid üksikasju, mida ei saa Organic Maps-is muuta.";
+"editor_detailed_description" = "Teie soovitatud kaardimuudatused saadetakse OpenStreetMapi kogukonnale. Kirjeldage kõiki täiendavaid üksikasju, mida ei saa Oma-is muuta.";
 
 "editor_more_about_osm" = "Rohkem OpenStreetMap kohta";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Lülitage sisse asukohateenused";
 
-"location_services_disabled_on_device_additional_message" = "Või jätkake Organic Maps kasutamist ilma asukohata";
+"location_services_disabled_on_device_additional_message" = "Või jätkake Oma kasutamist ilma asukohata";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Fotod, arvustused, broneerimine";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Iga selle lingi kaudu tehtud broneeringu eest saadav boonus läheb Organic Maps'i arendamiseks.";
+"dialog_kayak_disclaimer" = "Iga selle lingi kaudu tehtud broneeringu eest saadav boonus läheb Oma'i arendamiseks.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Üksikasjad Kayaki kohta";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Vaata järele";
 
-"recent_track_background_dialog_message" = "Organic Maps kasutab Sinu geograafilist asukohta taustal Sinu hiljuti läbitud teekonna salvestamiseks.";
+"recent_track_background_dialog_message" = "Oma kasutab Sinu geograafilist asukohta taustal Sinu hiljuti läbitud teekonna salvestamiseks.";
 
 "general_settings" = "Üldseaded";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Kiiruse hoiatused";
 
-"download_map_carplay" = "Palun lae alla kaardid oma seadme Organic Maps rakenduses";
+"download_map_carplay" = "Palun lae alla kaardid oma seadme Oma rakenduses";
 
 "carplay_roundabout_exit" = "%@ väljumine";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Meie põhieesmärk on luua kiireid, privaatsusele keskenduvaid ja hõlpsasti kasutatavaid kaarte, mis teile meeldivad.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Nüüd kasutate telefoni ekraanil Organic Maps";
+"car_used_on_the_phone_screen" = "Nüüd kasutate telefoni ekraanil Oma";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Nüüd kasutate auto ekraanil Organic Maps";
+"car_used_on_the_car_screen" = "Nüüd kasutate auto ekraanil Oma";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Jätka telefonis";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Menüü link";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Kas soovite saata arendajatele veateate?\nMe toetume oma kasutajatele, kuna Organic Maps ei kogu automaatselt mingit veateavet. Täname teid juba ette Organic Maps'i toetamise eest!";
+"bugreport_alert_message" = "Kas soovite saata arendajatele veateate?\nMe toetume oma kasutajatele, kuna Oma ei kogu automaatselt mingit veateavet. Täname teid juba ette Oma'i toetamise eest!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Lubage iCloudi sünkroniseerimine";

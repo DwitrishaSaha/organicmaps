@@ -502,7 +502,7 @@ def get_requirements(path="", omim_package_version=get_version()):
 def setup_omim_pybinding(
     name,
     version=None,
-    author='Organic Maps',
+    author='Oma',
     author_email='info@organicmaps.app',
     url='https://github.com/organicmaps/organicmaps',
     license='Apache-2.0',

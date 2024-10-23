@@ -16,7 +16,7 @@
 • 書籤輸出與匯入 KML, KMZ, GPX 格式
 • 深色模式來保護你的眼睛
 
-Organic Maps 是 <b>純天然，用愛製作</b>:
+Oma 是 <b>純天然，用愛製作</b>:
 
 • 快速的離線體驗
 • 尊重你的隱私
@@ -37,9 +37,9 @@ Organic Maps 是 <b>純天然，用愛製作</b>:
 • 不是功能不全軟體
 • 沒有殺蟲劑，純天然
 
-目前 Organic Maps 我們相信<b>隱私是基本人權</b>：
+目前 Oma 我們相信<b>隱私是基本人權</b>：
 
-• Organic Maps 是獨立的社群驅動的開源專案
+• Oma 是獨立的社群驅動的開源專案
 • 我們從科技大廠保護你的隱私
 • 不論如何都保護你的安全
 
@@ -48,4 +48,4 @@ Organic Maps 是 <b>純天然，用愛製作</b>:
 請造訪 <b><i>organicmaps.app</i></b> 網站來獲得更多資訊及 FAQ，直接在 Telegram @OrganicMapsApp 聯繫。
 
 拒絕追蹤 - 擁抱自由。
-<b>試試 Organic Maps 吧！</b>
+<b>試試 Oma 吧！</b>

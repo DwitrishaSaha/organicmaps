@@ -35,7 +35,7 @@
 	<string name="country_status_download_failed">فشلت عملية تنزيل</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">محاولة مرة أخرى</string>
-	<string name="about_menu_title">حول Organic Maps</string>
+	<string name="about_menu_title">حول Oma</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">مجاني للجميع ، مصنوع من الحب</string>
 	<!-- Text in About screen -->
@@ -52,7 +52,7 @@
 	<string name="unsupported_phone">أنت بحاجة الى OpenGL بأجهزة تسريع. لسوء الحظ جهازك لا يدعم هذه الخاصية.</string>
 	<string name="download">تنزيل</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام Organic Maps.</string>
+	<string name="disconnect_usb_cable">الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام Oma.</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">الرجاء إخلاء بعض المساحة في تخزين البطاقة الرقمية الآمنة\الناقل التسلسلي الشامل أولا من أجل استخدام هذا التطبيق.</string>
 	<string name="download_resources">قبل أن تبدأ باستخدام التطبيق، سنقوم بتنزيل خريطة العالم العامة على جهازك.\nستحتاج إلى %s من البيانات.</string>
@@ -165,8 +165,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">ملاحظات</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">تم مشاركة إشارات Organic Maps المرجعية معك</string>
-	<string name="share_bookmarks_email_body">مرحباً! ْ\n\n تم إرفاق إشاراتي المرجعية من تطبيق Organic Maps. الرجاء فتحهم إذا لديك تطبيق Organic Maps مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://omaps.app/get?kmz \n\nاستمتع بالسفر مع Organic Maps!</string>
+	<string name="share_bookmarks_email_subject">تم مشاركة إشارات Oma المرجعية معك</string>
+	<string name="share_bookmarks_email_body">مرحباً! ْ\n\n تم إرفاق إشاراتي المرجعية من تطبيق Oma. الرجاء فتحهم إذا لديك تطبيق Oma مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://omaps.app/get?kmz \n\nاستمتع بالسفر مع Oma!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">يتم تحميل الإشارات المرجعية</string>
 	<!-- Kmz file successful loading -->
@@ -175,7 +175,7 @@
 	<string name="load_kmz_failed">فشلت عملية تحميل الإشارات المرجعية. قد يكون الملف تالف أو غير صالح.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">لم يتعرف التطبيق على نوع الملف:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">فشل فتح ملف  %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">تعديل</string>
@@ -186,11 +186,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">جاري الآن تنزيل الخريطة</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">مرحباً، تفقد الموقع الخاص بي على Organic Maps! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: https://omaps.app/get</string>
+	<string name="my_position_share_sms">مرحباً، تفقد الموقع الخاص بي على Oma! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">مرحباً، تفقد الدبوس الخاص بي على خريطة Organic Maps!</string>
+	<string name="bookmark_share_email_subject">مرحباً، تفقد الدبوس الخاص بي على خريطة Oma!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">مرحباً، تحقق من موقعي الحالي على خريطة Organic Maps!</string>
+	<string name="my_position_share_email_subject">مرحباً، تحقق من موقعي الحالي على خريطة Oma!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">ًمرحبا،\n\nأنا هنا الآن: %1$s. انقر على هذا الرابط %2$s أو ذلك الرابط %3$s لمشاهدة المكان على الخريطة.\n\nشكراً.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -252,7 +252,7 @@
 	<string name="menu">القائمة</string>
 	<!-- Text in menu -->
 	<string name="website">الموقع الإلكتروني</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">أخبار</string>
 	<!-- Text in menu -->
 	<string name="telegram">تيليجرام</string>
@@ -545,7 +545,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">الصور والتعليقات والحجز</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">تذهب مكافأة الإحالة التي يتم تلقيها لكل حجز من خلال هذا الرابط إلى تطوير Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">تذهب مكافأة الإحالة التي يتم تلقيها لكل حجز من خلال هذا الرابط إلى تطوير Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">التفاصيل على Kayak</string>
 	<string name="placepage_edit_bookmark_button">تحرير العلامة المرجعية</string>
@@ -590,7 +590,7 @@
 	<string name="mobile_data_option_ask">السؤال دوماً</string>
 	<string name="traffic_update_maps_text">لعرض البيانات المرورية، يجب تحديث الخرائط.</string>
 	<string name="big_font">زيادة حجم الخط على الخريطة</string>
-	<string name="traffic_update_app">الرجاء تحديث Organic Maps</string>
+	<string name="traffic_update_app">الرجاء تحديث Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">البيانات المرورية غير متاحة</string>
 	<string name="enable_logging">تفعيل التسجيل</string>
@@ -677,7 +677,7 @@
 	<string name="power_managment_setting_never">أبدًا</string>
 	<string name="power_managment_setting_auto">تلقائي</string>
 	<string name="power_managment_setting_manual_max">توفير الطاقة الأقصى</string>
-	<string name="enable_logging_warning_message">هذا الخيار يقوم ببدأ تسجيل سجلات التطبيق لإغراض التشخيصة. يمكن أن يكون مفيدًا لفريق الدعم الخاص بنا لحل المشاكل التي تواجهكم داخل التطبيق. قم بتفعيل هذا الخيار بشكل مؤقت فقط في حالة طلب الدعم من Organic Maps.</string>
+	<string name="enable_logging_warning_message">هذا الخيار يقوم ببدأ تسجيل سجلات التطبيق لإغراض التشخيصة. يمكن أن يكون مفيدًا لفريق الدعم الخاص بنا لحل المشاكل التي تواجهكم داخل التطبيق. قم بتفعيل هذا الخيار بشكل مؤقت فقط في حالة طلب الدعم من Oma.</string>
 	<string name="access_rules_author_only">التعديل باستخدام الإنترنت</string>
 	<string name="driving_options_title">خيارات رسم المسار</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->

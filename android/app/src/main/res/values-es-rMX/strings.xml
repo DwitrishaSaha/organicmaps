@@ -13,7 +13,7 @@
 	<string name="category_water">Agua</string>
 
 	<!-- SECTION: Other translations -->
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Fallo al abrir el archivo %1$s\n\n%2$s</string>
 	<!-- Generic «Auto» string -->
 	<string name="auto">Automático</string>
@@ -64,7 +64,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Fotos, reseñas, reservas.</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">El bono de recomendación recibido por cada reserva a través de este enlace se destina al desarrollo de Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">El bono de recomendación recibido por cada reserva a través de este enlace se destina al desarrollo de Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Detalles sobre Kayak</string>
 	<string name="placepage_add_place_button">Agregar lugar a OpenStreetMap</string>
@@ -131,7 +131,7 @@
 	<string name="power_managment_setting_never">Nunca</string>
 	<string name="power_managment_setting_auto">Automático</string>
 	<string name="power_managment_setting_manual_max">Máximo ahorro de energía</string>
-	<string name="enable_logging_warning_message">Esta opción está habilitada para las acciones de registro con fines de diagnóstico. Esto ayuda a nuestro equipo a identificar problemas con la aplicación. Habilite la opción solo a petición del apoyo de Organic Maps.</string>
+	<string name="enable_logging_warning_message">Esta opción está habilitada para las acciones de registro con fines de diagnóstico. Esto ayuda a nuestro equipo a identificar problemas con la aplicación. Habilite la opción solo a petición del apoyo de Oma.</string>
 	<string name="access_rules_author_only">Se edita en línea</string>
 	<string name="driving_options_title">Ajustes de desvío</string>
 	<string name="unable_to_calc_alert_title">No se puede construir una ruta</string>
@@ -209,7 +209,7 @@
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Cuando está habilitado, la pantalla siempre estará encendida cuando se muestre el mapa.</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ahora usa Organic Maps en la pantalla del automóvil</string>
+	<string name="car_used_on_the_car_screen">Ahora usa Oma en la pantalla del automóvil</string>
 	<!-- Displayed on the Android Auto or CarPlay screen. Button to display maps on the car screen instead of a phone. Must be no more than 18 symbols! -->
 	<string name="car_continue_in_the_car">A la pantalla del auto</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->

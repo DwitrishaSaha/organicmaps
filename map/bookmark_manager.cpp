@@ -126,7 +126,7 @@ std::string BuildIndexFile(std::vector<std::string> const & filesForIndex)
   std::string content = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
       "<kml xmlns=\"http://earth.google.com/kml/2.0\">\n"
       "<Document>\n"
-      "<name>Organic Maps Bookmarks and Tracks</name>\n";
+      "<name>Oma Bookmarks and Tracks</name>\n";
   for (auto const & fileName : filesForIndex)
   {
     content.append("<NetworkLink><name>");

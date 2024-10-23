@@ -517,7 +517,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastUpgradeCheck = 1510;
-				ORGANIZATIONNAME = "Organic Maps";
+				ORGANIZATIONNAME = "Oma";
 				TargetAttributes = {
 					470015EE2342509C00EBF03D = {
 						CreatedOnToolsVersion = 10.2;

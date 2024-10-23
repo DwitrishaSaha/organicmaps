@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Γειa!\n\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το Organic Maps. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://omaps.app/get?kmz\n\nΚαλή διασκέδαση ταξιδεύοντας με το Organic Maps!";
+"share_bookmarks_email_body" = "Γειa!\n\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το Oma. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://omaps.app/get?kmz\n\nΚαλή διασκέδαση ταξιδεύοντας με το Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "Φορτώνονται τα αγαπημένα";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Η τοποθεσία σας δεν έχει προσδιοριστεί ακόμη";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Γεια, δες τις τοποθεσίες που έχω καρφιτσώσει στο Organic Maps!";
+"bookmark_share_email_subject" = "Γεια, δες τις τοποθεσίες που έχω καρφιτσώσει στο Oma!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Γεια, δες την τρέχουσα τοποθεσία μου στο χάρτη του Organic Maps!";
+"my_position_share_email_subject" = "Γεια, δες την τρέχουσα τοποθεσία μου στο χάρτη του Oma!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -202,7 +202,7 @@
 "done" = "Ολοκλήρωση";
 
 /* Prints version number in About dialog */
-"version" = "Έκδοση Organic Maps: %@";
+"version" = "Έκδοση Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Διαδρομές";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Ιστότοπος";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Νέα";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Για να το κατεβάσετε, χρειάζεστε περισσότερο χώρο. Διαγράψτε μη απαραίτητα δεδομένα.";
 
-"editor_sharing_title" = "Βελτίωσα τους χάρτες Organic Maps";
+"editor_sharing_title" = "Βελτίωσα τους χάρτες Oma";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Λεπτομερές σχόλιο";
 
-"editor_detailed_description" = "Οι προτεινόμενες αλλαγές θα σταλούν στην Κοινότητα του OpenStreetMap. Περιγράψτε τυχόν πρόσθετα στοιχεία που δεν μπορείτε να επεξεργαστείτε στο Organic Maps.";
+"editor_detailed_description" = "Οι προτεινόμενες αλλαγές θα σταλούν στην Κοινότητα του OpenStreetMap. Περιγράψτε τυχόν πρόσθετα στοιχεία που δεν μπορείτε να επεξεργαστείτε στο Oma.";
 
 "editor_more_about_osm" = "Περισσότερα σχετικά με το OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Ενεργοποιήστε τις Υπηρεσίες τοποθεσίας";
 
-"location_services_disabled_on_device_additional_message" = "Ή συνεχίστε να χρησιμοποιείτε το Organic Maps χωρίς Τοποθεσία";
+"location_services_disabled_on_device_additional_message" = "Ή συνεχίστε να χρησιμοποιείτε το Oma χωρίς Τοποθεσία";
 
 /* abbreviation for meters */
 "m" = "μ";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Φωτογραφίες, κριτικές, κράτηση";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Το μπόνους παραπομπής που λαμβάνετε για κάθε κράτηση μέσω αυτού του συνδέσμου πηγαίνει στην ανάπτυξη του Organic Maps.";
+"dialog_kayak_disclaimer" = "Το μπόνους παραπομπής που λαμβάνετε για κάθε κράτηση μέσω αυτού του συνδέσμου πηγαίνει στην ανάπτυξη του Oma.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Λεπτομέρειες στο Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Τσέκαρε";
 
-"recent_track_background_dialog_message" = "Το Organic Maps χρησιμοποιεί την τοποθεσία σας στο παρασκήνιο για την καταγραφή των πρόσφατων διαδρομών σας.";
+"recent_track_background_dialog_message" = "Το Oma χρησιμοποιεί την τοποθεσία σας στο παρασκήνιο για την καταγραφή των πρόσφατων διαδρομών σας.";
 
 "general_settings" = "Γενικές ρυθμίσεις";
 
@@ -1035,7 +1035,7 @@
 
 "power_managment_setting_manual_max" = "Πάντα";
 
-"enable_logging_warning_message" = "Αυτή η λειτουργία είναι ενεργοποιημένη για την καταγραφή ενεργειών για διαγνωστικούς σκοπούς. Αυτό βοηθά την ομάδα να εντοπίζει προβλήματα με την εφαρμογή. Να ενεργοποιείτε τη λειτουργία μόνο κατόπιν αιτήματος της υποστήριξης του Organic Maps.";
+"enable_logging_warning_message" = "Αυτή η λειτουργία είναι ενεργοποιημένη για την καταγραφή ενεργειών για διαγνωστικούς σκοπούς. Αυτό βοηθά την ομάδα να εντοπίζει προβλήματα με την εφαρμογή. Να ενεργοποιείτε τη λειτουργία μόνο κατόπιν αιτήματος της υποστήριξης του Oma.";
 
 "driving_options_title" = "Ρυθμίσεις δρομολόγησης";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Ο κύριος στόχος μας είναι να δημιουργήσουμε γρήγορους, εύχρηστους και με σεβασμό στην ιδιωτικότητα χάρτες που θα λατρέψετε.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Αυτή τη στιγμή το Organic Maps βρίσκεται στην οθόνη του κινητού";
+"car_used_on_the_phone_screen" = "Αυτή τη στιγμή το Oma βρίσκεται στην οθόνη του κινητού";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Αυτή τη στιγμή το Organic Maps βρίσκεται στην οθόνη του αυτοκινήτου.";
+"car_used_on_the_car_screen" = "Αυτή τη στιγμή το Oma βρίσκεται στην οθόνη του αυτοκινήτου.";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Συνέχεια στο κινητό";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Σύνδεσμος μενού";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Θα θέλατε να στείλετε μια αναφορά σφάλματος στους προγραμματιστές;\nΒασιζόμαστε στους χρήστες μας, καθώς οι Organic Maps δεν συλλέγουν αυτόματα καμία πληροφορία σφάλματος. Σας ευχαριστούμε εκ των προτέρων για την υποστήριξη των Organic Maps!";
+"bugreport_alert_message" = "Θα θέλατε να στείλετε μια αναφορά σφάλματος στους προγραμματιστές;\nΒασιζόμαστε στους χρήστες μας, καθώς οι Oma δεν συλλέγουν αυτόματα καμία πληροφορία σφάλματος. Σας ευχαριστούμε εκ των προτέρων για την υποστήριξη των Oma!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Ενεργοποίηση συγχρονισμού iCloud";

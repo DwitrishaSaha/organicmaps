@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Oma. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "Könyvjelzők letöltése";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Még nem határoztuk meg az aktuális helyzetét";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Nézze meg a Organic Maps jelzőmet";
+"bookmark_share_email_subject" = "Nézze meg a Oma jelzőmet";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Nézze meg a helyzetemet a Organic Maps térképen!";
+"my_position_share_email_subject" = "Nézze meg a helyzetemet a Oma térképen!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -202,7 +202,7 @@
 "done" = "Kész";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps verzió: %@";
+"version" = "Oma verzió: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Csoportok";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Honlap";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Újdonságok";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "A letöltéshez több szabad tárhelyre van szükség. Kérjük, töröld a szükségtelen adatokat.";
 
-"editor_sharing_title" = "Én fejlesztettem a Organic Maps térképeket";
+"editor_sharing_title" = "Én fejlesztettem a Oma térképeket";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Részletes megjegyzés";
 
-"editor_detailed_description" = "Javasolt változtatásait elküldjük az OpenStreetMap közösségnek. Írja le a további információkat, amelyek nem szerkeszthetők a Organic Maps-ben.";
+"editor_detailed_description" = "Javasolt változtatásait elküldjük az OpenStreetMap közösségnek. Írja le a további információkat, amelyek nem szerkeszthetők a Oma-ben.";
 
 "editor_more_about_osm" = "További részletek az OpenStreetMap-ról";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Helymeghatározó szolgáltatások bekapcsolása";
 
-"location_services_disabled_on_device_additional_message" = "Vagy folytassa az Organic Maps használatát helymeghatározás nélkül";
+"location_services_disabled_on_device_additional_message" = "Vagy folytassa az Oma használatát helymeghatározás nélkül";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Fényképek, vélemények, foglalás";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Az ezen a linken keresztül történő minden egyes foglalásért kapott ajánlói bónusz az Organic Maps fejlesztését szolgálja.";
+"dialog_kayak_disclaimer" = "Az ezen a linken keresztül történő minden egyes foglalásért kapott ajánlói bónusz az Oma fejlesztését szolgálja.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Részletek a Kayak-on";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Tekintse meg";
 
-"recent_track_background_dialog_message" = "A Organic Maps a geopozíciód használatával a háttérben rögzíti a legutóbb megtett utad.";
+"recent_track_background_dialog_message" = "A Oma a geopozíciód használatával a háttérben rögzíti a legutóbb megtett utad.";
 
 "general_settings" = "Általános beállítások";
 
@@ -1035,7 +1035,7 @@
 
 "power_managment_setting_manual_max" = "Maximális energiatakarékosság";
 
-"enable_logging_warning_message" = "Az opció bekapcsolja a diagnosztikai célú naplózást. Hasznos lehet a terméktámogatási csapatunknak, akik elhárítják az alkalmazás hibáit. Csak az Organic Maps terméktámogatásának kérésére kapcsold be ezt az opciót.";
+"enable_logging_warning_message" = "Az opció bekapcsolja a diagnosztikai célú naplózást. Hasznos lehet a terméktámogatási csapatunknak, akik elhárítják az alkalmazás hibáit. Csak az Oma terméktámogatásának kérésére kapcsold be ezt az opciót.";
 
 "driving_options_title" = "Útvonaltervezési lehetőségek";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Sebességjelzés";
 
-"download_map_carplay" = "Kérjük, töltsd le a térképeket a Organic Maps alkalmazásban az eszközödre";
+"download_map_carplay" = "Kérjük, töltsd le a térképeket a Oma alkalmazásban az eszközödre";
 
 "carplay_roundabout_exit" = "%@ kijárat";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/hu/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Fő célunk az, hogy gyors, az adatvédelemre fókuszáló, könnyen használható térképeket készítsünk, amelyeket szeretni fog.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Ön most az Organic Maps használja a telefon képernyőjén";
+"car_used_on_the_phone_screen" = "Ön most az Oma használja a telefon képernyőjén";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Ön most az Organic Mapset használja az autó képernyőjén";
+"car_used_on_the_car_screen" = "Ön most az Omaet használja az autó képernyőjén";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Folytassa a telefonban";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Menü link";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Szeretne hibajelentést küldeni a fejlesztőknek?\nFelhasználóinkra támaszkodunk, mivel az Organic Maps nem gyűjt automatikusan hibainformációkat. Előre is köszönjük, hogy támogatja az Organic Maps-et!";
+"bugreport_alert_message" = "Szeretne hibajelentést küldeni a fejlesztőknek?\nFelhasználóinkra támaszkodunk, mivel az Oma nem gyűjt automatikusan hibainformációkat. Előre is köszönjük, hogy támogatja az Oma-et!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud-szinkronizálás engedélyezése";

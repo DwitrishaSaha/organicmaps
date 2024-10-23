@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Oma. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "در حال بارگیری نشانه‌ها";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "مکان شما هنوز مشخص نشده است";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, check out my pin in Organic Maps!";
+"bookmark_share_email_subject" = "Hey, check out my pin in Oma!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, check out my current location on the Organic Maps map!";
+"my_position_share_email_subject" = "Hey, check out my current location on the Oma map!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "ایمیل";
@@ -202,7 +202,7 @@
 "done" = "انجام شد";
 
 /* Prints version number in About dialog */
-"version" = "نسخه Organic Maps: %@";
+"version" = "نسخه Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "مسیر";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "وب سایت";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "اخبار";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "برای دانلود، شما نیازمند فضای ذخیره سازی بیشتری هستید.لطفا داده‌های غیر ضروری خود را حذف کنید.";
 
-"editor_sharing_title" = "من نقشه‌های Organic Maps را بهبود بخشیدم";
+"editor_sharing_title" = "من نقشه‌های Oma را بهبود بخشیدم";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d  از  %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "اظهار نظر بیشتر";
 
-"editor_detailed_description" = "شما یک سری تغییرات در نقشه را برای انجمن OpenStreetMap ارسال کردید.جزئیات اضافی را که نتوانستید در Organic Maps ویرایش کنید را برایشان بنویسید.";
+"editor_detailed_description" = "شما یک سری تغییرات در نقشه را برای انجمن OpenStreetMap ارسال کردید.جزئیات اضافی را که نتوانستید در Oma ویرایش کنید را برایشان بنویسید.";
 
 "editor_more_about_osm" = "در مورد OpenStreetMap بیشتر بدانید";
 
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "بررسی کنید";
 
-"recent_track_background_dialog_message" = "Organic Maps  از اطلاعات موقعیت مکانی شما در پس ضمینه برای ذخیره مسیر‌هایی که اخیرا سفر کرده اید استفاده می کند.";
+"recent_track_background_dialog_message" = "Oma  از اطلاعات موقعیت مکانی شما در پس ضمینه برای ذخیره مسیر‌هایی که اخیرا سفر کرده اید استفاده می کند.";
 
 "general_settings" = "تنظیمات عمومی";
 
@@ -1035,7 +1035,7 @@
 
 "power_managment_setting_manual_max" = "حداکثر ذخیره انرژی";
 
-"enable_logging_warning_message" = "این گزینه ثبت گزارش را برای اهداف تشخیصی فعال می‌کند. برای کارکنان بخش پشتیبانی که مشکلات برنامه را عیب یابی می‌کنند، مفید باشد. این گزینه را تنها در صورت درخواست پشتیبانی Organic Maps فعال کنید.";
+"enable_logging_warning_message" = "این گزینه ثبت گزارش را برای اهداف تشخیصی فعال می‌کند. برای کارکنان بخش پشتیبانی که مشکلات برنامه را عیب یابی می‌کنند، مفید باشد. این گزینه را تنها در صورت درخواست پشتیبانی Oma فعال کنید.";
 
 "driving_options_title" = "گزینه‌های رانندگی";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "هشدارهای سرعت";
 
-"download_map_carplay" = "لطفا نقشه‌ها را در نرم افزار Organic Maps روی دستگاه خود دانلود کنید";
+"download_map_carplay" = "لطفا نقشه‌ها را در نرم افزار Oma روی دستگاه خود دانلود کنید";
 
 "carplay_roundabout_exit" = "خروجی %@";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */

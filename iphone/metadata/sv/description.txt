@@ -7,13 +7,13 @@
 • Mörkt läge för att skona ögonen
 • ... och många andra funktioner!
 
-Organic Maps är rent och ekologiskt, gjort med kärlek:
+Oma är rent och ekologiskt, gjort med kärlek:
 
 • Respekterar din personliga integritet
 • Sparar på ditt batteri
 • Förhindrar oförutsedda mobildataavgifter
 
-Organic Maps är fritt från spårare och annat ont:
+Oma är fritt från spårare och annat ont:
 
 • Ingen reklam
 • Ingen spårning
@@ -26,9 +26,9 @@ Organic Maps är fritt från spårare och annat ont:
 • Ingen skräpprogramvara
 • Fri från bekämpningsmedel
 
-På Organic Maps anser vi att personlig integritet är en grundläggande mänsklig rättighet:
+På Oma anser vi att personlig integritet är en grundläggande mänsklig rättighet:
 
-• Organic Maps är ett oberoende, gemenskapsdrivet projekt
+• Oma är ett oberoende, gemenskapsdrivet projekt
 • Källkoden är öppen
 • Kartdatan kommer från OpenStreetMap, som också är ett gemenskapsdrivet projekt
 • Vi skyddar din personliga integritet från techjättarnas vakande ögon
@@ -36,4 +36,4 @@ På Organic Maps anser vi att personlig integritet är en grundläggande mänskl
 
 Vägra övervakning. Välkomna friheten. Stöd gemenskapen.
 
-Prova Organic Maps!
+Prova Oma!

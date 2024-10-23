@@ -32,7 +32,7 @@
 	<string name="country_status_download_failed">Error durante la descarga</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Intentar otra vez</string>
-	<string name="about_menu_title">Acerca de Organic Maps</string>
+	<string name="about_menu_title">Acerca de Oma</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Gratis para todos, hecho con amor</string>
 	<!-- Text in About screen -->
@@ -49,7 +49,7 @@
 	<string name="unsupported_phone">La aplicación requiere OpenGL acelerado por hardware. Lamentablemente, su dispositivo no es compatible.</string>
 	<string name="download">Descargar</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Desconecte el cable USB o inserte una tarjeta de memoria SD para usar Organic Maps</string>
+	<string name="disconnect_usb_cable">Desconecte el cable USB o inserte una tarjeta de memoria SD para usar Oma</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">Libere primero espacio en la memoria SD o almacenamiento USB para usar la aplicación</string>
 	<string name="download_resources">Antes de comenzar, permita que descarguemos en su dispositivo un mapamundi general.\nSe requieren %s de almacenamiento.</string>
@@ -162,8 +162,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Notas</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Marcadores de Organic Maps compartidos con usted</string>
-	<string name="share_bookmarks_email_body">Hola!\n\Adjunto mis marcadores de la aplicación Organic Maps. Por favor, ábralos si tiene instalado Organic Maps. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://omaps.app/get?kmz\n¡Disfrute viajando con Organic Maps!</string>
+	<string name="share_bookmarks_email_subject">Marcadores de Oma compartidos con usted</string>
+	<string name="share_bookmarks_email_body">Hola!\n\Adjunto mis marcadores de la aplicación Oma. Por favor, ábralos si tiene instalado Oma. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://omaps.app/get?kmz\n¡Disfrute viajando con Oma!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Cargando marcadores</string>
 	<!-- Kmz file successful loading -->
@@ -172,7 +172,7 @@
 	<string name="load_kmz_failed">La carga de marcadores ha fallado. El archivo puede estar corrupto o ser defectuoso.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">La aplicación no reconoce el tipo de archivo:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">No se ha podido abrir el archivo %1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">Editar</string>
@@ -183,11 +183,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">La descarga del mapa está en curso ahora.</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">¡Mira mi ubicación actual en Organic Maps!. %1$s o %2$s ¿No tienes mapas offline? Descarga aquí: https://omaps.app/get</string>
+	<string name="my_position_share_sms">¡Mira mi ubicación actual en Oma!. %1$s o %2$s ¿No tienes mapas offline? Descarga aquí: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">¡Mira mi marcador en el mapa de Organic Maps!</string>
+	<string name="bookmark_share_email_subject">¡Mira mi marcador en el mapa de Oma!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">¡Mira mi ubicación actual en el mapa en Organic Maps!</string>
+	<string name="my_position_share_email_subject">¡Mira mi ubicación actual en el mapa en Oma!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Hola:\n\nAhora estoy aquí: %1$s. Haz clic en este enlace %2$s o esta %3$s para verlo en el mapa.\n\nGracias.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -249,7 +249,7 @@
 	<string name="menu">Menú</string>
 	<!-- Text in menu -->
 	<string name="website">Sitio web</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Noticias</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Comentarios</string>
@@ -503,7 +503,7 @@
 	<!-- Title for OSM note section in the editor -->
 	<string name="editor_other_info">Nota para los voluntarios de OpenStreetMap (opcional)</string>
 	<!-- Hint of the input field in the OSM note section of the editor -->
-	<string name="editor_note_hint">Describa los errores en el mapa o las cosas que no se pueden editar con Organic Maps</string>
+	<string name="editor_note_hint">Describa los errores en el mapa o las cosas que no se pueden editar con Oma</string>
 	<!-- Information about OSM at the top of the editing page -->
 	<string name="editor_about_osm">Sus ediciones se cargan en la base de datos pública <a href="https://wiki.openstreetmap.org/wiki/ES:Acerca_de_OpenStreetMap">OpenStreetMap</a>. Por favor, no añada información personal o protegida por derechos de autor.</string>
 	<string name="editor_more_about_osm">Más acerca de OpenStreetMap</string>
@@ -511,7 +511,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Operador: %s</string>
 	<string name="editor_category_unsuitable_title">¿No halla una categoría adecuada?</string>
-	<string name="editor_category_unsuitable_text">Organic Maps permite añadir únicamente categorías de puntos sencillos, es decir, no ciudades, carreteras, lagos, contornos de edificios, etc. Por favor, añada dichas categorías directamente a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte nuestra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guía</a> para obtener instrucciones detalladas paso a paso.</string>
+	<string name="editor_category_unsuitable_text">Oma permite añadir únicamente categorías de puntos sencillos, es decir, no ciudades, carreteras, lagos, contornos de edificios, etc. Por favor, añada dichas categorías directamente a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte nuestra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guía</a> para obtener instrucciones detalladas paso a paso.</string>
 	<string name="downloader_no_downloaded_maps_title">No ha descargado ningún mapa</string>
 	<string name="downloader_no_downloaded_maps_message">Descargue mapas para encontrar la ubicación y navegar sin conexión.</string>
 	<string name="current_location_unknown_error_title">La ubicación actual es desconocida.</string>
@@ -532,7 +532,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">Fotos, opiniones, reservas</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">La bonificación por recomendación recibida por cada reserva a través de este enlace se destina al desarrollo de Organic Maps.</string>
+	<string name="dialog_kayak_disclaimer">La bonificación por recomendación recibida por cada reserva a través de este enlace se destina al desarrollo de Oma.</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Detalles en Kayak</string>
 	<string name="placepage_edit_bookmark_button">Editar marcador</string>
@@ -577,7 +577,7 @@
 	<string name="mobile_data_option_ask">Preguntar siempre</string>
 	<string name="traffic_update_maps_text">Para mostrar los datos de tráfico, deben actualizarse los mapas.</string>
 	<string name="big_font">Aumentar el tamaño de fuente en el mapa</string>
-	<string name="traffic_update_app">Por favor, actualice Organic Maps</string>
+	<string name="traffic_update_app">Por favor, actualice Oma</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">Los datos de tráfico no están disponibles</string>
 	<string name="enable_logging">Habilitar historial</string>
@@ -666,7 +666,7 @@
 	<string name="power_managment_setting_never">Nunca</string>
 	<string name="power_managment_setting_auto">Automático</string>
 	<string name="power_managment_setting_manual_max">Ahorro de energía máximo</string>
-	<string name="enable_logging_warning_message">Esta opción está habilitada para las acciones de registro con fines de diagnóstico. Esto ayuda a nuestro equipo a identificar problemas con la aplicación. Habilite la opción solo a petición del apoyo de Organic Maps.</string>
+	<string name="enable_logging_warning_message">Esta opción está habilitada para las acciones de registro con fines de diagnóstico. Esto ayuda a nuestro equipo a identificar problemas con la aplicación. Habilite la opción solo a petición del apoyo de Oma.</string>
 	<string name="access_rules_author_only">Edición en línea</string>
 	<string name="driving_options_title">Opciones de enrutamiento</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -771,7 +771,7 @@
 	<string name="splash_subtitle">Datos de mapas de OpenStreetMap</string>
 	<!-- A link to the TTS FAQ -->
 	<string name="tts_info_link">https://organicmaps.app/es/faq/instrucciones-de-voz-tts-en-android/</string>
-	<!-- Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/es/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/ES:Acerca_de_OpenStreetMap</string>
@@ -796,9 +796,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Nuestro principal objetivo es crear mapas rápidos, centrados en la privacidad y fáciles de utilizar que le encantarán.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Ahora usa Organic Maps en la pantalla del teléfono</string>
+	<string name="car_used_on_the_phone_screen">Ahora usa Oma en la pantalla del teléfono</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ahora usa Organic Maps en la pantalla del coche</string>
+	<string name="car_used_on_the_car_screen">Ahora usa Oma en la pantalla del coche</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Se ha conectado a Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

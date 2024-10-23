@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 """
-First lists tags used by Organic Maps
-Then, popular tags among selected keys (see find_popular_taginfo for list) which are not yet used by Organic Maps are listed
+First lists tags used by Oma
+Then, popular tags among selected keys (see find_popular_taginfo for list) which are not yet used by Oma are listed
 """
 
 import csv

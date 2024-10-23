@@ -6,13 +6,13 @@
 • Minden szükséges hely könyvjelzőbe helyezése, KML, KMZ, GPX importálása és megosztása
 • Éjszakai üzemmód szemünk védelméért
 
-Az Organic Maps tiszta és organikus, szeretettel készült:
+Az Oma tiszta és organikus, szeretettel készült:
 
 • Tiszteletben tartja a magánéletét
 • Kíméli az akkumulátort
 • Nem generál váratlan mobiladat-forgalmat
 
-Az Organic Maps mentes a nyomkövetőktől és egyéb vackoktól:
+Az Oma mentes a nyomkövetőktől és egyéb vackoktól:
 
 • Reklám nélkül
 • Nyomkövetés nélkül
@@ -25,9 +25,9 @@ Az Organic Maps mentes a nyomkövetőktől és egyéb vackoktól:
 • Crapware nélkül
 • Növényvédő szer nélkül
 
-Az Organic Mapsnél hiszünk abban, hogy a magánélet alapvető emberi jog:
+Az Omanél hiszünk abban, hogy a magánélet alapvető emberi jog:
 
-• Az Organic Maps egy független közösség által irányított projekt.
+• Az Oma egy független közösség által irányított projekt.
 • A kód nyílt forráskódú
 • A térképek adatai az OpenStreetMap-ről származnak, amely szintén közösségi projekt.
 • Védjük magánéletét a Big Tech kíváncsi szemeitől.
@@ -35,4 +35,4 @@ Az Organic Mapsnél hiszünk abban, hogy a magánélet alapvető emberi jog:
 
 Utasítsa el a megfigyelést, fogadja el a szabadságát, és támogassa a közösséget.
 
-Próbálja ki az Organic Maps-et!
+Próbálja ki az Oma-et!

@@ -41,7 +41,7 @@
 	<!-- SECTION: Other translations -->
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">Aina ya faili haitambuliwi na programu:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">Imeshindwa kufungua faili %1$s\n\n%2$s</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
 	<string name="data_version">Data ya OpenStreetMap: %s</string>
@@ -61,7 +61,7 @@
 	<string name="pref_tts_test_voice_title">Jaribu maelekezo ya sauti (TTS, maandishi-kwa-hotuba)</string>
 	<!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
 	<string name="pref_tts_playing_test_voice">Angalia mipangilio ya sauti au ya mfumo ya kubadilisha maandishi-hadi-hotuba ikiwa husikii sauti sasa.</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">Habari</string>
 	<!-- Button in the main Help dialog -->
 	<string name="faq">Maswali na majibu</string>
@@ -208,7 +208,7 @@
 	<string name="power_managment_setting_never">Kamwe</string>
 	<string name="power_managment_setting_auto">Kiotomatiki</string>
 	<string name="power_managment_setting_manual_max">Upeo wa kuhifadhi nishati</string>
-	<string name="enable_logging_warning_message">Chaguo huwasha data kwa madhumuni ya uchunguzi. Itakuwa muhimu kwa wafanyakazi wetu ambao wanatatua matatizo ya programu. Washa chaguo hili kwa maombi ya mhudumu wa Organic Maps tu.</string>
+	<string name="enable_logging_warning_message">Chaguo huwasha data kwa madhumuni ya uchunguzi. Itakuwa muhimu kwa wafanyakazi wetu ambao wanatatua matatizo ya programu. Washa chaguo hili kwa maombi ya mhudumu wa Oma tu.</string>
 	<string name="access_rules_author_only">Uhariri mtandaoni</string>
 	<string name="driving_options_title">Machaguo ya njia</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->

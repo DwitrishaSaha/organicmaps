@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "您好！\n\n附件是我的書籤，請在 Organic Maps 中打開。如果您沒有安裝 Organic Maps，可以在這裡下載: https://omaps.app/get?kmz\n\n祝您使用 Organic Maps 旅行愉快！";
+"share_bookmarks_email_body" = "您好！\n\n附件是我的書籤，請在 Oma 中打開。如果您沒有安裝 Oma，可以在這裡下載: https://omaps.app/get?kmz\n\n祝您使用 Oma 旅行愉快！";
 
 /* message title of loading file */
 "load_kmz_title" = "正在載入書籤…";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "您的位置尚未確定";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "嘿，看看我在 Organic Maps 上標記的圖釘吧！";
+"bookmark_share_email_subject" = "嘿，看看我在 Oma 上標記的圖釘吧！";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "嗨，到 Organic Maps 查看我目前的位置！";
+"my_position_share_email_subject" = "嗨，到 Oma 查看我目前的位置！";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "電子郵件";
@@ -202,7 +202,7 @@
 "done" = "完成";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps 版本：%@";
+"version" = "Oma 版本：%@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "軌跡";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "網站";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "新聞";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "為了下載，您需要更多的儲存空間。請刪除不必要的檔案。";
 
-"editor_sharing_title" = "我改進了 Organic Maps 地圖";
+"editor_sharing_title" = "我改進了 Oma 地圖";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d / %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "詳細註釋";
 
-"editor_detailed_description" = "您建議的變更將傳送至 OpenStreetMap 社群。說明無法在 Organic Maps 中編輯的詳細資料。";
+"editor_detailed_description" = "您建議的變更將傳送至 OpenStreetMap 社群。說明無法在 Oma 中編輯的詳細資料。";
 
 "editor_more_about_osm" = "關於 OpenStreetMap 的更多資訊";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. 開啟“定位服務”";
 
-"location_services_disabled_on_device_additional_message" = "或繼續使用 Organic Maps，但無法定位到您目前所在的位置。";
+"location_services_disabled_on_device_additional_message" = "或繼續使用 Oma，但無法定位到您目前所在的位置。";
 
 /* abbreviation for meters */
 "m" = "公尺";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "照片、評論、預訂";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "每次通過此鏈接預定所獲得的推薦獎金將用於 Organic Maps 的開發。";
+"dialog_kayak_disclaimer" = "每次通過此鏈接預定所獲得的推薦獎金將用於 Oma 的開發。";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Kayak 上的詳細資訊";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "查看";
 
-"recent_track_background_dialog_message" = "Organic Maps 在後臺使用您的位置記錄您最近去過的路線。";
+"recent_track_background_dialog_message" = "Oma 在後臺使用您的位置記錄您最近去過的路線。";
 
 "general_settings" = "一般設定";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "超速警告";
 
-"download_map_carplay" = "將Organic Maps 應用程式中的地圖下載至個人裝置中";
+"download_map_carplay" = "將Oma 應用程式中的地圖下載至個人裝置中";
 
 "carplay_roundabout_exit" = "第 %@ 个出口";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/zh-Hans/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "我們的主要目標是構建您會喜歡的快速、注重隱私、易於使用的地圖。";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "您現在正在手機螢幕上使用 Organic Maps";
+"car_used_on_the_phone_screen" = "您現在正在手機螢幕上使用 Oma";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "您現在正在汽車螢幕上使用 Organic Maps";
+"car_used_on_the_car_screen" = "您現在正在汽車螢幕上使用 Oma";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "在手機上繼續";
@@ -1323,7 +1323,7 @@
 "website_menu" = "選單連結";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "您想向開發人員發送錯誤報告嗎？\n由於 Organic Maps 不會自動收集任何錯誤資訊，因此我們只能依靠用戶的協助。感謝您對 Organic Maps 的支持！";
+"bugreport_alert_message" = "您想向開發人員發送錯誤報告嗎？\n由於 Oma 不會自動收集任何錯誤資訊，因此我們只能依靠用戶的協助。感謝您對 Oma 的支持！";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "啟用 iCloud 同步";

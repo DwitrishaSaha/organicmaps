@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Oma. If you don't have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with Oma!";
 
 /* message title of loading file */
 "load_kmz_title" = "Loading Bookmarks";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Your location hasn't been determined yet";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, check out my pin in Organic Maps!";
+"bookmark_share_email_subject" = "Hey, check out my pin in Oma!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, check out my current location on the Organic Maps map!";
+"my_position_share_email_subject" = "Hey, check out my current location on the Oma map!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -202,7 +202,7 @@
 "done" = "Done";
 
 /* Prints version number in About dialog */
-"version" = "Toleo la Organic Maps: %@";
+"version" = "Toleo la Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Website";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Habari";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "To download, you need more space. Please delete any unnecessary data.";
 
-"editor_sharing_title" = "I improved the Organic Maps maps";
+"editor_sharing_title" = "I improved the Oma maps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d of %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Detailed comment";
 
-"editor_detailed_description" = "Your suggested map changes will be sent to the OpenStreetMap community. Please describe any additional details that cannot be edited in Organic Maps.";
+"editor_detailed_description" = "Your suggested map changes will be sent to the OpenStreetMap community. Please describe any additional details that cannot be edited in Oma.";
 
 "editor_more_about_osm" = "More about OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Washa Huduma za Mahali";
 
-"location_services_disabled_on_device_additional_message" = "Au endelea kutumia Organic Maps bila Mahali";
+"location_services_disabled_on_device_additional_message" = "Au endelea kutumia Oma bila Mahali";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Check out";
 
-"recent_track_background_dialog_message" = "Organic Maps uses your location in the background to record your recently travelled route.";
+"recent_track_background_dialog_message" = "Oma uses your location in the background to record your recently travelled route.";
 
 "general_settings" = "General settings";
 
@@ -1035,7 +1035,7 @@
 
 "power_managment_setting_manual_max" = "Upeo wa kuhifadhi nishati";
 
-"enable_logging_warning_message" = "Chaguo huwasha data kwa madhumuni ya uchunguzi. Itakuwa muhimu kwa wafanyakazi wetu ambao wanatatua matatizo ya programu. Washa chaguo hili kwa maombi ya mhudumu wa Organic Maps tu.";
+"enable_logging_warning_message" = "Chaguo huwasha data kwa madhumuni ya uchunguzi. Itakuwa muhimu kwa wafanyakazi wetu ambao wanatatua matatizo ya programu. Washa chaguo hili kwa maombi ya mhudumu wa Oma tu.";
 
 "driving_options_title" = "Machaguo ya njia";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Onyo la kasi";
 
-"download_map_carplay" = "Tafadhali pakua ramani katika programu tumizi ya Organic Maps kwenye kifaa chako";
+"download_map_carplay" = "Tafadhali pakua ramani katika programu tumizi ya Oma kwenye kifaa chako";
 
 "carplay_roundabout_exit" = "Kutoka kwa %@";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */

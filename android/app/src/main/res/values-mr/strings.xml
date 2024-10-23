@@ -32,7 +32,7 @@
 	<string name="country_status_download_failed">डाउनलोड अयशस्वी</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">पुन्हा प्रयत्न करा</string>
-	<string name="about_menu_title">Organic Maps बद्दल</string>
+	<string name="about_menu_title">Oma बद्दल</string>
 	<!-- Text in About screen -->
 	<string name="about_proposition_2">• बॅटरी संपत नाही, ऑफलाइन कार्य करते</string>
 	<!-- Text in About screen -->
@@ -43,7 +43,7 @@
 	<string name="unsupported_phone">ह्या ऍपला हार्डवेअर प्रवेगक OpenGL आवश्यक आहे. दुर्दैवाने, तुमच्या उपकरणाला ह्याचा आधार नाही.</string>
 	<string name="download">डाउनलोड करा</string>
 	<!-- Used in DownloadResources startup screen -->
-	<string name="disconnect_usb_cable">Organic Maps वापरण्यासाठी कृपया USB केबल काढून टाका किंवा मेमरी कार्ड घाला</string>
+	<string name="disconnect_usb_cable">Oma वापरण्यासाठी कृपया USB केबल काढून टाका किंवा मेमरी कार्ड घाला</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="not_enough_free_space_on_sdcard">कृपया ऍप वापरण्यासाठी प्रथम SD कार्ड/USB स्टोरेजवरील काही जागा मोकळी करा</string>
 	<string name="download_resources">ऍपचा वापर सुरू करण्यापूर्वी, आम्हाला तुमच्या उपकरणावर जगाचा सामान्य नकाशा डाउनलोड करण्याची परवानगी द्या.\nते %s जागा वापरेल.</string>
@@ -140,8 +140,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">चिठ्ठया</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Organic Maps द्वारे तुम्हाला खूणपत्रे सामायिक केले</string>
-	<string name="share_bookmarks_email_body">नमस्कार!\n\nOrganic Maps ऍप मधील माझे खूणपत्रे संलग्न केले आहेत. तुम्ही Organic Maps इन्स्टॉल केले असल्यास हे खूणपत्रे उघडा. इन्स्टॉल केले नसल्यास, पुढील दुव्यावर जाऊन तुमच्या iOS किंवा अँड्रॉइड उपकरणावर हे डाउनलोड करा: https://omaps.app/get?kmz\n\nOrganic Maps सह प्रवासाचा आनंद घ्या!</string>
+	<string name="share_bookmarks_email_subject">Oma द्वारे तुम्हाला खूणपत्रे सामायिक केले</string>
+	<string name="share_bookmarks_email_body">नमस्कार!\n\nOma ऍप मधील माझे खूणपत्रे संलग्न केले आहेत. तुम्ही Oma इन्स्टॉल केले असल्यास हे खूणपत्रे उघडा. इन्स्टॉल केले नसल्यास, पुढील दुव्यावर जाऊन तुमच्या iOS किंवा अँड्रॉइड उपकरणावर हे डाउनलोड करा: https://omaps.app/get?kmz\n\nOma सह प्रवासाचा आनंद घ्या!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">खूणपत्रे वाचत आहे</string>
 	<!-- Kmz file successful loading -->
@@ -150,7 +150,7 @@
 	<string name="load_kmz_failed">खूणपत्रे वाचण्यात अपयश. फाइल दूषित किंवा बिघडलेली असू शकते.</string>
 	<!-- Failed to recognize the format of a bookmarks or tracks file. -->
 	<string name="unknown_file_type">फाइल प्रकार ॲपद्वारे ओळखला जात नाही:\n%1$s</string>
-	<!-- Failed to open a bookmarks or tracks file in Organic Maps. -->
+	<!-- Failed to open a bookmarks or tracks file in Oma. -->
 	<string name="failed_to_open_file">फाइल उघडण्यात अयशस्वी%1$s\n\n%2$s</string>
 	<!-- resource for context menu -->
 	<string name="edit">संपादन</string>
@@ -161,11 +161,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">नकाशा डाउनलोड होत आहे</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">मी आता इथे आहे %1$s किंवा %2$s Organic Maps डाउनलोड करा: https://omaps.app/get</string>
+	<string name="my_position_share_sms">मी आता इथे आहे %1$s किंवा %2$s Oma डाउनलोड करा: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Organic Maps द्वारे एक खूणपत्र पाठवत आहे!</string>
+	<string name="bookmark_share_email_subject">Oma द्वारे एक खूणपत्र पाठवत आहे!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Organic Maps द्वारे माझे वर्तमान स्थान पाठवत आहे!</string>
+	<string name="my_position_share_email_subject">Oma द्वारे माझे वर्तमान स्थान पाठवत आहे!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">नमस्कार,\n\nमी आता इथे आहे: %1$s. नकाशावर ठिकाण पाहण्यासाठी या %2$s किंवा या %3$s वर क्लिक करा.\n\nआभारी.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -221,7 +221,7 @@
 	<string name="search_show_on_map">नकाशावर पहा</string>
 	<!-- Text in menu -->
 	<string name="website">संकेतस्थळ</string>
-	<!-- Text in About menu, opens Organic Maps news website -->
+	<!-- Text in About menu, opens Oma news website -->
 	<string name="news">बातम्या</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">अभिप्राय</string>
@@ -541,7 +541,7 @@
 	<string name="mobile_data_option_ask">नेहमी विचारा</string>
 	<string name="traffic_update_maps_text">वाहतूक माहिती दाखवण्यासाठी नकाशे अद्ययावत करणे आवश्यक आहे.</string>
 	<string name="big_font">नकाशावर टंकाचा (फॉन्टचा) आकार वाढवा</string>
-	<string name="traffic_update_app">कृपया Organic Maps अद्ययावत करा</string>
+	<string name="traffic_update_app">कृपया Oma अद्ययावत करा</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">वाहतूक माहिती उपलब्ध नाही</string>
 	<string name="enable_logging">लॉग चालू करा</string>
@@ -731,7 +731,7 @@
 	<string name="enable_show_on_lock_screen">लॉक पटलावर (स्क्रीनवर) दाखवा</string>
 	<!-- Description in preferences -->
 	<string name="enable_show_on_lock_screen_description">चालू असल्यास, ऍप चालू असताना प्रत्येक वेळी तुम्हाला तुमचे उपकरण अनलॉक करण्याची आवश्यकता नाही.</string>
-	<!-- Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/mr/</string>
 	<!-- App Tip #00 -->
 	<string name="app_tip_00">आमचे समुदाय-निर्मित नकाशे वापरल्याबद्दल धन्यवाद!</string>

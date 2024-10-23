@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Salam!\n\nOrganic Maps əlfəcinlərim əlavə olunub. Zəhmət olmasa Organic Maps-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://omaps.app/get?kmz\n\nOrganic Maps ilə səyahətdən həzz alın!";
+"share_bookmarks_email_body" = "Salam!\n\nOma əlfəcinlərim əlavə olunub. Zəhmət olmasa Oma-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://omaps.app/get?kmz\n\nOma ilə səyahətdən həzz alın!";
 
 /* message title of loading file */
 "load_kmz_title" = "Əlfəcinlər yüklənir";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Məkanınız hələ müəyyən edilməyib";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Salam, Organic Maps xəritəsində mənim pin kodumu yoxlayın!";
+"bookmark_share_email_subject" = "Salam, Oma xəritəsində mənim pin kodumu yoxlayın!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, Organic Maps'da mənim hal-hazırda olduğum ünvana baxın!";
+"my_position_share_email_subject" = "Hey, Oma'da mənim hal-hazırda olduğum ünvana baxın!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-poçt";
@@ -202,7 +202,7 @@
 "done" = "Bitdi";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps versiyası: %@";
+"version" = "Oma versiyası: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Marşrutlari";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Veb sayt";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Xəbərlər";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Endirmək üçün daha çox yerə ehtiyacınız var. Zəhmət olmasa önəmli olmayan məlumatları silin.";
 
-"editor_sharing_title" = "Organic Maps xəritələrini təkmilləşdirdim";
+"editor_sharing_title" = "Oma xəritələrini təkmilləşdirdim";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Ətraflı şərh";
 
-"editor_detailed_description" = "Təklif etdiyiniz dəyişikliklər OpenStreetMap icmasına yerləşdiriləcək. Zəhmət olmasa Organic Maps'da redaktə edilə bilməyən əlavə detalları izah edin.";
+"editor_detailed_description" = "Təklif etdiyiniz dəyişikliklər OpenStreetMap icmasına yerləşdiriləcək. Zəhmət olmasa Oma'da redaktə edilə bilməyən əlavə detalları izah edin.";
 
 "editor_more_about_osm" = "OpenStreetMap haqqında əlavə məlumat";
 
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Şəkillər, rəylər, rezervasiya";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Bu link vasitəsilə edilən hər rezervasiya üçün alınan tövsiyə bonusu Organic Maps'in inkişafına sərf olunur.";
+"dialog_kayak_disclaimer" = "Bu link vasitəsilə edilən hər rezervasiya üçün alınan tövsiyə bonusu Oma'in inkişafına sərf olunur.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Xizək sürmə haqqında təfərrüatlar";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Yoxla";
 
-"recent_track_background_dialog_message" = "Organic Maps son səyahət etdiyiniz marşrutu qeyd etmək üçün arxa fonda geolokasiyadan istifadə edir.";
+"recent_track_background_dialog_message" = "Oma son səyahət etdiyiniz marşrutu qeyd etmək üçün arxa fonda geolokasiyadan istifadə edir.";
 
 "general_settings" = "Ümumi Parametrlər";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Sürət xəbərdarlıqları";
 
-"download_map_carplay" = "Organic Maps tətbiqindən xəritələri cihazınıza endirin";
+"download_map_carplay" = "Oma tətbiqindən xəritələri cihazınıza endirin";
 
 "carplay_roundabout_exit" = "%@ çıxın";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/tr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Our main goal is to build fast, privacy-focused, easy-to-use maps that you will love.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "İndi telefon ekranında Organic Maps istifadə edirsiniz";
+"car_used_on_the_phone_screen" = "İndi telefon ekranında Oma istifadə edirsiniz";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Hazırda avtomobil ekranında Organic Maps istifadə edirsiniz";
+"car_used_on_the_car_screen" = "Hazırda avtomobil ekranında Oma istifadə edirsiniz";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Telefonda davam edin";

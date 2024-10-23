@@ -1,5 +1,5 @@
 # Sometimes a few different OSM tags are used interchangeably to map the same feature.
-# Or there might be some difference between tags usage but it doesn't matter in the context of Organic Maps.
+# Or there might be some difference between tags usage but it doesn't matter in the context of Oma.
 # For such cases we can rename/replace/merge one tag into the other to avoid duplicating style rules, translations, etc.
 #
 # E.g.

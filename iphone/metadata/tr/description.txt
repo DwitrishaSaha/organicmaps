@@ -6,13 +6,13 @@
 • İhtiyacınız olanları yer imlerine ekleyin, KML/KMZ'yi içe aktarın ve paylaşın (GPX desteği de planlanıyor)
 • Gözlerinizi korumak için karanlık mod
 
-Organic Maps, sevgiyle yapılmış saf ve organiktir:
+Oma, sevgiyle yapılmış saf ve organiktir:
 
 • Gizliliğinize saygı duyar
 • Pilinizi korur
 • Beklenmeyen mobil veri ücretleri yok
 
-Organic Maps, izleyici ve diğer kötü şeylerden arınmıştır:
+Oma, izleyici ve diğer kötü şeylerden arınmıştır:
 
 • Reklam yok
 • İzleme yok
@@ -25,9 +25,9 @@ Organic Maps, izleyici ve diğer kötü şeylerden arınmıştır:
 • Crapware yok
 • Böcek ilacı yok
 
-Organic Maps'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
+Oma'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
-• Organic Maps, bağımsız bir topluluk tarafından yönlendirilen bir projedir
+• Oma, bağımsız bir topluluk tarafından yönlendirilen bir projedir
 • Açık kaynak kodludur
 • Harita verileri, yine topluluk odaklı bir proje olan OpenStreetMap'ten alınmıştır
 • Gizliliğinizi Big Tech'in meraklı gözlerinden koruyoruz
@@ -35,4 +35,4 @@ Organic Maps'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
 Gözetlemeyi reddedin - özgürlüğünüzü kucaklayın.
 
-Organic Maps'i deneyin!
+Oma'i deneyin!

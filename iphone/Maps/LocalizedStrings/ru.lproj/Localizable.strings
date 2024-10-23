@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Здравствуйте!\n\nВ прикреплённом файле мои метки из офлайновых карт Organic Maps. Для того чтобы открыть этот файл, вам потребуется приложение Organic Maps, которое можно установить по ссылке: https://omaps.app/get?kmz\n\nСпасибо!";
+"share_bookmarks_email_body" = "Здравствуйте!\n\nВ прикреплённом файле мои метки из офлайновых карт Oma. Для того чтобы открыть этот файл, вам потребуется приложение Oma, которое можно установить по ссылке: https://omaps.app/get?kmz\n\nСпасибо!";
 
 /* message title of loading file */
 "load_kmz_title" = "Загрузка меток";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Ваше местоположение ещё не определено";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Смотри мою метку на карте Organic Maps";
+"bookmark_share_email_subject" = "Смотри мою метку на карте Oma";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Посмотри на карте Organic Maps, где я сейчас нахожусь";
+"my_position_share_email_subject" = "Посмотри на карте Oma, где я сейчас нахожусь";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -202,7 +202,7 @@
 "done" = "Готово";
 
 /* Prints version number in About dialog */
-"version" = "Версия Organic Maps: %@";
+"version" = "Версия Oma: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Треки";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Вебсайт";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens Oma news website */
 "news" = "Новости";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Для загрузки требуется больше свободного места. Пожалуйста, удалите ненужные данные.";
 
-"editor_sharing_title" = "Я улучшил карты Organic Maps";
+"editor_sharing_title" = "Я улучшил карты Oma";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d из %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Подробный комментарий";
 
-"editor_detailed_description" = "Предложенные вами изменения на карте будут отправлены в OpenStreetMap. Опишите дополнительные сведения об объекте, которые Organic Maps не позволяет отредактировать.";
+"editor_detailed_description" = "Предложенные вами изменения на карте будут отправлены в OpenStreetMap. Опишите дополнительные сведения об объекте, которые Oma не позволяет отредактировать.";
 
 "editor_more_about_osm" = "Подробнее об OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Включите Службы геолокации";
 
-"location_services_disabled_on_device_additional_message" = "Или продолжите использование Organic Maps без определения местоположения";
+"location_services_disabled_on_device_additional_message" = "Или продолжите использование Oma без определения местоположения";
 
 /* abbreviation for meters */
 "m" = "м";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Фотографии, отзывы, бронирование";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Реферальный бонус, полученный за каждое бронирование по этой ссылке, идёт на разработку Organic Maps.";
+"dialog_kayak_disclaimer" = "Реферальный бонус, полученный за каждое бронирование по этой ссылке, идёт на разработку Oma.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Подробнее на Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Посмотри";
 
-"recent_track_background_dialog_message" = "Organic Maps использует вашу геопозицию в фоновом режиме для записи недавно пройденного пути.";
+"recent_track_background_dialog_message" = "Oma использует вашу геопозицию в фоновом режиме для записи недавно пройденного пути.";
 
 "general_settings" = "Общие настройки";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Инфо о камерах";
 
-"download_map_carplay" = "Скачайте карты в приложении Organic Maps на своём устройстве";
+"download_map_carplay" = "Скачайте карты в приложении Oma на своём устройстве";
 
 "carplay_roundabout_exit" = "%@ съезд";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/ru/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Наша главная цель — создать быстрые, конфиденциальные и простые в использовании карты, которые вам понравятся.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Сейчас Вы используете Organic Maps на экране телефона";
+"car_used_on_the_phone_screen" = "Сейчас Вы используете Oma на экране телефона";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Сейчас Вы используете Organic Maps на экране автомобиля";
+"car_used_on_the_car_screen" = "Сейчас Вы используете Oma на экране автомобиля";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Продолжить в телефоне";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Ссылка на меню";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Хотите отправить разработчикам сообщение об ошибке?\nМы полагаемся на наших пользователей, так как Organic Maps не собирает информацию об ошибках автоматически. Заранее спасибо за поддержку Organic Maps!";
+"bugreport_alert_message" = "Хотите отправить разработчикам сообщение об ошибке?\nМы полагаемся на наших пользователей, так как Oma не собирает информацию об ошибках автоматически. Заранее спасибо за поддержку Oma!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Включить синхронизацию с iCloud";
