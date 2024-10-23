@@ -252,7 +252,6 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
 
   private boolean prepareFilesDownload(boolean showMap)
   {
-    // First, check the size of the files to download using the existing logic
     final int bytes = nativeGetBytesToDownload();
     if (bytes == 0)
     {
@@ -271,32 +270,9 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       mProgress.setProgressCompat(0, true);
     }
     else
-    {
       finishFilesDownload(bytes);
-    }
-
-    // New section: Download specific regions (India, Assam, and Arunachal Pradesh)
-    downloadSpecificRegions();
 
     return true;
-  }
-
-  // New method to download India, Assam, and Arunachal Pradesh
-  private void downloadSpecificRegions()
-  {
-    // Define the country and states to download
-    String[] regionsToDownload = {"IN"};
-
-    for (String regionId : regionsToDownload)
-    {
-      // Get the status for the region (e.g., India, Assam, Arunachal Pradesh)
-      int status = MapManager.nativeGetStatus(regionId);
-      if (status != CountryItem.STATUS_DONE)
-      {
-        // If the region is not downloaded, start downloading
-        MapManager.nativeDownload(regionId);
-      }
-    }
   }
 
   private void initViewsAndListeners()
