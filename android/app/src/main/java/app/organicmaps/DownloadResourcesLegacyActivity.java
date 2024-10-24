@@ -92,6 +92,7 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     void onFinish(int errorCode);
   }
 
+  // Listens for location updates to determine the user's current country.
   private final LocationListener mLocationListener = new LocationListener()
   {
     @Override
@@ -128,6 +129,7 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     }
   };
 
+  // Listener to monitor progress and completion of resource downloads.
   private final Listener mResourcesDownloadListener = new Listener()
   {
     @Override
@@ -154,6 +156,7 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     }
   };
 
+  // Callback for country map downloads, updates UI or handles failures.
   private final MapManager.StorageCallback mCountryDownloadListener = new MapManager.StorageCallback()
   {
     @Override
@@ -166,14 +169,14 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
 
         switch (item.newStatus)
         {
-        case CountryItem.STATUS_DONE:
-          mAreResourcesDownloaded = true;
-          showMap();
-          return;
+          case CountryItem.STATUS_DONE:
+            mAreResourcesDownloaded = true;
+            showMap();
+            return;
 
-        case CountryItem.STATUS_FAILED:
-          MapManager.showError(DownloadResourcesLegacyActivity.this, item, null);
-          return;
+          case CountryItem.STATUS_FAILED:
+            MapManager.showError(DownloadResourcesLegacyActivity.this, item, null);
+            return;
         }
       }
     }
@@ -198,6 +201,9 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       finish();
     });
 
+    // Automatically select India for download
+    setIndiaDownloadOption();
+
     if (prepareFilesDownload(false))
     {
       Utils.keepScreenOn(true, getWindow());
@@ -208,6 +214,14 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     }
 
     showMap();
+  }
+
+  // Sets the option to download India
+  private void setIndiaDownloadOption() {
+    mCurrentCountry = "India";
+    String checkBoxText = String.format(getString(R.string.download_country_ask), "India");
+    mChbDownloadCountry.setText(checkBoxText);
+    UiUtils.show(mChbDownloadCountry); // Show India download option
   }
 
   @CallSuper
@@ -247,9 +261,10 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
   private void setDownloadMessage(int bytesToDownload)
   {
     mTvMessage.setText(getString(R.string.download_resources,
-                                 StringUtils.getFileSizeString(this, bytesToDownload)));
+      StringUtils.getFileSizeString(this, bytesToDownload)));
   }
 
+  // Prepares files for download, and updates the progress UI.
   private boolean prepareFilesDownload(boolean showMap)
   {
     final int bytes = nativeGetBytesToDownload();
@@ -352,17 +367,14 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       return;
 
     // Re-use original intent to retain all flags and payload.
-    // https://github.com/organicmaps/organicmaps/issues/6944
     final Intent intent = Objects.requireNonNull(getIntent());
     intent.setComponent(new ComponentName(this, MwmActivity.class));
 
     // Disable animation because MwmActivity should appear exactly over this one
     intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION | Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
-    // See {@link SplashActivity.processNavigation()}
     if (Factory.isStartedForApiResult(intent))
     {
-      // Wait for the result from MwmActivity for API callers.
       mApiRequest.launch(intent);
       return;
     }
@@ -375,7 +387,6 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
   {
     if (result == ERR_NO_MORE_FILES)
     {
-      // World and WorldCoasts has been downloaded, we should register maps again to correctly add them to the model.
       Framework.nativeReloadWorldMaps();
 
       if (mCurrentCountry != null && mChbDownloadCountry.isChecked())
@@ -424,7 +435,7 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       {
         titleId = R.string.connection_failure;
         yield (ConnectionState.INSTANCE.isConnected() ? R.string.download_has_failed
-                                                      : R.string.common_check_internet_connection_dialog);
+          : R.string.common_check_internet_connection_dialog);
       }
       case ERR_DISK_ERROR ->
       {
@@ -435,16 +446,16 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     };
 
     mAlertDialog = new MaterialAlertDialogBuilder(this, R.style.MwmTheme_AlertDialog)
-        .setTitle(titleId)
-        .setMessage(messageId)
-        .setCancelable(true)
-        .setOnCancelListener((dialog) -> setAction(PAUSE))
-        .setPositiveButton(R.string.try_again, (dialog, which) -> {
-          setAction(TRY_AGAIN);
-          onTryAgainClicked();
-        })
-        .setOnDismissListener(dialog -> mAlertDialog = null)
-        .show();
+      .setTitle(titleId)
+      .setMessage(messageId)
+      .setCancelable(true)
+      .setOnCancelListener((dialog) -> setAction(PAUSE))
+      .setPositiveButton(R.string.try_again, (dialog, which) -> {
+        setAction(TRY_AGAIN);
+        onTryAgainClicked();
+      })
+      .setOnDismissListener(dialog -> mAlertDialog = null)
+      .show();
   }
 
   @Override
