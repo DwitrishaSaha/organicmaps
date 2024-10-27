@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.content.Context;
+import android.content.SharedPreferences;
+
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -34,9 +37,21 @@ import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.Utils;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.progressindicator.LinearProgressIndicator;
+import app.organicmaps.bookmarks.data.BookmarkManager;
+
 
 import java.util.List;
 import java.util.Objects;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParserFactory;
+import android.util.Log;
+
 
 @SuppressLint("StringFormatMatches")
 public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
@@ -73,6 +88,11 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
   private static final int TRY_AGAIN = 3;
   private static final int PROCEED_TO_MAP = 4;
   private static final int BTN_COUNT = 5;
+
+  private static final String PREFS_NAME = "BookmarkPrefs";
+  private static final String GPX_PRELOADED_KEY = "isGpxPreloaded";
+  
+
 
   private View.OnClickListener[] mBtnListeners;
   private String[] mBtnNames;
@@ -188,10 +208,9 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     }
   };
 
-  @CallSuper
+   @CallSuper
   @Override
-  protected void onSafeCreate(@Nullable Bundle savedInstanceState)
-  {
+  protected void onSafeCreate(@Nullable Bundle savedInstanceState) {
     super.onSafeCreate(savedInstanceState);
     UiUtils.setLightStatusBar(this, true);
     setContentView(R.layout.activity_download_resources);
@@ -201,26 +220,113 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       finish();
     });
 
+ 
+
     // Automatically select India for download
     setIndiaDownloadOption();
 
-    if (prepareFilesDownload(false))
-    {
+    if (prepareFilesDownload(false)) {
       Utils.keepScreenOn(true, getWindow());
-
       setAction(DOWNLOAD);
-
       return;
     }
 
     showMap();
+
+    
+        // // Check if bookmarks have been preloaded; if not, preload them.
+        // SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        // if (!prefs.getBoolean(GPX_PRELOADED_KEY, false)) {
+        //     preloadBookmarksFromGpx();
+        //     prefs.edit().putBoolean(GPX_PRELOADED_KEY, true).apply();  // Mark as preloaded
+        // }
   }
+
+  private void preloadBookmarksFromGpx() {
+     // Initialize SharedPreferences within this method scope
+    SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+  
+ 
+    String gpxData = "<?xml version='1.0' encoding='utf-8'?>\n" +
+            "<gpx xmlns:ns0=\"http://www.topografix.com/GPX/1/1\" version=\"1.1\">\n" +
+            "<metadata>\n" +
+            "  <name>Places 1</name>\n" +
+            "</metadata>\n" +
+            "<wpt lat=\"29.800466\" lon=\"76.614173\">\n" +
+            "  <name>Mr b</name>\n" +
+            "</wpt>\n" +
+            "<wpt lat=\"29.772281\" lon=\"76.6149\">\n" +
+            "  <name>Abhishek</name>\n" +
+            "  <cmt>Abhishek</cmt>\n" +
+            "</wpt>\n" +
+            "<wpt lat=\"28.490864\" lon=\"77.094301\">\n" +
+            "  <name>Kalu</name>\n" +
+            "  <cmt>Hellls</cmt>\n" +
+            "</wpt>\n" +
+            "</gpx>";
+
+    Log.i(TAG, "Starting GPX bookmark preload...");
+
+    try (InputStream inputStream = new ByteArrayInputStream(gpxData.getBytes(StandardCharsets.UTF_8))) {
+        Log.i(TAG, "GPX data successfully loaded into InputStream.");
+        parseGpxAndAddBookmarks(inputStream);
+
+        // Mark as preloaded
+        prefs.edit().putBoolean("isGpxPreloaded", true).apply();
+    } catch (IOException e) {
+        Log.e(TAG, "Failed to parse GPX content", e);
+    }
+  }
+
+  private void parseGpxAndAddBookmarks(InputStream inputStream) {
+    Log.i(TAG, "Parsing GPX content.");
+    try {
+        XmlPullParser parser = XmlPullParserFactory.newInstance().newPullParser();
+        parser.setInput(inputStream, null);
+
+        int eventType = parser.getEventType();
+        String name = null;
+        double latitude = 0;
+        double longitude = 0;
+
+        while (eventType != XmlPullParser.END_DOCUMENT) {
+            if (eventType == XmlPullParser.START_TAG) {
+                String tagName = parser.getName();
+                if ("wpt".equals(tagName)) {
+                    latitude = Double.parseDouble(parser.getAttributeValue(null, "lat"));
+                    longitude = Double.parseDouble(parser.getAttributeValue(null, "lon"));
+                } else if ("name".equals(tagName)) {
+                    name = parser.nextText();
+                }
+            } else if (eventType == XmlPullParser.END_TAG && "wpt".equals(parser.getName())) {
+                if (name != null) {
+                    addBookmark(name, latitude, longitude);
+                    Log.i(TAG, "Added bookmark: " + name + " (" + latitude + ", " + longitude + ")");
+                    name = null;
+                }
+            }
+            eventType = parser.next();
+        }
+    } catch (XmlPullParserException | IOException e) {
+        Log.e(TAG, "Failed to parse GPX data", e);
+    }
+  }
+
+  private void addBookmark(String name, double latitude, double longitude) {
+    BookmarkManager.INSTANCE.addNewBookmark(latitude, longitude);
+    Log.i(TAG, "Bookmark added: " + name + " at (" + latitude + ", " + longitude + ")");
+  }
+
+
 
   // Sets the option to download India
   private void setIndiaDownloadOption() {
     mCurrentCountry = "India";
     String checkBoxText = String.format(getString(R.string.download_country_ask), "India");
     mChbDownloadCountry.setText(checkBoxText);
+    mChbDownloadCountry.setChecked(true);  
+    mChbDownloadCountry.setEnabled(false);
+
     UiUtils.show(mChbDownloadCountry); // Show India download option
   }
 

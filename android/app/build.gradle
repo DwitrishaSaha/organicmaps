@@ -263,7 +263,7 @@ android {
       jniDebuggable true           // Enable jni debug build
       zipAlignEnabled true
       signingConfig signingConfigs.debug
-      resValue 'string', 'app_name', 'Debug Oma'
+      resValue 'string', 'app_name', 'Oma'
       // Do not generate separate debug symbols for debug apps, because we don't distribute them.
       ndk.debugSymbolLevel = 'none'
 
@@ -404,6 +404,7 @@ dependencies {
 
 tasks.withType(JavaCompile) {
   options.compilerArgs << '-Xlint:unchecked' << '-Xlint:deprecation'
+  options.compilerArgs << "-Xlint:none"
 }
 
 android.applicationVariants.all { variant ->

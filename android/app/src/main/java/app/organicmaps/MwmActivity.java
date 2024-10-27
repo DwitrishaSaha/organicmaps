@@ -20,6 +20,11 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.app.DownloadManager;
+import android.os.Environment;
+import android.content.BroadcastReceiver;
+import android.content.IntentFilter;
+
 
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultLauncher;
@@ -115,6 +120,16 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import java.util.ArrayList;
 import java.util.Objects;
+import android.content.SharedPreferences;
+
+
+import android.content.res.AssetManager;
+import java.io.InputStream;
+import java.io.File;
+import java.io.OutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
@@ -124,6 +139,9 @@ import static app.organicmaps.location.LocationState.FOLLOW;
 import static app.organicmaps.location.LocationState.FOLLOW_AND_ROTATE;
 import static app.organicmaps.location.LocationState.LOCATION_TAG;
 import static app.organicmaps.util.PowerManagment.POWER_MANAGEMENT_TAG;
+
+
+
 
 public class MwmActivity extends BaseMwmFragmentActivity
     implements PlacePageActivationListener,
@@ -163,6 +181,9 @@ public class MwmActivity extends BaseMwmFragmentActivity
   private static final String LAYERS_MENU_ID = "LAYERS_MENU_BOTTOM_SHEET";
 
   private static final String POWER_SAVE_DISCLAIMER_SHOWN = "POWER_SAVE_DISCLAIMER_SHOWN";
+
+  private static final String PREFS_NAME = "BookmarkPrefs";
+  private static final String BOOKMARKS_IMPORTED_KEY = "isBookmarksImported";
 
   @Nullable
   private MapFragment mMapFragment;
@@ -330,6 +351,62 @@ public class MwmActivity extends BaseMwmFragmentActivity
         break;
     }
   }
+
+private void importBookmarksFromDrive() {
+    String driveUrl = "https://drive.google.com/uc?export=download&id=1npW0-NFCpgOAfce7KgemYRKr3iPfFnBf";
+    DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+
+    Uri uri = Uri.parse(driveUrl);
+    DownloadManager.Request request = new DownloadManager.Request(uri);
+    request.setDestinationInExternalFilesDir(this, Environment.DIRECTORY_DOWNLOADS, "places.gpx");
+    request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+
+    // Enqueue the download and get download ID
+    long downloadId = downloadManager.enqueue(request);
+
+    // Create a file reference for the expected download location
+    File downloadedFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "places.gpx");
+
+    // Check download completion using a background thread
+    new Thread(() -> {
+        boolean downloadComplete = false;
+        while (!downloadComplete) {
+            // Wait briefly before checking again
+            try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+
+            // Check if the file exists and is not zero in size
+            if (downloadedFile.exists() && downloadedFile.length() > 0) {
+                downloadComplete = true;
+
+                // Load the downloaded file into BookmarkManager
+                runOnUiThread(() -> {
+                    BookmarkManager.INSTANCE.loadBookmarksFile(downloadedFile.getAbsolutePath(), true);
+                    Toast.makeText(this, "Bookmarks imported successfully.", Toast.LENGTH_LONG).show();
+                });
+            }
+        }
+    }).start();
+}
+
+//   private void importBookmarksFromAssets() {
+//     AssetManager assetManager = getAssets();
+//     try (InputStream inputStream = assetManager.open("places.gpx")) {
+//         File tempFile = new File(getCacheDir(), "places_temp.gpx");
+//         try (OutputStream outputStream = new FileOutputStream(tempFile)) {
+//             byte[] buffer = new byte[1024];
+//             int length;
+//             while ((length = inputStream.read(buffer)) > 0) {
+//                 outputStream.write(buffer, 0, length);
+//             }
+//             // Now load the file using the BookmarkManager
+//             BookmarkManager.INSTANCE.loadBookmarksFile(tempFile.getAbsolutePath(), true);
+//         }
+//     } catch (IOException e) {
+//         e.printStackTrace();
+//         Toast.makeText(this, "Failed to load bookmarks from assets", Toast.LENGTH_SHORT).show();
+//     }
+// }
+
 
   private void migrateOAuthCredentials()
   {
@@ -524,6 +601,14 @@ public class MwmActivity extends BaseMwmFragmentActivity
 
     mPlacePageViewModel = new ViewModelProvider(this).get(PlacePageViewModel.class);
     mMapButtonsViewModel = new ViewModelProvider(this).get(MapButtonsViewModel.class);
+    
+    // Check if bookmarks are already imported
+    SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+    if (!prefs.getBoolean(BOOKMARKS_IMPORTED_KEY, false)) {
+        importBookmarksFromDrive(); // Call import function if not yet called
+        prefs.edit().putBoolean(BOOKMARKS_IMPORTED_KEY, true).apply(); // Mark as imported
+    }
+    
     // We don't need to manually handle removing the observers it follows the activity lifecycle
     mMapButtonsViewModel.getBottomButtonsHeight().observe(this, this::onMapBottomButtonsHeightChange);
     mMapButtonsViewModel.getLayoutMode().observe(this, this::initNavigationButtons);

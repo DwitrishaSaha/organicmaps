@@ -6,11 +6,13 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:background="?cardBackground">
+
   <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_above="@+id/button_container"
     android:layout_gravity="center">
+
     <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -19,11 +21,13 @@
       android:orientation="vertical"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintTop_toTopOf="parent">
+
       <ImageView
         android:layout_width="90dp"
         android:layout_height="90dp"
         app:srcCompat="@drawable/ic_download"
-        app:tint="?android:colorAccent"/>
+        app:tint="?android:colorAccent" />
+
       <TextView
         android:id="@+id/head_message"
         style="?fontHeadline6"
@@ -32,6 +36,7 @@
         android:layout_marginTop="@dimen/margin_base"
         android:gravity="center"
         android:text="@string/download_map_title" />
+
       <TextView
         android:id="@+id/download_message"
         style="?fontBody2"
@@ -43,8 +48,23 @@
         android:gravity="center"
         android:textColor="?android:textColorSecondary"
         tools:text="@string/download_resources" />
+
+      <!-- New TextView for India download prompt -->
+      <TextView
+        android:id="@+id/download_india_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_base"
+        android:layout_marginEnd="@dimen/margin_base"
+        android:gravity="center"
+        android:text="@string/download_india_prompt"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="14sp"
+        tools:text="Please make sure to download India for using the features." />
     </LinearLayout>
   </androidx.constraintlayout.widget.ConstraintLayout>
+
   <include
     android:id="@+id/button_container"
     layout="@layout/button_with_progress"
@@ -52,4 +72,3 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true" />
 </RelativeLayout>
-
