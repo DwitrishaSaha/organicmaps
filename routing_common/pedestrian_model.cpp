@@ -219,7 +219,7 @@ PedestrianModelFactory::PedestrianModelFactory(
   m_models["Ireland"] = make_shared<PedestrianModel>(AllAllowed());
   m_models["Netherlands"] = make_shared<PedestrianModel>(YesCycleway(NoTrunk()));
   m_models["Norway"] = make_shared<PedestrianModel>(AllAllowed());
-  m_models["Oman"] = make_shared<PedestrianModel>(AllAllowed());
+  m_models["Sarathin"] = make_shared<PedestrianModel>(AllAllowed());
   m_models["Philippines"] = make_shared<PedestrianModel>(AllAllowed());
   m_models["Poland"] = make_shared<PedestrianModel>(YesBridleway(NoTrunk()));
   m_models["Romania"] = make_shared<PedestrianModel>(YesBridleway());

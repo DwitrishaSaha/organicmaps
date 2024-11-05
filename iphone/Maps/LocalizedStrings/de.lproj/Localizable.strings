@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Hallo!\n\nIm Anhang sind meine Lesezeichen der Oma App. Sie können sie mit Oma öffnen. Wenn Sie die App nicht installiert haben, können Sie sie von https://omaps.app/get?kmz für iOS oder Android herunterladen.\n\nViel Spaß beim Reisen mit Oma!";
+"share_bookmarks_email_body" = "Hallo!\n\nIm Anhang sind meine Lesezeichen der SARATHI App. Sie können sie mit SARATHI öffnen. Wenn Sie die App nicht installiert haben, können Sie sie von https://omaps.app/get?kmz für iOS oder Android herunterladen.\n\nViel Spaß beim Reisen mit SARATHI!";
 
 /* message title of loading file */
 "load_kmz_title" = "Lesezeichen werden geladen";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Ihr Standort konnte noch nicht ermittelt werden";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, sieh dir meine Stecknadel auf der Oma-Karte an!";
+"bookmark_share_email_subject" = "Hey, sieh dir meine Stecknadel auf der SARATHI-Karte an!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, sieh dir meinen aktuellen Standort auf der Oma-Karte an";
+"my_position_share_email_subject" = "Hey, sieh dir meinen aktuellen Standort auf der SARATHI-Karte an";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -202,7 +202,7 @@
 "done" = "Fertig";
 
 /* Prints version number in About dialog */
-"version" = "Oma Version: %@";
+"version" = "SARATHI Version: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Webseite";
 
-/* Text in About menu, opens Oma news website */
+/* Text in About menu, opens SARATHI news website */
 "news" = "News";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Zum Herunterladen benötigen Sie mehr Platz. Bitte löschen Sie unnötige Daten.";
 
-"editor_sharing_title" = "Ich habe die Oma-Karten verbessert";
+"editor_sharing_title" = "Ich habe die SARATHI-Karten verbessert";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d von %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Ausführlicher Kommentar";
 
-"editor_detailed_description" = "Ihre Änderungsvorschläge für die Karte werden an OpenStreetMap gesendet: Beschreiben Sie die Details der Objekte, die Sie in Oma nicht bearbeiten können.";
+"editor_detailed_description" = "Ihre Änderungsvorschläge für die Karte werden an OpenStreetMap gesendet: Beschreiben Sie die Details der Objekte, die Sie in SARATHI nicht bearbeiten können.";
 
 "editor_more_about_osm" = "Mehr Informationen über OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Standortdienste einschalten";
 
-"location_services_disabled_on_device_additional_message" = "Oder verwende Oma weiterhin ohne Standort";
+"location_services_disabled_on_device_additional_message" = "Oder verwende SARATHI weiterhin ohne Standort";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Fotos, bewertungen, buchung";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "Der Empfehlungsbonus, den wir für jede Buchung über diesen Link erhalten, fließt in die Entwicklung von Oma.";
+"dialog_kayak_disclaimer" = "Der Empfehlungsbonus, den wir für jede Buchung über diesen Link erhalten, fließt in die Entwicklung von SARATHI.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Einzelheiten bei Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Nachsehen";
 
-"recent_track_background_dialog_message" = "Oma verwendet Ihre Geoposition im Hintergrund, um Ihre kürzlich gefahrene Route aufzunehmen.";
+"recent_track_background_dialog_message" = "SARATHI verwendet Ihre Geoposition im Hintergrund, um Ihre kürzlich gefahrene Route aufzunehmen.";
 
 "general_settings" = "Allgemeine Einstellungen";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Blitzerwarnung";
 
-"download_map_carplay" = "Laden Sie Karten in der App Oma auf Ihrem Gerät herunter";
+"download_map_carplay" = "Laden Sie Karten in der App SARATHI auf Ihrem Gerät herunter";
 
 "carplay_roundabout_exit" = "%@ Ausfahrt";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated Oma site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/de/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Unser Hauptziel ist es, schnelle, datenschutzorientierte und benutzerfreundliche Karten zu erstellen, die Sie lieben werden.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Du verwendest jetzt Oma auf dem Telefondisplay";
+"car_used_on_the_phone_screen" = "Du verwendest jetzt SARATHI auf dem Telefondisplay";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Du verwendest jetzt Oma auf dem Bildschirm des Autos";
+"car_used_on_the_car_screen" = "Du verwendest jetzt SARATHI auf dem Bildschirm des Autos";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Weiter am Telefon";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Link zur Speisekarte";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Willst du einen Fehlerbericht an die Entwickler schicken?\nWir sind auf unsere Nutzer angewiesen, da Oma keine Fehlerinformationen automatisch sammelt. Wir danken dir im Voraus für deine Unterstützung von Oma!";
+"bugreport_alert_message" = "Willst du einen Fehlerbericht an die Entwickler schicken?\nWir sind auf unsere Nutzer angewiesen, da SARATHI keine Fehlerinformationen automatisch sammelt. Wir danken dir im Voraus für deine Unterstützung von SARATHI!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktiviere die iCloud-Syncronisierung";

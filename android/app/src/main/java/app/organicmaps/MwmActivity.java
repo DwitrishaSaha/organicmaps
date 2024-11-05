@@ -353,7 +353,8 @@ public class MwmActivity extends BaseMwmFragmentActivity
   }
 
 private void importBookmarksFromDrive() {
-    String driveUrl = "https://drive.google.com/uc?export=download&id=1npW0-NFCpgOAfce7KgemYRKr3iPfFnBf";
+  //https://drive.google.com/file/d/1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5/view?usp=sharing
+    String driveUrl = "https://drive.google.com/uc?export=download&id=1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5";
     DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
 
     Uri uri = Uri.parse(driveUrl);

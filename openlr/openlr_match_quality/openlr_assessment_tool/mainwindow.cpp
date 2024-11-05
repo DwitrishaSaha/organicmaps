@@ -256,7 +256,7 @@ MainWindow::MainWindow(Framework & framework)
 
   setCentralWidget(window);
 
-  setWindowTitle(tr("Oma"));
+  setWindowTitle(tr("Sarathi"));
   setWindowIcon(QIcon(":/ui/logo.png"));
 
   QMenu * fileMenu = new QMenu("File", this);

@@ -49,19 +49,6 @@
         android:textColor="?android:textColorSecondary"
         tools:text="@string/download_resources" />
 
-      <!-- New TextView for India download prompt -->
-      <TextView
-        android:id="@+id/download_india_prompt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_small"
-        android:layout_marginStart="@dimen/margin_base"
-        android:layout_marginEnd="@dimen/margin_base"
-        android:gravity="center"
-        android:text="@string/download_india_prompt"
-        android:textColor="?android:textColorPrimary"
-        android:textSize="14sp"
-        tools:text="Please make sure to download India for using the features." />
     </LinearLayout>
   </androidx.constraintlayout.widget.ConstraintLayout>
 

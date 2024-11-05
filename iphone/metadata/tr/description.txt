@@ -6,13 +6,13 @@
 • İhtiyacınız olanları yer imlerine ekleyin, KML/KMZ'yi içe aktarın ve paylaşın (GPX desteği de planlanıyor)
 • Gözlerinizi korumak için karanlık mod
 
-Oma, sevgiyle yapılmış saf ve organiktir:
+SARATHI, sevgiyle yapılmış saf ve organiktir:
 
 • Gizliliğinize saygı duyar
 • Pilinizi korur
 • Beklenmeyen mobil veri ücretleri yok
 
-Oma, izleyici ve diğer kötü şeylerden arınmıştır:
+SARATHI, izleyici ve diğer kötü şeylerden arınmıştır:
 
 • Reklam yok
 • İzleme yok
@@ -25,9 +25,9 @@ Oma, izleyici ve diğer kötü şeylerden arınmıştır:
 • Crapware yok
 • Böcek ilacı yok
 
-Oma'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
+SARATHI'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
-• Oma, bağımsız bir topluluk tarafından yönlendirilen bir projedir
+• SARATHI, bağımsız bir topluluk tarafından yönlendirilen bir projedir
 • Açık kaynak kodludur
 • Harita verileri, yine topluluk odaklı bir proje olan OpenStreetMap'ten alınmıştır
 • Gizliliğinizi Big Tech'in meraklı gözlerinden koruyoruz
@@ -35,4 +35,4 @@ Oma'te gizliliğin temel bir insan hakkı olduğuna inanıyoruz:
 
 Gözetlemeyi reddedin - özgürlüğünüzü kucaklayın.
 
-Oma'i deneyin!
+SARATHI'i deneyin!

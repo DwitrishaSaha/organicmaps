@@ -91,7 +91,7 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
 
   private static final String PREFS_NAME = "BookmarkPrefs";
   private static final String GPX_PRELOADED_KEY = "isGpxPreloaded";
-  
+
 
 
   private View.OnClickListener[] mBtnListeners;
@@ -220,10 +220,10 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       finish();
     });
 
- 
+
 
     // Automatically select India for download
-    setIndiaDownloadOption();
+     setIndiaDownloadOption();
 
     if (prepareFilesDownload(false)) {
       Utils.keepScreenOn(true, getWindow());
@@ -233,49 +233,13 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
 
     showMap();
 
-    
+
         // // Check if bookmarks have been preloaded; if not, preload them.
         // SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
         // if (!prefs.getBoolean(GPX_PRELOADED_KEY, false)) {
         //     preloadBookmarksFromGpx();
         //     prefs.edit().putBoolean(GPX_PRELOADED_KEY, true).apply();  // Mark as preloaded
         // }
-  }
-
-  private void preloadBookmarksFromGpx() {
-     // Initialize SharedPreferences within this method scope
-    SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
-  
- 
-    String gpxData = "<?xml version='1.0' encoding='utf-8'?>\n" +
-            "<gpx xmlns:ns0=\"http://www.topografix.com/GPX/1/1\" version=\"1.1\">\n" +
-            "<metadata>\n" +
-            "  <name>Places 1</name>\n" +
-            "</metadata>\n" +
-            "<wpt lat=\"29.800466\" lon=\"76.614173\">\n" +
-            "  <name>Mr b</name>\n" +
-            "</wpt>\n" +
-            "<wpt lat=\"29.772281\" lon=\"76.6149\">\n" +
-            "  <name>Abhishek</name>\n" +
-            "  <cmt>Abhishek</cmt>\n" +
-            "</wpt>\n" +
-            "<wpt lat=\"28.490864\" lon=\"77.094301\">\n" +
-            "  <name>Kalu</name>\n" +
-            "  <cmt>Hellls</cmt>\n" +
-            "</wpt>\n" +
-            "</gpx>";
-
-    Log.i(TAG, "Starting GPX bookmark preload...");
-
-    try (InputStream inputStream = new ByteArrayInputStream(gpxData.getBytes(StandardCharsets.UTF_8))) {
-        Log.i(TAG, "GPX data successfully loaded into InputStream.");
-        parseGpxAndAddBookmarks(inputStream);
-
-        // Mark as preloaded
-        prefs.edit().putBoolean("isGpxPreloaded", true).apply();
-    } catch (IOException e) {
-        Log.e(TAG, "Failed to parse GPX content", e);
-    }
   }
 
   private void parseGpxAndAddBookmarks(InputStream inputStream) {
@@ -317,18 +281,61 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
     Log.i(TAG, "Bookmark added: " + name + " at (" + latitude + ", " + longitude + ")");
   }
 
+// Sets the option to download India
+// Sets the option to download specific regions: Assam, Arunachal Pradesh, and Nagaland
+private void setIndiaDownloadOption() {
+  String[] regions = {"India_Assam", "India_Arunachal Pradesh", "India_Nagaland"};
 
-
-  // Sets the option to download India
-  private void setIndiaDownloadOption() {
-    mCurrentCountry = "India";
-    String checkBoxText = String.format(getString(R.string.download_country_ask), "India");
-    mChbDownloadCountry.setText(checkBoxText);
-    mChbDownloadCountry.setChecked(true);  
-    mChbDownloadCountry.setEnabled(false);
-
-    UiUtils.show(mChbDownloadCountry); // Show India download option
+  // Build a combined message for the CheckBox text with all regions listed
+  StringBuilder checkBoxText = new StringBuilder();
+  for (String region : regions) {
+    checkBoxText.append(region).append(" ");
   }
+
+  // Update CheckBox text with the list of regions
+  mChbDownloadCountry.setText(String.format(getString(R.string.download_country_ask), checkBoxText.toString().trim()));
+  mChbDownloadCountry.setChecked(true);
+  mChbDownloadCountry.setEnabled(false);
+  //UiUtils.show(mChbDownloadCountry);  // Show the download option
+
+  // Start download for each specified region if not already downloaded
+  for (String region : regions) {
+    mCurrentCountry = region;
+    int status = MapManager.nativeGetStatus(region);
+    if (status != CountryItem.STATUS_DONE) {
+      MapManager.nativeDownload(region);  // Start download for each region
+    }
+  }
+}
+
+
+  // Sets the option to download Assam, Arunachal Pradesh, and Nagaland
+//  private void setIndiaDownloadOption() {
+//    String[] regions = {"Assam", "Arunachal Pradesh", "Nagaland"};
+//
+//    StringBuilder checkBoxText = new StringBuilder();
+//    for (String region : regions) {
+//      checkBoxText.append(region).append(" ");
+//    }
+//
+//    // Update checkbox text with all regions listed and show download option
+//    mChbDownloadCountry.setText(String.format(getString(R.string.download_country_ask), checkBoxText.toString().trim()));
+//    mChbDownloadCountry.setChecked(true);
+//    mChbDownloadCountry.setEnabled(false);
+//    UiUtils.show(mChbDownloadCountry);
+//
+//    // Automatically initiate download for specified regions
+//    for (String region : regions) {
+//      mCurrentCountry = region;
+//      int status = MapManager.nativeGetStatus(region);
+//      if (status != CountryItem.STATUS_DONE) {
+//        MapManager.nativeDownload(region);  // Start download for each region
+//      }
+//    }
+//  }
+
+
+
 
   @CallSuper
   @Override

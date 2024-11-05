@@ -16,7 +16,7 @@ with chdir(os.path.abspath(os.path.dirname(__file__))):
     setuptools.setup(
         name="omim-maps_generator",
         version=str(get_version()),
-        author="Oma",
+        author="Sarathi",
         author_email="info@organicmaps.app",
         description="This package contains tools for maps generation.",
         url="https://github.com/organicmaps",

@@ -13,5 +13,5 @@ pluginManagement {
 //        mavenCentral()
 //    }
 //}
-rootProject.name = 'Oma'
+rootProject.name = 'SARATHI'
 include ':app'

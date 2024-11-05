@@ -878,7 +878,7 @@ China_Heilongjiang	1329.623552
 Cameroon_West	1326.860332
 Russia_Perm Krai_North	1326.556407
 Taiwan_South	1324.508118
-Oman	1323.303813
+Sarathin	1323.303813
 Montenegro	1315.2116199999998
 Philippines_Mindanao	1305.6615100000001
 Central African Republic	1277.31204

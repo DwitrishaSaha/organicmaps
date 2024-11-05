@@ -177,7 +177,7 @@ public class Utils
   {
     final android.content.ClipboardManager clipboard =
         (android.content.ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-    final ClipData clip = ClipData.newPlainText("Oma: " + text, text);
+    final ClipData clip = ClipData.newPlainText("SARATHI: " + text, text);
     clipboard.setPrimaryClip(clip);
   }
 
@@ -319,14 +319,14 @@ public class Utils
    */
   public static void sendBugReport(@NonNull ActivityResultLauncher<SharingUtils.SharingIntent> launcher, @NonNull Activity activity, @NonNull String subject, @NonNull String body)
   {
-    subject = "Oma Bugreport" + (TextUtils.isEmpty(subject) ? "" : ": " + subject);
+    subject = "SARATHI Bugreport" + (TextUtils.isEmpty(subject) ? "" : ": " + subject);
     LogsManager.INSTANCE.zipLogs(new SupportInfoWithLogsCallback(launcher, activity, subject, body, Constants.Email.SUPPORT));
   }
 
   // TODO: Don't send logs with general feedback, send system information only (version, device name, connectivity, etc.)
   public static void sendFeedback(@NonNull ActivityResultLauncher<SharingUtils.SharingIntent> launcher, @NonNull Activity activity)
   {
-    LogsManager.INSTANCE.zipLogs(new SupportInfoWithLogsCallback(launcher, activity, "Oma Feedback", "",
+    LogsManager.INSTANCE.zipLogs(new SupportInfoWithLogsCallback(launcher, activity, "SARATHI Feedback", "",
                                                                  Constants.Email.SUPPORT));
   }
 

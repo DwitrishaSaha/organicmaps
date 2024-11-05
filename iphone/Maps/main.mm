@@ -7,7 +7,7 @@ int main(int argc, char * argv[])
 {
   [MWMSettings initializeLogging];
   auto & p = GetPlatform();
-  LOG(LINFO, ("Oma", p.Version(), "started, detected CPU cores:", p.CpuCores()));
+  LOG(LINFO, ("SARATHI", p.Version(), "started, detected CPU cores:", p.CpuCores()));
 
   int retVal;
   @autoreleasepool

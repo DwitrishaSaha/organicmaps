@@ -9,7 +9,7 @@
 
 namespace style
 {
-// Fixes icons which are not supported by Oma.
+// Fixes icons which are not supported by Sarathi.
 std::string GetSupportedStyle(std::string const & style);
 }  // style
 

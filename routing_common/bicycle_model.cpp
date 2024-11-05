@@ -284,7 +284,7 @@ BicycleModelFactory::BicycleModelFactory(
   m_models["Italy"] = make_shared<BicycleModel>(kDefaultOptions, NormalPedestrianSpeed());
   m_models["Netherlands"] = make_shared<BicycleModel>(NoTrunk());
   m_models["Norway"] = make_shared<BicycleModel>(AllAllowed(), NormalPedestrianAndFootwaySpeed());
-  m_models["Oman"] = make_shared<BicycleModel>(AllAllowed());
+  m_models["Sarathin"] = make_shared<BicycleModel>(AllAllowed());
   m_models["Philippines"] = make_shared<BicycleModel>(AllAllowed(), NormalPedestrianSpeed());
   m_models["Poland"] = make_shared<BicycleModel>(NoTrunk());
   m_models["Romania"] = make_shared<BicycleModel>(AllAllowed());

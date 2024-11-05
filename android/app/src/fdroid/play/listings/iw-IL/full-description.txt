@@ -16,9 +16,9 @@ Key features:
 • Bookmarks and tracks export and import in KML, KMZ, GPX formats
 • Dark mode to protect your eyes
 
-There is no public transport, satellite maps, and other cool features <i>yet</i> in Oma. But with <i>your help and support</i>, we can make better maps step by step.
+There is no public transport, satellite maps, and other cool features <i>yet</i> in SARATHI. But with <i>your help and support</i>, we can make better maps step by step.
 
-Oma is <b>pure and organic, made with love</b>:
+SARATHI is <b>pure and organic, made with love</b>:
 
 • Blazing fast offline experience
 • Respects your privacy
@@ -39,9 +39,9 @@ Free from trackers and other bad stuff:
 • No crapware
 • N̶o̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶e̶s̶ Purely organic
 
-At Oma, we believe that <b>privacy is a fundamental human right</b>:
+At SARATHI, we believe that <b>privacy is a fundamental human right</b>:
 
-• Oma is an indie community-driven open-source project
+• SARATHI is an indie community-driven open-source project
 • We protect privacy from Big Tech's prying eyes
 • Stay safe no matter wherever you are
 
@@ -50,4 +50,4 @@ Zero trackers and only minimally required permissions are found according to Exo
 Please visit <b><i>organicmaps.app</i></b> website for additional details and FAQ, and contact us directly at @OrganicMapsApp in Telegram.
 
 Reject surveillance - embrace your freedom.
-<b>Give Oma a try!</b>
+<b>Give SARATHI a try!</b>

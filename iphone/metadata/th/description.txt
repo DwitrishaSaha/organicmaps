@@ -7,13 +7,13 @@
 • Dark mode to protect your eyes
 • … and many other features!
 
-Oma is pure and organic, made with love:
+SARATHI is pure and organic, made with love:
 
 • Respects your privacy
 • Saves your battery
 • No unexpected mobile data charges
 
-Oma is free from trackers and other bad stuff:
+SARATHI is free from trackers and other bad stuff:
 
 • No ads
 • No tracking
@@ -26,9 +26,9 @@ Oma is free from trackers and other bad stuff:
 • No crapware
 • No pesticides
 
-At Oma, we believe that privacy is a fundamental human right:
+At SARATHI, we believe that privacy is a fundamental human right:
 
-• Oma is an indie community-driven project
+• SARATHI is an indie community-driven project
 • The code is open-sourced
 • The maps data is taken from OpenStreetMap, also community-driven project
 • We protect your privacy from Big Tech’s prying eyes
@@ -36,4 +36,4 @@ At Oma, we believe that privacy is a fundamental human right:
 
 Reject surveillance, embrace your freedom, and support the community.
 
-Give Oma a try!
+Give SARATHI a try!
