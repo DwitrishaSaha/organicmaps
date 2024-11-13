@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to Sarathi (OM)!
+Thank you for your interest in contributing to SAARTHI(OM)!
 
 ## How Can I Contribute?
 
@@ -17,9 +17,9 @@ Please check if there are no similar issues already submitted by someone else,
 and give developers as much information as possible: OS and application versions,
 list of actions leading to a bug, a log file produced by the app.
 
-When using Sarathi app on a device, use the built-in "Report a bug" option:
+When using SAARTHIapp on a device, use the built-in "Report a bug" option:
 on Android it creates a new e-mail with a log file attached. Your issue will be processed much
-faster if you send it to <bugs@organicmaps.app>. Enabling logs in Sarathi settings on Android
+faster if you send it to <bugs@organicmaps.app>. Enabling logs in SAARTHIsettings on Android
 before sending the bug report also helps us a lot with debugging.
 
 ### Feature Requests
@@ -53,7 +53,7 @@ Reading everything in the [docs folder](./) of the repository is recommended.
 
 ## Submitting your changes
 
-All contributions to Sarathi repository should be submitted via
+All contributions to SAARTHIrepository should be submitted via
 [Github pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
 and signed-off with the [Developers Certificate of Origin](#legal-requirements).
 

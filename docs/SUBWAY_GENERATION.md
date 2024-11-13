@@ -21,7 +21,7 @@ whole planet is also applicable.
     If you already have some not too outdated \*.o5m version, it is enough
     because the subway generation script will update it with `osmupdate`.
 
-1.  With the [Sarathi subways](https://github.com/organicmaps/subways) repository deployed,
+1.  With the [SAARTHIsubways](https://github.com/organicmaps/subways) repository deployed,
     run `scripts/process_subways.sh` bash script or prepare your own script
     which launches `process_subways.py` and `validation_to_html.py` scripts
     with suitable options.

@@ -166,7 +166,7 @@
 
 /********** Other translations **********/
 
-"share_bookmarks_email_body" = "Hallo!\n\nBijgesloten zijn mijn bladwijzers uit de SARATHI app. Open ze als je SARATHI geïnstalleerd hebt. Of, als je dat niet hebt, download de app voor je iOS- of Android-apparaat door deze link te volgen: https://omaps.app/get?kmz\n\nGeniet van het reizen met SARATHI!";
+"share_bookmarks_email_body" = "Hallo!\n\nBijgesloten zijn mijn bladwijzers uit de SAARTHI app. Open ze als je SAARTHI geïnstalleerd hebt. Of, als je dat niet hebt, download de app voor je iOS- of Android-apparaat door deze link te volgen: https://omaps.app/get?kmz\n\nGeniet van het reizen met SAARTHI!";
 
 /* message title of loading file */
 "load_kmz_title" = "Bladwijzers worden geladen";
@@ -184,10 +184,10 @@
 "unknown_current_position" = "Je locatie is nog niet vastgesteld";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, bekijk mijn pin op SARATHI!";
+"bookmark_share_email_subject" = "Hey, bekijk mijn pin op SAARTHI!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, bekijk mijn huidige locatie op SARATHI!";
+"my_position_share_email_subject" = "Hey, bekijk mijn huidige locatie op SAARTHI!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -202,7 +202,7 @@
 "done" = "Klaar";
 
 /* Prints version number in About dialog */
-"version" = "SARATHI versie: %@";
+"version" = "SAARTHI versie: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -270,7 +270,7 @@
 /* Text in menu */
 "website" = "Website";
 
-/* Text in About menu, opens SARATHI news website */
+/* Text in About menu, opens SAARTHI news website */
 "news" = "Nieuws";
 
 /* Text in menu */
@@ -710,7 +710,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Om te kunnen downloaden, heb je meer ruimte nodig. Verwijder overbodige gegevens.";
 
-"editor_sharing_title" = "Ik heb de SARATHI-kaarten verbeterd";
+"editor_sharing_title" = "Ik heb de SAARTHI-kaarten verbeterd";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d van %2$d";
@@ -738,7 +738,7 @@
 
 "editor_detailed_description_hint" = "Gedetailleerde reactie";
 
-"editor_detailed_description" = "Uw voorgestelde wijzigingen worden verzonden naar de OpenStreetMap-gemeenschap. Beschrijf de details die niet kunnen worden bewerkt in SARATHI.";
+"editor_detailed_description" = "Uw voorgestelde wijzigingen worden verzonden naar de OpenStreetMap-gemeenschap. Beschrijf de details die niet kunnen worden bewerkt in SAARTHI.";
 
 "editor_more_about_osm" = "Meer over OpenStreetMap";
 
@@ -772,7 +772,7 @@
 
 "location_services_disabled_on_device_4" = "4. Locatievoorzieningen inschakelen";
 
-"location_services_disabled_on_device_additional_message" = "Of blijf SARATHI gebruiken zonder locatie";
+"location_services_disabled_on_device_additional_message" = "Of blijf SAARTHI gebruiken zonder locatie";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -803,7 +803,7 @@
 "more_on_kayak" = "Foto's, beoordelingen, boeken";
 
 /* An explanation dialog shown when clicking on more_on_kayak link. */
-"dialog_kayak_disclaimer" = "De doorverwijsbonus die je ontvangt voor elke boeking via deze link gaat naar de ontwikkeling van SARATHI.";
+"dialog_kayak_disclaimer" = "De doorverwijsbonus die je ontvangt voor elke boeking via deze link gaat naar de ontwikkeling van SAARTHI.";
 
 /* A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. */
 "dialog_kayak_button" = "Details op Kayak";
@@ -863,7 +863,7 @@
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Bekijk";
 
-"recent_track_background_dialog_message" = "SARATHI gebruikt uw geografische positie op de achtergrond om uw onlangs afgelegde route vast te leggen.";
+"recent_track_background_dialog_message" = "SAARTHI gebruikt uw geografische positie op de achtergrond om uw onlangs afgelegde route vast te leggen.";
 
 "general_settings" = "Algemene instellingen";
 
@@ -1035,7 +1035,7 @@
 
 "power_managment_setting_manual_max" = "Maximale energiebesparing";
 
-"enable_logging_warning_message" = "Deze optie is ingeschakeld voor logboekregistraties voor diagnostische doeleinden. Het helpt bij het identificeren van problemen met de applicatie. Schakel de optie alleen in op verzoek van SARATHI-ondersteuning.";
+"enable_logging_warning_message" = "Deze optie is ingeschakeld voor logboekregistraties voor diagnostische doeleinden. Het helpt bij het identificeren van problemen met de applicatie. Schakel de optie alleen in op verzoek van SAARTHI-ondersteuning.";
 
 "driving_options_title" = "Route-instellingen";
 
@@ -1124,7 +1124,7 @@
 
 "speedcams_alert_title_carplay_2" = "Over snelheidscamera's";
 
-"download_map_carplay" = "Download kaarten in de SARATHI app op uw apparaat";
+"download_map_carplay" = "Download kaarten in de SAARTHI app op uw apparaat";
 
 "carplay_roundabout_exit" = "Afrit nr. %@";
 
@@ -1257,7 +1257,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmaps.app";
 
-/* Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated SAARTHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/nl/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -1294,10 +1294,10 @@
 "app_tip_09" = "Ons belangrijkste doel is om snelle, op privacy gerichte, gebruiksvriendelijke kaarten te maken waar u dol op zult zijn.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Je gebruikt nu SARATHI op het telefoonscherm";
+"car_used_on_the_phone_screen" = "Je gebruikt nu SAARTHI op het telefoonscherm";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Je gebruikt nu SARATHI op het autoscherm";
+"car_used_on_the_car_screen" = "Je gebruikt nu SAARTHI op het autoscherm";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Ga verder op de telefoon";
@@ -1323,7 +1323,7 @@
 "website_menu" = "Menulink";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Wil je een bugrapport naar de ontwikkelaars sturen?\nWe vertrouwen op onze gebruikers, want SARATHI verzamelt geen foutinformatie automatisch. Alvast bedankt voor je steun aan SARATHI!";
+"bugreport_alert_message" = "Wil je een bugrapport naar de ontwikkelaars sturen?\nWe vertrouwen op onze gebruikers, want SAARTHI verzamelt geen foutinformatie automatisch. Alvast bedankt voor je steun aan SAARTHI!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Schakel iCloud-synchronisatie in";

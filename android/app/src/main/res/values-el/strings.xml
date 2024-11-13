@@ -163,7 +163,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Σημειώσεις</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Κοινοποιήθηκαν τα αγαπημένα από το SARATHI σε εσάς</string>
+	<string name="share_bookmarks_email_subject">Κοινοποιήθηκαν τα αγαπημένα από το SAARTHIσε εσάς</string>
 	<string name="share_bookmarks_email_body">Γειa!\n\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το SARATHI. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://omaps.app/get?kmz\n\nΚαλή διασκέδαση ταξιδεύοντας με το SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Φορτώνονται τα αγαπημένα</string>
@@ -250,7 +250,7 @@
 	<string name="menu">Μενού</string>
 	<!-- Text in menu -->
 	<string name="website">Ιστότοπος</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Νέα</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Σχόλια</string>
@@ -789,9 +789,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Ο κύριος στόχος μας είναι να δημιουργήσουμε γρήγορους, εύχρηστους και με σεβασμό στην ιδιωτικότητα χάρτες που θα λατρέψετε.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Αυτή τη στιγμή το SARATHI βρίσκεται στην οθόνη του κινητού</string>
+	<string name="car_used_on_the_phone_screen">Αυτή τη στιγμή το SAARTHIβρίσκεται στην οθόνη του κινητού</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Αυτή τη στιγμή το SARATHI βρίσκεται στην οθόνη του αυτοκινήτου.</string>
+	<string name="car_used_on_the_car_screen">Αυτή τη στιγμή το SAARTHIβρίσκεται στην οθόνη του αυτοκινήτου.</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Είστε συνδεδεμένοι στο Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

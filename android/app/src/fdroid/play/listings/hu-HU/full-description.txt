@@ -17,7 +17,7 @@ Főbb jellemzők:
 
 Az SARATHIben <i>még</i> nincsenek olyan menő funkciók, tömegközlekedés és műholdas térkép. De az Ön <i>segítségével és támogatásával</i>, lépésről lépésre jobbá tehetjük a világot.
 
-Az SARATHI <b>tiszta és organikus, szeretettel készült</b>:
+Az SAARTHI<b>tiszta és organikus, szeretettel készült</b>:
 
 • Villámgyors offline élmény
 • Tiszteletben tartja az adatvédelmet
@@ -40,7 +40,7 @@ Mentes a nyomkövetőktől és egyéb rossz dolgoktól:
 
 Az Omanél hiszünk abban, hogy az <b>adatvédelem alapvető emberi jog</b>:
 
-• Az SARATHI egy közösség által irányított, független nyílt forráskódú projekt.
+• Az SAARTHIegy közösség által irányított, független nyílt forráskódú projekt.
 • Megvédjük a magánszféráját a nagy technológiai vállalatok kíváncsi szemeitől.
 • Maradjon biztonságban, bárhol is van.
 

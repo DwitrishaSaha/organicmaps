@@ -33,7 +33,7 @@
     osm::Editor::Instance().UploadChanges(
         oauthToken,
         {{"created_by",
-          std::string("SARATHI " OMIM_OS_NAME " ") + AppInfo.sharedInfo.bundleVersion.UTF8String},
+          std::string("SAARTHI " OMIM_OS_NAME " ") + AppInfo.sharedInfo.bundleVersion.UTF8String},
          {"bundle_id", NSBundle.mainBundle.bundleIdentifier.UTF8String}},
         lambda);
   }

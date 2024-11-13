@@ -16,9 +16,9 @@ Principales fonctionnalités :
 - Exportation et importation de marque-pages et de tracés aux formats KML, KMZ et GPX
 - Mode sombre pour protéger vos yeux
 
-SARATHI ne propose pas encore de transports publics, de cartes satellites et d'autres fonctionnalités intéressantes. Mais avec <i>votre aide et votre soutien</i>, nous pouvons améliorer les cartes étape par étape.
+SAARTHIne propose pas encore de transports publics, de cartes satellites et d'autres fonctionnalités intéressantes. Mais avec <i>votre aide et votre soutien</i>, nous pouvons améliorer les cartes étape par étape.
 
-SARATHI est <b>pur et organique, fait avec amour</b> :
+SAARTHIest <b>pur et organique, fait avec amour</b> :
 
 - Une expérience hors ligne ultra-rapide
 - Respecte votre vie privée
@@ -41,7 +41,7 @@ Exempt de trackers et d'autres éléments nuisibles :
 
 Chez SARATHI, nous pensons que <b>la vie privée est un droit humain fondamental</b> :
 
-- SARATHI est un projet open-source mené par une communauté indépendante.
+- SAARTHIest un projet open-source mené par une communauté indépendante.
 - Nous protégeons la vie privée des regards indiscrets des grandes entreprises.
 - Restez en sécurité où que vous soyez
 

@@ -209,7 +209,7 @@
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Cuando está habilitado, la pantalla siempre estará encendida cuando se muestre el mapa.</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ahora usa SARATHI en la pantalla del automóvil</string>
+	<string name="car_used_on_the_car_screen">Ahora usa SAARTHIen la pantalla del automóvil</string>
 	<!-- Displayed on the Android Auto or CarPlay screen. Button to display maps on the car screen instead of a phone. Must be no more than 18 symbols! -->
 	<string name="car_continue_in_the_car">A la pantalla del auto</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->

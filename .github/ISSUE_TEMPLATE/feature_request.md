@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea for SARATHI
+about: Suggest an idea for SAARTHI
 title: ''
 labels: [Enhancement]
 assignees: ''
@@ -15,11 +15,11 @@ I'm always frustrated when [...]
 
 
 **Describe the ideal solution**
-A clear and concise description of what you want to see in SARATHI.
+A clear and concise description of what you want to see in SAARTHI.
 
 
 **Describe alternatives you have considered**
-- How do you solve this issue now with SARATHI or other apps?
+- How do you solve this issue now with SAARTHI or other apps?
 - Attach any examples, screenshots, or screen recordings from other apps that help us to better understand the idea.
 
 

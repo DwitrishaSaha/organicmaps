@@ -165,8 +165,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">註釋</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">已與您分享 SARATHI 書籤</string>
-	<string name="share_bookmarks_email_body">您好！\n\n附件是我的書籤，請在 SARATHI 中打開。如果您沒有安裝 SARATHI，可以在這裡下載: https://omaps.app/get?kmz\n\n祝您使用 SARATHI 旅行愉快！</string>
+	<string name="share_bookmarks_email_subject">已與您分享 SAARTHI書籤</string>
+	<string name="share_bookmarks_email_body">您好！\n\n附件是我的書籤，請在 SAARTHI中打開。如果您沒有安裝 SARATHI，可以在這裡下載: https://omaps.app/get?kmz\n\n祝您使用 SAARTHI旅行愉快！</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">正在載入書籤…</string>
 	<!-- Kmz file successful loading -->
@@ -186,11 +186,11 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">地圖下載進行中。</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">嘿，在 SARATHI 查看我的目前的位置吧！請打開 %1$s 或 %2$s 鏈接，還沒安裝離線地圖？在此下載: https://omaps.app/get</string>
+	<string name="my_position_share_sms">嘿，在 SAARTHI查看我的目前的位置吧！請打開 %1$s 或 %2$s 鏈接，還沒安裝離線地圖？在此下載: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">嘿，看看我在 SARATHI 上標記的圖釘吧！</string>
+	<string name="bookmark_share_email_subject">嘿，看看我在 SAARTHI上標記的圖釘吧！</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">嗨，到 SARATHI 查看我目前的位置！</string>
+	<string name="my_position_share_email_subject">嗨，到 SAARTHI查看我目前的位置！</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">嗨，\n\n我現在在這：%1$s。點擊此連結 %2$s 或此連結 %3$s 來查看在地圖上的位置。\n\n謝謝。</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -252,7 +252,7 @@
 	<string name="menu">菜單</string>
 	<!-- Text in menu -->
 	<string name="website">網站</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">新聞</string>
 	<!-- Text in menu -->
 	<string name="facebook">Facebook</string>
@@ -522,7 +522,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">營運者: %s</string>
 	<string name="editor_category_unsuitable_title">找不到合適的類別？</string>
-	<string name="editor_category_unsuitable_text">SARATHI 只允許添加簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href="https://organicmaps.app/faq/editing/advanced-map-editing">指南</a>，以了解詳細的步驟說明。</string>
+	<string name="editor_category_unsuitable_text">SAARTHI只允許添加簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href="https://organicmaps.app/faq/editing/advanced-map-editing">指南</a>，以了解詳細的步驟說明。</string>
 	<string name="downloader_no_downloaded_maps_title">您尚未下載任何地圖</string>
 	<string name="downloader_no_downloaded_maps_message">下載地圖來尋找位置和離線瀏覽。</string>
 	<string name="current_location_unknown_error_title">目前位置未知。</string>
@@ -543,7 +543,7 @@
 	<!-- A referral link on the place page for some hotels -->
 	<string name="more_on_kayak">照片、評論、預訂</string>
 	<!-- An explanation dialog shown when clicking on more_on_kayak link. -->
-	<string name="dialog_kayak_disclaimer">每次通過此鏈接預定所獲得的推薦獎金將用於 SARATHI 的開發。</string>
+	<string name="dialog_kayak_disclaimer">每次通過此鏈接預定所獲得的推薦獎金將用於 SAARTHI的開發。</string>
 	<!-- A confirmation button text in the explanation dialog that opens hotel details page on Kayak website. -->
 	<string name="dialog_kayak_button">Kayak 上的詳細資訊</string>
 	<string name="placepage_edit_bookmark_button">編輯書籤</string>
@@ -778,7 +778,7 @@
 	<string name="enable_show_on_lock_screen_description">啟用後，即使裝置已鎖定，應用程式仍會在鎖定螢幕上運作。</string>
 	<!-- OpenStreetMap text on splash screen -->
 	<string name="splash_subtitle">地圖數據來自 OpenStreetMap</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/zh-Hans/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Zh-hant:%1$E9%%97%%9C%2$E6%%96%%BCOpenStreetMap</string>

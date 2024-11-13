@@ -235,7 +235,7 @@
 	<string name="search_show_on_map">Vezi pe hartă</string>
 	<!-- Text in menu -->
 	<string name="website">Site web</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Știri</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Părere</string>
@@ -497,7 +497,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Proprietar: %s</string>
 	<string name="editor_category_unsuitable_title">Nu găsiți o categorie potrivită?</string>
-	<string name="editor_category_unsuitable_text">SARATHI permite adăugarea doar a unor categorii de puncte simple, ceea ce înseamnă că nu există orașe, drumuri, lacuri, contururi de clădiri, etc. Vă rugăm să adăugați astfel de categorii direct la <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consultați <a href="https://organicmaps.app/faq/editing/advanced-map-editing">ghidul nostru</a> pentru instrucțiuni detaliate pas cu pas.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIpermite adăugarea doar a unor categorii de puncte simple, ceea ce înseamnă că nu există orașe, drumuri, lacuri, contururi de clădiri, etc. Vă rugăm să adăugați astfel de categorii direct la <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consultați <a href="https://organicmaps.app/faq/editing/advanced-map-editing">ghidul nostru</a> pentru instrucțiuni detaliate pas cu pas.</string>
 	<string name="downloader_no_downloaded_maps_title">Nu ai descărcat nicio hartă</string>
 	<string name="downloader_no_downloaded_maps_message">Descarcă hărți pentru a căuta un loc și a naviga fără conectare la internet.</string>
 	<string name="current_location_unknown_error_title">Poziția actuală este necunoscută.</string>
@@ -771,9 +771,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Scopul nostru principal este să construim hărți rapide, axate pe confidențialitate și ușor de utilizat, care să vă placă.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Acum utilizați SARATHI pe ecranul telefonului</string>
+	<string name="car_used_on_the_phone_screen">Acum utilizați SAARTHIpe ecranul telefonului</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Acum utilizați SARATHI pe ecranul mașinii</string>
+	<string name="car_used_on_the_car_screen">Acum utilizați SAARTHIpe ecranul mașinii</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Sunteți conectat la Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

@@ -16,9 +16,9 @@ Główne cechy:
 • Eksport i import zakładek w formatach KML, KMZ, GPX
 • Tryb ciemny, aby chronić Twoje oczy
 
-W SARATHI nie ma <i>jeszcze</i> transportu publicznego, map satelitarnych i innych fajnych funkcji. Ale z <i>Twoją pomocą i wsparciem</i> możemy krok po kroku ulepszać ten świat.
+W SAARTHInie ma <i>jeszcze</i> transportu publicznego, map satelitarnych i innych fajnych funkcji. Ale z <i>Twoją pomocą i wsparciem</i> możemy krok po kroku ulepszać ten świat.
 
-SARATHI jest <b>czyste i organiczne, wykonane z miłością</b>:
+SAARTHIjest <b>czyste i organiczne, wykonane z miłością</b>:
 
 • Błyskawiczna praca w trybie offline
 • Szanuje Twoją prywatność
@@ -39,9 +39,9 @@ Wolny od elementów śledzących i innych złych rzeczy:
 • Brak oprogramowanie śmieciowe
 • B̶r̶a̶k̶ ̶p̶e̶s̶t̶y̶c̶y̶d̶ó̶w Czysto organiczne
 
-W SARATHI wierzymy, że <b>prywatność jest podstawowym prawem człowieka</b>:
+W SAARTHIwierzymy, że <b>prywatność jest podstawowym prawem człowieka</b>:
 
-• SARATHI to niezależny projekt o otwartym kodzie źródłowym prowadzony przez społeczność.
+• SAARTHIto niezależny projekt o otwartym kodzie źródłowym prowadzony przez społeczność.
 • Chronimy prywatność przed wścibskimi oczami Big Tech.
 • Bądź bezpieczny bez względu na to, gdzie jesteś
 

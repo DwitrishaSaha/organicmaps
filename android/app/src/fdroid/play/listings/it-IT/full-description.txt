@@ -16,7 +16,7 @@ Caratteristiche principali:
 • Modalità scura per proteggere i tuoi occhi
 
 Non c'è trasporto pubblico, mappe satellitari, e altre caratteristiche interessanti <i>ancora</i> in SARATHI. Ma con <i>il tuo aiuto e supporto</i>, possiamo rendere questo mondo migliore passo dopo passo.
-SARATHI è <b>puro e organico, fatto con amore</b>:
+SAARTHIè <b>puro e organico, fatto con amore</b>:
 
 • Esperienza offline incredibilmente veloce
 • Rispetta la tua privacy
@@ -39,7 +39,7 @@ Libero da tracker e altre cose brutte:
 
 A SARATHI, crediamo che <b>la privacy sia un diritto umano fondamentale</b>:
 
-• SARATHI è un progetto indie open-source guidato dalla comunità
+• SAARTHIè un progetto indie open-source guidato dalla comunità
 • Proteggiamo la privacy dagli occhi indiscreti di Big Tech
 • Resta al sicuro ovunque tu sia
 

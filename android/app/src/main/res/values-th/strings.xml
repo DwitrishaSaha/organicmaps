@@ -152,7 +152,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">บันทึก</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">แชร์บุ๊กมาร์กของ SARATHI แล้ว</string>
+	<string name="share_bookmarks_email_subject">แชร์บุ๊กมาร์กของ SAARTHIแล้ว</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">กำลังโหลดบุ๊กมาร์ก</string>
 	<!-- Kmz file successful loading -->
@@ -176,7 +176,7 @@
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ SARATHI!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">นี่ มาดูตำแหน่งปัจจุบันของฉันที่แผนที่ SARATHI สิ!</string>
+	<string name="my_position_share_email_subject">นี่ มาดูตำแหน่งปัจจุบันของฉันที่แผนที่ SAARTHIสิ!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">หวัดดี\n\nฉันอยู่ที่นี่ตอนนี้: %1$s. คลิกลิงก์นี้ %2$s หรือลิงก์นี้ %3$s เพื่อดูสถานที่บนแผนที่\n\nขอบคุณ</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -232,7 +232,7 @@
 	<string name="search_show_on_map">ดูบนแผนที่</string>
 	<!-- Text in menu -->
 	<string name="website">เว็บไซต์</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">ข่าว</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">ข้อเสนอแนะ</string>
@@ -633,7 +633,7 @@
 	<string name="power_managment_setting_never">ไม่ใช้</string>
 	<string name="power_managment_setting_auto">อัตโนมัติ</string>
 	<string name="power_managment_setting_manual_max">ประหยัดพลังงานสูงสุด</string>
-	<string name="enable_logging_warning_message">ออปชันเพื่อเปิดการบันทึกประวัติการทำงานเพื่อการวินิจฉัย ประวัติดังกล่าวอาจเป็นประโยชน์กับทีมงานช่วยเหลือของเราที่คอยจัดการกับปัญหาที่เจอระหว่างแอปทำงาน โปรดเปิดออปชันดังกล่าวจากการร้องข้อการสนับสนุนจาก SARATHI เท่านั้น</string>
+	<string name="enable_logging_warning_message">ออปชันเพื่อเปิดการบันทึกประวัติการทำงานเพื่อการวินิจฉัย ประวัติดังกล่าวอาจเป็นประโยชน์กับทีมงานช่วยเหลือของเราที่คอยจัดการกับปัญหาที่เจอระหว่างแอปทำงาน โปรดเปิดออปชันดังกล่าวจากการร้องข้อการสนับสนุนจาก SAARTHIเท่านั้น</string>
 	<string name="access_rules_author_only">การแก้ไขทางออนไลน์</string>
 	<string name="driving_options_title">ทางเลือกเส้นทางขับขี่</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->

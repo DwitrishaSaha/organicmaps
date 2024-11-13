@@ -17,7 +17,7 @@ Ezaugarri nagusiak:
 
 <i>Oraindik</i> ez daude garraio publikoa, satelite bidezko mapak eta beste eginbide polit batzuk SARATHIen. Baina <i>zure laguntzarekin</i>, urratsez urrats hobetu dezakegu.
 
-SARATHI <b>maitasunez egina</b> dago:
+SAARTHI<b>maitasunez egina</b> dago:
 
 • Konexioz kanpoko esperientzia izugarria
 • Zure pribatutasuna errespetatzen du
@@ -40,7 +40,7 @@ Arakatzailerik eta beste gauza txarrik gabe:
 
 SARATHI-en, <b>pribatutasuna oinarrizko giza eskubide bat dela uste dugu</b>:
 
-• SARATHI komunitate independenteek gidatutako kode irekiko proiektu bat da
+• SAARTHIkomunitate independenteek gidatutako kode irekiko proiektu bat da
 • Pribatutasuna, enpresa teknologiko handiengandik babesten zaitugu
 • Egon seguru zauden lekuan zaudela ere
 

@@ -150,7 +150,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Ghi chú</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Điểm đánh dấu SARATHI được chia sẻ</string>
+	<string name="share_bookmarks_email_subject">Điểm đánh dấu SAARTHIđược chia sẻ</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Tải Điểm đánh dấu</string>
 	<!-- Kmz file successful loading -->
@@ -172,9 +172,9 @@
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
 	<string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại SARATHI! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Này, hãy xem ghim của tôi tại SARATHI map</string>
+	<string name="bookmark_share_email_subject">Này, hãy xem ghim của tôi tại SAARTHImap</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Này, hãy xem vị trí hiện tại của tôi tại SARATHI map!</string>
+	<string name="my_position_share_email_subject">Này, hãy xem vị trí hiện tại của tôi tại SAARTHImap!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Chào,\n\nTôi hiện đang ở đây: %1$s. Hãy nhấn vào liên kết này %2$s hoặc liên kết này %3$s để xem địa điểm trên bản đồ.\n\nCám ơn.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -230,7 +230,7 @@
 	<string name="search_show_on_map">Xem trên bản đồ</string>
 	<!-- Text in menu -->
 	<string name="website">Trang web</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Tin tức</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Phản hồi</string>

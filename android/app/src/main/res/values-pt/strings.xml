@@ -150,8 +150,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Notas</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Os favoritos do SARATHI foram partilhados consigo</string>
-	<string name="share_bookmarks_email_body">Olá!\n\nSegue em anexo os meus favoritos da aplicação SARATHI. Por favor abra-os se tiver o SARATHI instalado. Caso não tenha, descarregue a aplicação para o seu dispositivo iOS ou Android com a hiperligação https://omaps.app/get?kmz\n\nDivirta-se a viajar com o SARATHI!</string>
+	<string name="share_bookmarks_email_subject">Os favoritos do SAARTHIforam partilhados consigo</string>
+	<string name="share_bookmarks_email_body">Olá!\n\nSegue em anexo os meus favoritos da aplicação SARATHI. Por favor abra-os se tiver o SAARTHIinstalado. Caso não tenha, descarregue a aplicação para o seu dispositivo iOS ou Android com a hiperligação https://omaps.app/get?kmz\n\nDivirta-se a viajar com o SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">A carregar favoritos</string>
 	<!-- Kmz file successful loading -->
@@ -235,7 +235,7 @@
 	<string name="search_show_on_map">Ver no mapa</string>
 	<!-- Text in menu -->
 	<string name="website">Site</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Notícias</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Comentários</string>
@@ -492,7 +492,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Operador: %s</string>
 	<string name="editor_category_unsuitable_title">Não encontra uma categoria adequada?</string>
-	<string name="editor_category_unsuitable_text">O SARATHI permite-lhe adicionar apenas categorias de pontos simples, ou seja, nada de cidades, estradas, lagos, contornos de edifícios etc. Por favor, adicione essas categorias diretamente ao <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte o nosso <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guia</a> para instruções detalhadas passo a passo.</string>
+	<string name="editor_category_unsuitable_text">O SAARTHIpermite-lhe adicionar apenas categorias de pontos simples, ou seja, nada de cidades, estradas, lagos, contornos de edifícios etc. Por favor, adicione essas categorias diretamente ao <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte o nosso <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guia</a> para instruções detalhadas passo a passo.</string>
 	<string name="downloader_no_downloaded_maps_title">Não descarregou quaisquer mapas</string>
 	<string name="downloader_no_downloaded_maps_message">Descarregar mapas para encontrar a localização e navegar offline.</string>
 	<string name="current_location_unknown_error_title">A localização atual é desconhecida.</string>
@@ -757,9 +757,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Nosso principal objetivo é construir mapas rápidos, focados na privacidade e fáceis de usar que vai adorar.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Está agora a utilizar o SARATHI no ecrã do telemóvel</string>
+	<string name="car_used_on_the_phone_screen">Está agora a utilizar o SAARTHIno ecrã do telemóvel</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Está agora a utilizar o SARATHI no ecrã do automóvel</string>
+	<string name="car_used_on_the_car_screen">Está agora a utilizar o SAARTHIno ecrã do automóvel</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Está ligado ao Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

@@ -277,7 +277,7 @@ private extension AboutController {
         case .faq:
           self?.navigationController?.pushViewController(FaqController(), animated: true)
         case .reportABug:
-          MailComposer.sendBugReportWith(title:"SARATHI Bug Report")
+          MailComposer.sendBugReportWith(title:"SAARTHI Bug Report")
         case .reportMapDataProblem, .volunteer, .news:
           self?.openUrl(aboutInfo.link)
         case .rateTheApp:

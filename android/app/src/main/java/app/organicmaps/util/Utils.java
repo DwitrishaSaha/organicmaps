@@ -319,14 +319,14 @@ public class Utils
    */
   public static void sendBugReport(@NonNull ActivityResultLauncher<SharingUtils.SharingIntent> launcher, @NonNull Activity activity, @NonNull String subject, @NonNull String body)
   {
-    subject = "SARATHI Bugreport" + (TextUtils.isEmpty(subject) ? "" : ": " + subject);
+    subject = "SAARTHIBugreport" + (TextUtils.isEmpty(subject) ? "" : ": " + subject);
     LogsManager.INSTANCE.zipLogs(new SupportInfoWithLogsCallback(launcher, activity, subject, body, Constants.Email.SUPPORT));
   }
 
   // TODO: Don't send logs with general feedback, send system information only (version, device name, connectivity, etc.)
   public static void sendFeedback(@NonNull ActivityResultLauncher<SharingUtils.SharingIntent> launcher, @NonNull Activity activity)
   {
-    LogsManager.INSTANCE.zipLogs(new SupportInfoWithLogsCallback(launcher, activity, "SARATHI Feedback", "",
+    LogsManager.INSTANCE.zipLogs(new SupportInfoWithLogsCallback(launcher, activity, "SAARTHIFeedback", "",
                                                                  Constants.Email.SUPPORT));
   }
 

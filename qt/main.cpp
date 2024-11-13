@@ -109,7 +109,7 @@ int main(int argc, char * argv[])
 
   Platform & platform = GetPlatform();
 
-  LOG(LINFO, ("Sarathi", platform.Version(), "started, detected CPU cores:", platform.CpuCores()));
+  LOG(LINFO, ("SAARTHI", platform.Version(), "started, detected CPU cores:", platform.CpuCores()));
 
   gflags::SetUsageMessage("Desktop application.");
   gflags::SetVersionString(platform.Version());
@@ -136,9 +136,9 @@ int main(int argc, char * argv[])
 
 
 #ifdef BUILD_DESIGNER
-    QApplication::setApplicationName("Sarathi Designer");
+    QApplication::setApplicationName("SAARTHIDesigner");
 #else
-    QApplication::setApplicationName("Sarathi");
+    QApplication::setApplicationName("SAARTHI");
 #endif
 
 
@@ -261,6 +261,6 @@ int main(int argc, char * argv[])
   }
 #endif // BUILD_DESIGNER
 
-  LOG_SHORT(LINFO, ("Sarathi finished with code", returnCode));
+  LOG_SHORT(LINFO, ("SAARTHIfinished with code", returnCode));
   return returnCode;
 }

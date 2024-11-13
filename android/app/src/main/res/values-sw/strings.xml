@@ -61,7 +61,7 @@
 	<string name="pref_tts_test_voice_title">Jaribu maelekezo ya sauti (TTS, maandishi-kwa-hotuba)</string>
 	<!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
 	<string name="pref_tts_playing_test_voice">Angalia mipangilio ya sauti au ya mfumo ya kubadilisha maandishi-hadi-hotuba ikiwa husikii sauti sasa.</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Habari</string>
 	<!-- Button in the main Help dialog -->
 	<string name="faq">Maswali na majibu</string>
@@ -208,7 +208,7 @@
 	<string name="power_managment_setting_never">Kamwe</string>
 	<string name="power_managment_setting_auto">Kiotomatiki</string>
 	<string name="power_managment_setting_manual_max">Upeo wa kuhifadhi nishati</string>
-	<string name="enable_logging_warning_message">Chaguo huwasha data kwa madhumuni ya uchunguzi. Itakuwa muhimu kwa wafanyakazi wetu ambao wanatatua matatizo ya programu. Washa chaguo hili kwa maombi ya mhudumu wa SARATHI tu.</string>
+	<string name="enable_logging_warning_message">Chaguo huwasha data kwa madhumuni ya uchunguzi. Itakuwa muhimu kwa wafanyakazi wetu ambao wanatatua matatizo ya programu. Washa chaguo hili kwa maombi ya mhudumu wa SAARTHItu.</string>
 	<string name="access_rules_author_only">Uhariri mtandaoni</string>
 	<string name="driving_options_title">Machaguo ya njia</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->

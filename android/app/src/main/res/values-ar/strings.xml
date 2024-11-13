@@ -165,8 +165,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">ملاحظات</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">تم مشاركة إشارات SARATHI المرجعية معك</string>
-	<string name="share_bookmarks_email_body">مرحباً! ْ\n\n تم إرفاق إشاراتي المرجعية من تطبيق SARATHI. الرجاء فتحهم إذا لديك تطبيق SARATHI مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://omaps.app/get?kmz \n\nاستمتع بالسفر مع SARATHI!</string>
+	<string name="share_bookmarks_email_subject">تم مشاركة إشارات SAARTHIالمرجعية معك</string>
+	<string name="share_bookmarks_email_body">مرحباً! ْ\n\n تم إرفاق إشاراتي المرجعية من تطبيق SARATHI. الرجاء فتحهم إذا لديك تطبيق SAARTHIمثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://omaps.app/get?kmz \n\nاستمتع بالسفر مع SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">يتم تحميل الإشارات المرجعية</string>
 	<!-- Kmz file successful loading -->
@@ -252,7 +252,7 @@
 	<string name="menu">القائمة</string>
 	<!-- Text in menu -->
 	<string name="website">الموقع الإلكتروني</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">أخبار</string>
 	<!-- Text in menu -->
 	<string name="telegram">تيليجرام</string>

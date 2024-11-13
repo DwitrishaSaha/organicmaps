@@ -34,7 +34,7 @@ public final class Map
   public static final int WIDGET_RULER = 0x01;
   public static final int WIDGET_COMPASS = 0x02;
   public static final int WIDGET_COPYRIGHT = 0x04;
-  public static final int WIDGET_SCALE_FPS_LABEL = 0x08;
+  //public static final int WIDGET_SCALE_FPS_LABEL = 0x08;
 
   // Should correspond to dp::Anchor from drape_global.hpp
   public static final int ANCHOR_CENTER = 0x00;
@@ -320,24 +320,23 @@ public final class Map
     nativeExecuteMapApiRequest();
   }
 
-  private void setupWidgets(final Context context, int width, int height)
-  {
+  private void setupWidgets(final Context context, int width, int height) {
     mHeight = height;
     mWidth = width;
 
     nativeCleanWidgets();
     updateBottomWidgetsOffset(context, mBottomWidgetOffsetX, mBottomWidgetOffsetY);
-    if (mDisplayType == DisplayType.Device)
-    {
-      nativeSetupWidget(WIDGET_SCALE_FPS_LABEL, UiUtils.dimen(context, R.dimen.margin_base), UiUtils.dimen(context, R.dimen.margin_base) * 2, ANCHOR_LEFT_TOP);
-      updateCompassOffset(context, mCurrentCompassOffsetX, mCurrentCompassOffsetY, false);
+    if (mDisplayType == DisplayType.Device) {
+        // Remove this line to skip adding the FPS label widget
+        // nativeSetupWidget(WIDGET_SCALE_FPS_LABEL, UiUtils.dimen(context, R.dimen.margin_base), UiUtils.dimen(context, R.dimen.margin_base) * 2, ANCHOR_LEFT_TOP);
+        updateCompassOffset(context, mCurrentCompassOffsetX, mCurrentCompassOffsetY, false);
+    } else {
+        // Remove this line to skip adding the FPS label widget
+        // nativeSetupWidget(WIDGET_SCALE_FPS_LABEL, (float) mWidth / 2 + UiUtils.dimen(context, R.dimen.margin_base) * 2, UiUtils.dimen(context, R.dimen.margin_base), ANCHOR_LEFT_TOP);
+        updateCompassOffset(context, mWidth, mCurrentCompassOffsetY, true);
     }
-    else
-    {
-      nativeSetupWidget(WIDGET_SCALE_FPS_LABEL, (float) mWidth / 2 + UiUtils.dimen(context, R.dimen.margin_base) * 2, UiUtils.dimen(context, R.dimen.margin_base), ANCHOR_LEFT_TOP);
-      updateCompassOffset(context, mWidth, mCurrentCompassOffsetY, true);
-    }
-  }
+}
+
 
   private void updateRulerOffset(final Context context, int offsetX, int offsetY)
   {

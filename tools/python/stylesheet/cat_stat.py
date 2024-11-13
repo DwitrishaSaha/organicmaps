@@ -2,7 +2,7 @@
 
 """
 First lists tags used by Sarathi
-Then, popular tags among selected keys (see find_popular_taginfo for list) which are not yet used by Sarathi are listed
+Then, popular tags among selected keys (see find_popular_taginfo for list) which are not yet used by SAARTHIare listed
 """
 
 import csv

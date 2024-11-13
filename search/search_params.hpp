@@ -66,7 +66,7 @@ struct SearchParams
   m2::RectD m_viewport;
 
   size_t m_batchSize = kDefaultBatchSizeEverywhere;
-  size_t m_maxNumResults = kDefaultNumResultsEverywhere;
+  size_t m_maxNumResults = 7;
 
   // Minimal distance between search results (by x,y axes in mercator), needed for filtering of viewport search results.
   m2::PointD m_minDistanceOnMapBetweenResults{0, 0};

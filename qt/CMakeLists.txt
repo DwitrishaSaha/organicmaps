@@ -75,11 +75,11 @@ target_link_libraries(${PROJECT_NAME}
 if (BUILD_DESIGNER)
   target_link_libraries(${PROJECT_NAME} generator)
   set(BUNDLE_NAME "OMaps.Designer")
-  set(BUNDLE_DISPLAY_NAME "Sarathi Designer")
+  set(BUNDLE_DISPLAY_NAME "SAARTHIDesigner")
   set(BUNDLE_ICON designer.icns)
 else()
   set(BUNDLE_NAME "OMaps")
-  set(BUNDLE_DISPLAY_NAME "Sarathi Desktop")
+  set(BUNDLE_DISPLAY_NAME "SAARTHIDesktop")
   set(BUNDLE_ICON mac.icns)
 endif()
 

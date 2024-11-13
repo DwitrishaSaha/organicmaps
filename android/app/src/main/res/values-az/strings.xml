@@ -34,7 +34,7 @@
 	<string name="country_status_download_failed">Yükləmə uğursuz oldu</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Yenidən cəhd et</string>
-	<string name="about_menu_title">SARATHI Haqqında</string>
+	<string name="about_menu_title">SAARTHIHaqqında</string>
 	<!-- Text in About screen -->
 	<string name="about_headline">Hər kəs üçün ödənişsiz və sevgi ilə hazırlanmış xəritə</string>
 	<!-- Text in About screen -->
@@ -164,8 +164,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Qeydlər</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">SARATHI əlfəcinləri sizinlə paylaşıldı</string>
-	<string name="share_bookmarks_email_body">Salam!\n\nSARATHI əlfəcinlərim əlavə olunub. Zəhmət olmasa SARATHI-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://omaps.app/get?kmz\n\nSARATHI ilə səyahətdən həzz alın!</string>
+	<string name="share_bookmarks_email_subject">SAARTHIəlfəcinləri sizinlə paylaşıldı</string>
+	<string name="share_bookmarks_email_body">Salam!\n\nSAARTHIəlfəcinlərim əlavə olunub. Zəhmət olmasa SARATHI-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://omaps.app/get?kmz\n\nSAARTHIilə səyahətdən həzz alın!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Əlfəcinlər yüklənir</string>
 	<!-- Kmz file successful loading -->
@@ -187,7 +187,7 @@
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
 	<string name="my_position_share_sms">Salam, SARATHI\'da mənim hal-hazırda olduğum ünvanı yoxla! %1$s və ya %2$s Oflayn xəritələriniz yoxdur? Buradan endirin: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Salam, SARATHI xəritəsində mənim pin kodumu yoxlayın!</string>
+	<string name="bookmark_share_email_subject">Salam, SAARTHIxəritəsində mənim pin kodumu yoxlayın!</string>
 	<!-- Subject for emailed position -->
 	<string name="my_position_share_email_subject">Hey, SARATHI\'da mənim hal-hazırda olduğum ünvana baxın!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
@@ -249,7 +249,7 @@
 	<string name="search_show_on_map">Xəritədə baxın</string>
 	<!-- Text in menu -->
 	<string name="website">Veb sayt</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Xəbərlər</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Rəy</string>
@@ -767,16 +767,16 @@
 	<string name="splash_subtitle">OpenStreetMap-dan xəritə məlumatları</string>
 	<!-- Telegram group url for the "?" About page -->
 	<string name="telegram_url">https://t.me/OrganicMapsTR # Probably better than Ru</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/tr/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Tr:About</string>
 	<!-- App Tip #00 -->
 	<string name="app_tip_00">İcma tərəfindən yaradılmış xəritələrimizdən istifadə etdiyiniz üçün təşəkkür edirik!</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">İndi telefon ekranında SARATHI istifadə edirsiniz</string>
+	<string name="car_used_on_the_phone_screen">İndi telefon ekranında SAARTHIistifadə edirsiniz</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Hazırda avtomobil ekranında SARATHI istifadə edirsiniz</string>
+	<string name="car_used_on_the_car_screen">Hazırda avtomobil ekranında SAARTHIistifadə edirsiniz</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Siz Android Auto-a qoşulmusunuz</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

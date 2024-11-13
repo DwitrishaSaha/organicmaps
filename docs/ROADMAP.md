@@ -1,6 +1,6 @@
 # Roadmap
 
-The Sarathi project uses [Github Discussions](https://github.com/organicmaps/organicmaps/discussions/categories/ideas) to define its roadmap. ROADMAP.md files are common in open source projects but we find they quickly become out of date. We opt for an issues and milestone approach that our maintainers and community can keep up-to-date as work is added and completed.
+The SAARTHIproject uses [Github Discussions](https://github.com/organicmaps/organicmaps/discussions/categories/ideas) to define its roadmap. ROADMAP.md files are common in open source projects but we find they quickly become out of date. We opt for an issues and milestone approach that our maintainers and community can keep up-to-date as work is added and completed.
 
 ## Milestones
 

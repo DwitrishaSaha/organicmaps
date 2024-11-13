@@ -150,7 +150,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Noter</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">SARATHI bogmærker er blevet delt med dig</string>
+	<string name="share_bookmarks_email_subject">SAARTHIbogmærker er blevet delt med dig</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Indlæser Bogmærker</string>
 	<!-- Kmz file successful loading -->
@@ -172,9 +172,9 @@
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
 	<string name="my_position_share_sms">Hey, tjek min nuværende lokation ud på SARATHI! %1$s or %2$s. Har du ikke offline kort? Download her: https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Hey, tjek min knappenål på SARATHI kortet ud!</string>
+	<string name="bookmark_share_email_subject">Hey, tjek min knappenål på SAARTHIkortet ud!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Hey, tjek min nuværende lokation ud på SARATHI kortet!</string>
+	<string name="my_position_share_email_subject">Hey, tjek min nuværende lokation ud på SAARTHIkortet!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Hey, her er jeg nu: %1$s. Tryk på dette link %2$s eller dette %3$s for at se stedet på kortet. Tak.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -230,7 +230,7 @@
 	<string name="search_show_on_map">Vis på kortet</string>
 	<!-- Text in menu -->
 	<string name="website">Hjemmeside</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Nyheder</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Feedback</string>
@@ -487,7 +487,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Bruger: %s</string>
 	<string name="editor_category_unsuitable_title">Kan du ikke finde en passende kategori?</string>
-	<string name="editor_category_unsuitable_text">SARATHI giver kun mulighed for at tilføje simple punktkategorier, dvs. ingen byer, veje, søer, bygningsomrids osv. Tilføj venligst sådanne kategorier direkte til <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Se vores <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guide</a> for detaljerede trin for trin-instruktioner.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIgiver kun mulighed for at tilføje simple punktkategorier, dvs. ingen byer, veje, søer, bygningsomrids osv. Tilføj venligst sådanne kategorier direkte til <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Se vores <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guide</a> for detaljerede trin for trin-instruktioner.</string>
 	<string name="downloader_no_downloaded_maps_title">Du har ikke hentet alle kort</string>
 	<string name="downloader_no_downloaded_maps_message">Download kort for at finde position og navigere offline.</string>
 	<string name="current_location_unknown_error_title">Aktuel position er ukendt.</string>
@@ -633,7 +633,7 @@
 	<string name="power_managment_setting_never">Aldrig</string>
 	<string name="power_managment_setting_auto">Automatisk</string>
 	<string name="power_managment_setting_manual_max">Maksimum strømbesparelse</string>
-	<string name="enable_logging_warning_message">Indstillingen aktiverer logning til diagnostiske formål. Det kan være nyttigt for vores supportere, der fejlfinder problemer med appen. Aktiver kun denne mulighed på anmodning fra SARATHI support.</string>
+	<string name="enable_logging_warning_message">Indstillingen aktiverer logning til diagnostiske formål. Det kan være nyttigt for vores supportere, der fejlfinder problemer med appen. Aktiver kun denne mulighed på anmodning fra SAARTHIsupport.</string>
 	<string name="access_rules_author_only">Online redigering</string>
 	<string name="driving_options_title">Køre muligheder</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -746,9 +746,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Vores hovedmål er at bygge hurtige, privatlivsfokuserede, brugervenlige kort, som du vil elske.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Du bruger nu SARATHI på telefonens skærm.</string>
+	<string name="car_used_on_the_phone_screen">Du bruger nu SAARTHIpå telefonens skærm.</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Du bruger nu SARATHI på bilens skærm.</string>
+	<string name="car_used_on_the_car_screen">Du bruger nu SAARTHIpå bilens skærm.</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Du er forbundet til Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

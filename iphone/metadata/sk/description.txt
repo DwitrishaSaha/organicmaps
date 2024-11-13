@@ -7,13 +7,13 @@
 • Dark mode to protect your eyes
 • … and many other features!
 
-SARATHI is pure and organic, made with love:
+SAARTHI is pure and organic, made with love:
 
 • Respects your privacy
 • Saves your battery
 • No unexpected mobile data charges
 
-SARATHI is free from trackers and other bad stuff:
+SAARTHI is free from trackers and other bad stuff:
 
 • No ads
 • No tracking
@@ -26,9 +26,9 @@ SARATHI is free from trackers and other bad stuff:
 • No crapware
 • No pesticides
 
-At SARATHI, we believe that privacy is a fundamental human right:
+At SAARTHI, we believe that privacy is a fundamental human right:
 
-• SARATHI is an indie community-driven project
+• SAARTHI is an indie community-driven project
 • The code is open-sourced
 • The maps data is taken from OpenStreetMap, also community-driven project
 • We protect your privacy from Big Tech’s prying eyes
@@ -36,4 +36,4 @@ At SARATHI, we believe that privacy is a fundamental human right:
 
 Reject surveillance, embrace your freedom, and support the community.
 
-Give SARATHI a try!
+Give SAARTHI a try!

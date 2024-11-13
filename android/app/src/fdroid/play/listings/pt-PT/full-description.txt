@@ -18,7 +18,7 @@ Características principais:
 
 <i>Ainda</i> não existem transportes públicos, mapas de satélite e outras funcionalidades interessantes no SARATHI. Mas com a sua ajuda e apoio, podemos criar mapas melhores aos poucos.
 
-O SARATHI é <b>puro e orgânico, feito com amor</b>:
+O SAARTHIé <b>puro e orgânico, feito com amor</b>:
 
 • Experiência offline extremamente rápida
 • Respeita a sua privacidade
@@ -41,7 +41,7 @@ Livre de localizadores e outras coisas más:
 
 No SARATHI, acreditamos que a <b>privacidade é um direito humano fundamental</b>:
 
-• O SARATHI é um projeto de código aberto orientado para a comunidade indie
+• O SAARTHIé um projeto de código aberto orientado para a comunidade indie
 • Protegemos a privacidade dos olhares curiosos da Big Tech
 • Fique seguro onde quer que esteja
 

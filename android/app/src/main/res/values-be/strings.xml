@@ -248,7 +248,7 @@
 	<string name="search_show_on_map">Паглядзець на мапе</string>
 	<!-- Text in menu -->
 	<string name="website">Вэб-сайт</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Навіны</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Водгук</string>
@@ -509,7 +509,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Уладальнік: %s</string>
 	<string name="editor_category_unsuitable_title">Няма прыдатнай катэгорыі?</string>
-	<string name="editor_category_unsuitable_text">SARATHI дазваляе дадаваць на мапу толькі простыя тыпы аб\'ектаў, гэта значыць без гарадаў, дарог, азёр і будынкаў. Калі ласка, дадайце такія катэгорыі на сайце <a href="https://www.openstreetmap.org/">OpenStreetMap.org </a>. Мы таксама рэкамендуем азнаёміцца ​​з <a href="https://organicmaps.app/faq/editing/advanced-map-editing/">падрабязнымі інструкцыямі і іншымі прыкладаннямі для рэдагавання мапы</a>.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIдазваляе дадаваць на мапу толькі простыя тыпы аб\'ектаў, гэта значыць без гарадаў, дарог, азёр і будынкаў. Калі ласка, дадайце такія катэгорыі на сайце <a href="https://www.openstreetmap.org/">OpenStreetMap.org </a>. Мы таксама рэкамендуем азнаёміцца ​​з <a href="https://organicmaps.app/faq/editing/advanced-map-editing/">падрабязнымі інструкцыямі і іншымі прыкладаннямі для рэдагавання мапы</a>.</string>
 	<string name="downloader_no_downloaded_maps_title">Вы не спампавалі ніводнай мапы</string>
 	<string name="downloader_no_downloaded_maps_message">Спампуйце мапы, каб шукаць месцы і карыстацца навігацыяй без інтэрнэту.</string>
 	<string name="current_location_unknown_error_title">Месцазнаходжанне невядома.</string>
@@ -760,7 +760,7 @@
 	<string name="splash_subtitle">Даныя карты з OpenStreetMap</string>
 	<!-- Telegram group url for the "?" About page -->
 	<string name="telegram_url">https://t.me/OrganicMapsRu</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/ru/</string>
 	<!-- App Tip #00 -->
 	<string name="app_tip_00">Дзякуй за выкарыстанне нашых карт, створаных супольнасцю!</string>
@@ -783,9 +783,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Наша галоўная мэта - ствараць хуткія, арыентаваныя на прыватнасць і простыя ў выкарыстанні карты, якія вам спадабаюцца.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Вы выкарыстоўваеце SARATHI на экране тэлефона</string>
+	<string name="car_used_on_the_phone_screen">Вы выкарыстоўваеце SAARTHIна экране тэлефона</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Вы выкарыстоўваеце SARATHI на экране аўтамабіля</string>
+	<string name="car_used_on_the_car_screen">Вы выкарыстоўваеце SAARTHIна экране аўтамабіля</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Вы падключаны да Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

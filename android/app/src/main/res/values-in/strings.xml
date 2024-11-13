@@ -232,7 +232,7 @@
 	<string name="search_show_on_map">Tampilkan pada peta</string>
 	<!-- Text in menu -->
 	<string name="website">Situs Web</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Berita</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Umpan balik</string>
@@ -487,7 +487,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Pemilik: %s</string>
 	<string name="editor_category_unsuitable_title">Tidak dapat menemukan kategori yang sesuai?</string>
-	<string name="editor_category_unsuitable_text">SARATHI hanya memungkinkan untuk menambahkan kategori titik sederhana, yang berarti tidak ada kota, jalan, danau, garis besar bangunan, dll. Silahkan tambahkan kategori tersebut secara langsung ke <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Lihat <a href="https://organicmaps.app/faq/editing/advanced-map-editing">panduan</a> kami untuk petunjuk langkah demi langkah yang terperinci.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIhanya memungkinkan untuk menambahkan kategori titik sederhana, yang berarti tidak ada kota, jalan, danau, garis besar bangunan, dll. Silahkan tambahkan kategori tersebut secara langsung ke <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Lihat <a href="https://organicmaps.app/faq/editing/advanced-map-editing">panduan</a> kami untuk petunjuk langkah demi langkah yang terperinci.</string>
 	<string name="downloader_no_downloaded_maps_title">Tidak ada peta apa pun yang diunduh</string>
 	<string name="downloader_no_downloaded_maps_message">Unduh peta untuk menemukan lokasi dan bernavigasi secara offline.</string>
 	<string name="current_location_unknown_error_title">Lokasi saat ini tidak diketahui.</string>
@@ -723,7 +723,7 @@
 	<string name="enable_keep_screen_on_description">Apabila diaktifkan, layar akan selalu menyala ketika menampilkan peta.</string>
 	<!-- OpenStreetMap text on splash screen -->
 	<string name="splash_subtitle">Data peta dari OpenStreetMap</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/id/</string>
 	<!-- App Tip #00 -->
 	<string name="app_tip_00">Terima kasih telah menggunakan peta buatan komunitas kami!</string>
@@ -746,9 +746,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Tujuan utama kami adalah membuat peta yang cepat, berfokus pada privasi, dan mudah digunakan yang akan Anda sukai.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Anda sekarang menggunakan SARATHI pada layar ponsel</string>
+	<string name="car_used_on_the_phone_screen">Anda sekarang menggunakan SAARTHIpada layar ponsel</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Anda sekarang menggunakan SARATHI pada layar mobil</string>
+	<string name="car_used_on_the_car_screen">Anda sekarang menggunakan SAARTHIpada layar mobil</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Anda terhubung ke Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

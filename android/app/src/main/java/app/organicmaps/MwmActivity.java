@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.content.res.Configuration;
 import android.location.Location;
 import android.net.Uri;
@@ -50,6 +51,7 @@ import app.organicmaps.api.Const;
 import app.organicmaps.base.BaseMwmFragmentActivity;
 import app.organicmaps.base.OnBackPressListener;
 import app.organicmaps.bookmarks.BookmarkCategoriesActivity;
+import app.organicmaps.bookmarks.BookmarkListActivity;
 import app.organicmaps.bookmarks.data.BookmarkManager;
 import app.organicmaps.bookmarks.data.MapObject;
 import app.organicmaps.display.DisplayChangedListener;
@@ -139,6 +141,8 @@ import static app.organicmaps.location.LocationState.FOLLOW;
 import static app.organicmaps.location.LocationState.FOLLOW_AND_ROTATE;
 import static app.organicmaps.location.LocationState.LOCATION_TAG;
 import static app.organicmaps.util.PowerManagment.POWER_MANAGEMENT_TAG;
+import app.organicmaps.bookmarks.data.BookmarkCategory;
+
 
 
 
@@ -352,61 +356,99 @@ public class MwmActivity extends BaseMwmFragmentActivity
     }
   }
 
-private void importBookmarksFromDrive() {
-  //https://drive.google.com/file/d/1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5/view?usp=sharing
-    String driveUrl = "https://drive.google.com/uc?export=download&id=1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5";
+  //https://drive.google.com/file/d/1tfKdWhRSDKoUdMedCUYKDDWtzH3E5Ula/view?usp=drive_link
+  //https://drive.google.com/file/d/1abYTtRQM7RgPBtMyDVmqokKy7Puxl_Zs/view?usp=sharing
+  //https://drive.google.com/file/d/1dJ2vI9oPZ8PhKtASTYvgqF1Gec9AgqrC/view?usp=sharing
+
+
+//  private void importBookmarksFromDrive() {
+//    //https://drive.google.com/file/d/1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5/view?usp=sharing
+//    String driveUrl = "https://drive.google.com/uc?export=download&id=1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5";
+//    DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+//
+//    Uri uri = Uri.parse(driveUrl);
+//    DownloadManager.Request request = new DownloadManager.Request(uri);
+//    request.setDestinationInExternalFilesDir(this, Environment.DIRECTORY_DOWNLOADS, "places.gpx");
+//    request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+//
+//    // Enqueue the download and get download ID
+//    long downloadId = downloadManager.enqueue(request);
+//
+//    // Create a file reference for the expected download location
+//    File downloadedFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "places.gpx");
+//
+//    // Check download completion using a background thread
+//    new Thread(() -> {
+//      boolean downloadComplete = false;
+//      while (!downloadComplete) {
+//        // Wait briefly before checking again
+//        try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+//
+//        // Check if the file exists and is not zero in size
+//        if (downloadedFile.exists() && downloadedFile.length() > 0) {
+//          downloadComplete = true;
+//
+//          // Load the downloaded file into BookmarkManager
+//          runOnUiThread(() -> {
+//            BookmarkManager.INSTANCE.loadBookmarksFile(downloadedFile.getAbsolutePath(), true);
+//            Toast.makeText(this, "Bookmarks imported successfully.", Toast.LENGTH_LONG).show();
+//          });
+//        }
+//      }
+//    }).start();
+//  }
+
+  private void importBookmarksFromDrive() {
+    // List of Google Drive links
+    String[] driveUrls = {
+      //https://drive.google.com/file/d/1abYTtRQM7RgPBtMyDVmqokKy7Puxl_Zs/view?usp=drive_link
+      //"https://drive.google.com/uc?export=download&id=1br9WXQCUlC_MLuLcyrNbIohGjJS75rU5",
+      //https://drive.google.com/file/d/1dJ2vI9oPZ8PhKtASTYvgqF1Gec9AgqrC/view?usp=drive_link
+      "https://drive.google.com/uc?export=download&id=1abYTtRQM7RgPBtMyDVmqokKy7Puxl_Zs",
+      "https://drive.google.com/uc?export=download&id=1dJ2vI9oPZ8PhKtASTYvgqF1Gec9AgqrC"
+    };
+
     DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
 
-    Uri uri = Uri.parse(driveUrl);
-    DownloadManager.Request request = new DownloadManager.Request(uri);
-    request.setDestinationInExternalFilesDir(this, Environment.DIRECTORY_DOWNLOADS, "places.gpx");
-    request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+    for (int i = 0; i < driveUrls.length; i++) {
+      String driveUrl = driveUrls[i];
 
-    // Enqueue the download and get download ID
-    long downloadId = downloadManager.enqueue(request);
+      // Assign a unique name for each file
+      String fileName = "places_" + (i + 1) + ".gpx";
 
-    // Create a file reference for the expected download location
-    File downloadedFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "places.gpx");
+      Uri uri = Uri.parse(driveUrl);
+      DownloadManager.Request request = new DownloadManager.Request(uri);
+      request.setDestinationInExternalFilesDir(this, Environment.DIRECTORY_DOWNLOADS, fileName);
+      request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
 
-    // Check download completion using a background thread
-    new Thread(() -> {
+      // Enqueue the download and get download ID
+      long downloadId = downloadManager.enqueue(request);
+
+      // Create a file reference for the expected download location
+      File downloadedFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), fileName);
+
+      // Check download completion using a background thread
+      new Thread(() -> {
         boolean downloadComplete = false;
         while (!downloadComplete) {
-            // Wait briefly before checking again
-            try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+          // Wait briefly before checking again
+          try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
 
-            // Check if the file exists and is not zero in size
-            if (downloadedFile.exists() && downloadedFile.length() > 0) {
-                downloadComplete = true;
+          // Check if the file exists and is not zero in size
+          if (downloadedFile.exists() && downloadedFile.length() > 0) {
+            downloadComplete = true;
 
-                // Load the downloaded file into BookmarkManager
-                runOnUiThread(() -> {
-                    BookmarkManager.INSTANCE.loadBookmarksFile(downloadedFile.getAbsolutePath(), true);
-                    Toast.makeText(this, "Bookmarks imported successfully.", Toast.LENGTH_LONG).show();
-                });
-            }
+            // Load the downloaded file into BookmarkManager
+            runOnUiThread(() -> {
+              BookmarkManager.INSTANCE.loadBookmarksFile(downloadedFile.getAbsolutePath(), true);
+              Toast.makeText(this, "Bookmarks imported successfully: " + fileName, Toast.LENGTH_LONG).show();
+            });
+          }
         }
-    }).start();
-}
+      }).start();
+    }
+  }
 
-//   private void importBookmarksFromAssets() {
-//     AssetManager assetManager = getAssets();
-//     try (InputStream inputStream = assetManager.open("places.gpx")) {
-//         File tempFile = new File(getCacheDir(), "places_temp.gpx");
-//         try (OutputStream outputStream = new FileOutputStream(tempFile)) {
-//             byte[] buffer = new byte[1024];
-//             int length;
-//             while ((length = inputStream.read(buffer)) > 0) {
-//                 outputStream.write(buffer, 0, length);
-//             }
-//             // Now load the file using the BookmarkManager
-//             BookmarkManager.INSTANCE.loadBookmarksFile(tempFile.getAbsolutePath(), true);
-//         }
-//     } catch (IOException e) {
-//         e.printStackTrace();
-//         Toast.makeText(this, "Failed to load bookmarks from assets", Toast.LENGTH_SHORT).show();
-//     }
-// }
 
 
   private void migrateOAuthCredentials()
@@ -477,10 +519,31 @@ private void importBookmarksFromDrive() {
     mPanelAnimator.show(fragmentClass, args, completionListener);
   }
 
-  private void showBookmarks()
-  {
+  private void showBookmarks() {
     BookmarkCategoriesActivity.start(this);
   }
+
+// New method to directly open "My Places (Region 2)"
+//public void showBookmarksSearch() {
+//  String categoryName = "My Places (Region 2)";
+//  BookmarkCategory targetCategory = null;
+//
+//  // Retrieve the list of categories and search for the desired one
+//  for (BookmarkCategory category : BookmarkManager.INSTANCE.getCategories()) {
+//    if (categoryName.equals(category.getName())) {
+//      targetCategory = category;
+//      break;
+//    }
+//  }
+//
+//  // Open the found category if it exists
+//  if (targetCategory != null) {
+//    BookmarkListActivity.startForResult(this, targetCategory);
+//  } else {
+//    Toast.makeText(this, "Category not found: " + categoryName, Toast.LENGTH_SHORT).show();
+//  }
+//}
+
 
   private void showHelp()
   {

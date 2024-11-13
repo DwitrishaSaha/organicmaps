@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Describe your issue in detail to help us improve SARATHI
+about: Describe your issue in detail to help us improve SAARTHI
 title: ''
 labels: ''
 assignees: ''
@@ -30,7 +30,7 @@ If applicable, add screenshots or screen recordings to help explain your problem
 
 **System information:**
  - Operating system and its version: [iOS 12, Android 10, Ubuntu 22, MacOS Big Sur, etc.]
- - SARATHI version: [you can find it by tapping the button with the green SARATHI logo]
+ - SAARTHI version: [you can find it by tapping the button with the green SAARTHI logo]
  - Device Model: [e.g. iPhone 6, Samsung S22]
 
 

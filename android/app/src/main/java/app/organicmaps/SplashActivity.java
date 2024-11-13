@@ -33,11 +33,13 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import java.io.IOException;
 import java.util.Objects;
 
+
 public class SplashActivity extends AppCompatActivity
 {
   private static final String TAG = SplashActivity.class.getSimpleName();
 
-  private static final long DELAY = 100;
+  // Set delay to 4000 milliseconds (4 seconds) or 5000 (5 seconds)
+  private static final long DELAY = 4000;  // 4 seconds; change to 5000 for 5 seconds if preferred
 
   private boolean mCanceled = false;
 
@@ -164,7 +166,6 @@ public class SplashActivity extends AppCompatActivity
       processNavigation();
   }
 
-  // Called from MwmApplication::nativeInitFramework like callback.
   @Keep
   @SuppressWarnings({"unused", "unchecked"})
   public void processNavigation()
@@ -175,19 +176,12 @@ public class SplashActivity extends AppCompatActivity
       return;
     }
 
-    // Re-use original intent with the known safe subset of flags to retain security permissions.
-    // https://github.com/organicmaps/organicmaps/issues/6944
     final Intent intent = Objects.requireNonNull(getIntent());
     intent.setComponent(new ComponentName(this, DownloadResourcesLegacyActivity.class));
-    // FLAG_ACTIVITY_NEW_TASK and FLAG_ACTIVITY_RESET_TASK_IF_NEEDED break the cold start.
-    // https://github.com/organicmaps/organicmaps/pull/7287
-    // FORWARD_RESULT_FLAG conflicts with the ActivityResultLauncher.
-    // https://github.com/organicmaps/organicmaps/issues/8984
     intent.setFlags(intent.getFlags() & Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
     if (Factory.isStartedForApiResult(intent))
     {
-      // Wait for the result from MwmActivity for API callers.
       mApiRequest.launch(intent);
       return;
     }
@@ -197,3 +191,4 @@ public class SplashActivity extends AppCompatActivity
     finish();
   }
 }
+

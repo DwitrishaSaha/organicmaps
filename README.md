@@ -2,7 +2,7 @@
 
 <a name="install"/>
 
-[Sarathi](https://organicmaps.app) is a free Android & iOS offline maps app for travellers, tourists, drivers, hikers, and cyclists.
+[Sarathi] is a free Android & iOS offline maps app for travellers, tourists, drivers, hikers, and cyclists.
 It uses crowd-sourced [OpenStreetMap](https://www.openstreetmap.org) data and is developed with love by the creators of **MapsWithMe** (later renamed to **Maps.Me**) and by our community.
 No ads, no tracking, no data collection, no crapware. Your [donations](https://organicmaps.app/donate/) and positive reviews motivate and inspire us, thanks ❤️!
 
@@ -21,7 +21,7 @@ No ads, no tracking, no data collection, no crapware. Your [donations](https://o
 
 ## Features
 
-Sarathi is the ultimate companion app for travellers, tourists, hikers, and cyclists:
+SAARTHIis the ultimate companion app for travellers, tourists, hikers, and cyclists:
 
 - Detailed offline maps with places that don't exist on other maps, thanks to [OpenStreetMap](https://openstreetmap.org)
 - Cycling routes, hiking trails, and walking paths
@@ -35,13 +35,13 @@ Sarathi is the ultimate companion app for travellers, tourists, hikers, and cycl
 
 ## Why Organic?
 
-Sarathi is pure and organic, made with love:
+SAARTHIis pure and organic, made with love:
 
 - Respects your privacy
 - Saves your battery
 - No unexpected mobile data charges
 
-Sarathi is free from trackers and other bad stuff:
+SAARTHIis free from trackers and other bad stuff:
 
 - No ads
 - No tracking
@@ -66,7 +66,7 @@ The iOS application is verified by <a href="https://ios.trackercontrol.org/analy
 
 <br/>
 
-Sarathi doesn't request excessive permissions to spy on you:
+SAARTHIdoesn't request excessive permissions to spy on you:
 
 <p float="left">
   <img src="docs/privacy/om.jpg" width="400">
@@ -75,13 +75,13 @@ Sarathi doesn't request excessive permissions to spy on you:
 
 At Sarathi, we believe that privacy is a fundamental human right:
 
-- Sarathi is an indie community-driven open-source project
+- SAARTHIis an indie community-driven open-source project
 - We protect your privacy from Big Tech's prying eyes
 - Stay safe no matter where you are
 
 Reject surveillance - embrace your freedom.
 
-[**Give Sarathi a try!**](#install)
+[**Give SAARTHIa try!**](#install)
 
 ## Who is paying for the development?
 
@@ -119,7 +119,7 @@ Beloved institutional sponsors below have provided targeted grants to cover some
       <a href="https://futo.org"><img src="docs/sponsors/futo.svg" alt="FUTO" width="200px"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Sarathi in February 2023.
+      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to SAARTHIin February 2023.
     </td>
   </tr>
 </table>
@@ -174,4 +174,4 @@ and [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 [Instagram](https://instagram.com/organicmaps.app/).
   - Güncellemelerimizi [Instagram](https://instagram.com/organicmapstr/) üzerinden takip edin.
 
-The Sarathi community abides by the CNCF [code of conduct](https://github.com/organicmaps/organicmaps/blob/master/docs/CODE_OF_CONDUCT.md).
+The SAARTHIcommunity abides by the CNCF [code of conduct](https://github.com/organicmaps/organicmaps/blob/master/docs/CODE_OF_CONDUCT.md).

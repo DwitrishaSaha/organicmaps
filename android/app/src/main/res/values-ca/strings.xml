@@ -162,8 +162,8 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Notes</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Marcadors d\'SARATHI compartits</string>
-	<string name="share_bookmarks_email_body">Hola!\n\nAdjunto els meus marcadors de l\'aplicació SARATHI. Obriu-los si teniu l\'SARATHI instal·lat. O, si no teniu l\'aplicació, baixeu-la per al vostre aparell iOS o Android seguint aquest enllaç: https://omaps.app/get?kmz\n\nGaudiu viatjant amb l\'SARATHI!</string>
+	<string name="share_bookmarks_email_subject">Marcadors d\'SAARTHIcompartits</string>
+	<string name="share_bookmarks_email_body">Hola!\n\nAdjunto els meus marcadors de l\'aplicació SARATHI. Obriu-los si teniu l\'SAARTHIinstal·lat. O, si no teniu l\'aplicació, baixeu-la per al vostre aparell iOS o Android seguint aquest enllaç: https://omaps.app/get?kmz\n\nGaudiu viatjant amb l\'SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">S\'estan carregant els marcadors</string>
 	<!-- Kmz file successful loading -->
@@ -249,7 +249,7 @@
 	<string name="menu">Menú</string>
 	<!-- Text in menu -->
 	<string name="website">Lloc web</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Notícies</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Comentaris</string>
@@ -510,7 +510,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Propietari: %s</string>
 	<string name="editor_category_unsuitable_title">No trobeu una categoria adequada?</string>
-	<string name="editor_category_unsuitable_text">SARATHI només permet afegir categories de punts simples, això vol dir que no hi ha ciutats, carreteres, llacs, contorns d\'edificis, etc. Si us plau, afegiu aquestes categories directament a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulteu la nostra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guia</a> per obtenir instruccions detallades pas a pas.</string>
+	<string name="editor_category_unsuitable_text">SAARTHInomés permet afegir categories de punts simples, això vol dir que no hi ha ciutats, carreteres, llacs, contorns d\'edificis, etc. Si us plau, afegiu aquestes categories directament a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulteu la nostra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guia</a> per obtenir instruccions detallades pas a pas.</string>
 	<string name="downloader_no_downloaded_maps_title">No heu baixat cap mapa</string>
 	<string name="downloader_no_downloaded_maps_message">Baixeu mapes per a cercar una ubicacio i usar la navegació sense connexió.</string>
 	<string name="current_location_unknown_error_title">Es desconeix la ubicació actual.</string>
@@ -769,7 +769,7 @@
 	<string name="enable_show_on_lock_screen_description">Si està activa, no cal desblocar l\'aparell cada vegada mentre l\'aplicació està funcionant.</string>
 	<!-- OpenStreetMap text on splash screen -->
 	<string name="splash_subtitle">Dades del mapa de l\'OpenStreetMap</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/ca/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Ca:About</string>
@@ -794,9 +794,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">El nostre objectiu principal és crear mapes ràpids, centrats en la privadesa i fàcils d\'utilitzar que us encantaran.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Ara esteu utilitzant els SARATHI a la pantalla del telèfon</string>
+	<string name="car_used_on_the_phone_screen">Ara esteu utilitzant els SAARTHIa la pantalla del telèfon</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ara esteu utilitzant els SARATHI a la pantalla del cotxe</string>
+	<string name="car_used_on_the_car_screen">Ara esteu utilitzant els SAARTHIa la pantalla del cotxe</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Us heu connectat a Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

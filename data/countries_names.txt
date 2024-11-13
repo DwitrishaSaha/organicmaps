@@ -26711,7 +26711,7 @@
   de = Oman
   el = Ομάν
   es = Omán
-  et = SARATHIan
+  et = SAARTHIan
   eu = Oman
   fi = Oman
   fr = Oman
@@ -53500,7 +53500,7 @@
   uk = Канадзава, Комацу, Хакусан
 
 [Japan_Chubu Region_Nagano Description]
-  en = Okaya, SARATHIchi, Nagano
+  en = Okaya, SAARTHIchi, Nagano
   el = Οκάγια, Ομάτσι, Νάγκανο
   fr = Okaya
   ja = 岡谷市, 大町市, 長野市
@@ -59757,7 +59757,7 @@
   el = Κατ Μπανκ, Καλισπέλ, Σέλμπι
 
 [US_Nebraska_East Description]
-  en = SARATHIha, Stanton, Pawnee City
+  en = SAARTHIha, Stanton, Pawnee City
   el = Ομάχα, Στάντον, Πώνι Σίτι
   ru = Омаха
 

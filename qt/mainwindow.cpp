@@ -648,7 +648,7 @@ void MainWindow::OnUploadEditsMenuItem()
   {
     auto & editor = osm::Editor::Instance();
     if (editor.HaveMapEditsOrNotesToUpload())
-      editor.UploadChanges(token, {{"created_by", "Sarathi " OMIM_OS_NAME}});
+      editor.UploadChanges(token, {{"created_by", "SAARTHI" OMIM_OS_NAME}});
   }
 }
 

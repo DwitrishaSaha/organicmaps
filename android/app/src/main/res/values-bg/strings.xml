@@ -236,7 +236,7 @@
 	<string name="search_show_on_map">Преглед на картата</string>
 	<!-- Text in menu -->
 	<string name="website">Уебсайт</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Новини</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Обратна връзка</string>
@@ -477,7 +477,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Собственик: %s</string>
 	<string name="editor_category_unsuitable_title">Не можете да намерите подходяща категория?</string>
-	<string name="editor_category_unsuitable_text">SARATHI позволява да се добавят само прости категории точки, т.е. без градове, пътища, езера, очертания на сгради и т.н. Моля, добавяйте такива категории директно в <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Вижте нашето <a href="https://organicmaps.app/faq/editing/advanced-map-editing">ръководство</a> за подробни инструкции стъпка по стъпка.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIпозволява да се добавят само прости категории точки, т.е. без градове, пътища, езера, очертания на сгради и т.н. Моля, добавяйте такива категории директно в <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Вижте нашето <a href="https://organicmaps.app/faq/editing/advanced-map-editing">ръководство</a> за подробни инструкции стъпка по стъпка.</string>
 	<string name="downloader_no_downloaded_maps_title">Не сте изтеглили никакви карти</string>
 	<string name="downloader_no_downloaded_maps_message">Изтеглете картите, от които се нуждаете, за да намирате места и да навигирате без интернет.</string>
 	<string name="current_location_unknown_error_title">Настоящото местоположение е неизвестно.</string>
@@ -709,9 +709,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Нашата основна цел е да създаваме бързи, фокусирани върху поверителността, лесни за използване карти, които ще харесате.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Вече използвате SARATHI на екрана на телефона</string>
+	<string name="car_used_on_the_phone_screen">Вече използвате SAARTHIна екрана на телефона</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Вече използвате SARATHI на екрана на автомобила</string>
+	<string name="car_used_on_the_car_screen">Вече използвате SAARTHIна екрана на автомобила</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Свързани сте с Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

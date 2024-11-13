@@ -160,7 +160,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">הערות</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">סימניות של SARATHI שותפו איתך</string>
+	<string name="share_bookmarks_email_subject">סימניות של SAARTHIשותפו איתך</string>
 	<string name="share_bookmarks_email_body">שלום!\n\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-SARATHI. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://omaps.app/get?kmz\n\nתהנו לנווט עם SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">טוען סימניות</string>
@@ -247,7 +247,7 @@
 	<string name="menu">תפריט</string>
 	<!-- Text in menu -->
 	<string name="website">אתר</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">חדשות</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">משוב</string>
@@ -503,7 +503,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">בעלים: %s</string>
 	<string name="editor_category_unsuitable_title">לא מוצאים קטגוריה מתאימה?</string>
-	<string name="editor_category_unsuitable_text">באמצעות SARATHI ניתן להוסיף קטגוריות נקודה פשוטות בלבד, כלומר לא ניתן להוסיף עיירות, כבישים, אגמים, מבנים וכו\'. אנא הוסיפו קטגוריות כאלה ישירות ל-<a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. עיינו <a href="https://organicmaps.app/faq/editing/advanced-map-editing">במדריך</a> שלנו לקבלת הוראות מפורטות.</string>
+	<string name="editor_category_unsuitable_text">באמצעות SAARTHIניתן להוסיף קטגוריות נקודה פשוטות בלבד, כלומר לא ניתן להוסיף עיירות, כבישים, אגמים, מבנים וכו\'. אנא הוסיפו קטגוריות כאלה ישירות ל-<a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. עיינו <a href="https://organicmaps.app/faq/editing/advanced-map-editing">במדריך</a> שלנו לקבלת הוראות מפורטות.</string>
 	<string name="downloader_no_downloaded_maps_title">לא הורדת אף מפה</string>
 	<string name="downloader_no_downloaded_maps_message">הורד מפה כדי לחפש ולנווט ללא חיבור לאינטרנט.</string>
 	<string name="current_location_unknown_error_title">המיקום הנוכחי לא ידוע.</string>
@@ -782,9 +782,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">המטרה העיקרית שלנו היא לבנות מפות מהירות, ממוקדות פרטיות, קלות לשימוש שתאהבו.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">אתה משתמש כעת ב-SARATHI במסך הטלפון</string>
+	<string name="car_used_on_the_phone_screen">אתה משתמש כעת ב-SAARTHIבמסך הטלפון</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">אתה משתמש כעת ב-SARATHI במסך המכונית</string>
+	<string name="car_used_on_the_car_screen">אתה משתמש כעת ב-SAARTHIבמסך המכונית</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">אתה מחובר ל-Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

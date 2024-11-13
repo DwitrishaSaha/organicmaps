@@ -165,7 +165,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Notes</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">SARATHI bookmarks were shared with you</string>
+	<string name="share_bookmarks_email_subject">SAARTHIbookmarks were shared with you</string>
 	<string name="share_bookmarks_email_body">Hello!\n\nAttached are my bookmarks; please open them in SARATHI. If you don\'t have it installed you can download it here: https://omaps.app/get?kmz\n\nEnjoy travelling with SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Loading Bookmarks</string>
@@ -190,7 +190,7 @@
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">Hey, check out my pin in SARATHI!</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Hey, check out my current location on the SARATHI map!</string>
+	<string name="my_position_share_email_subject">Hey, check out my current location on the SAARTHImap!</string>
 	<!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://omaps.app link WITHOUT NAME -->
 	<string name="my_position_share_email">Hi,\n\nI\'m here now: %1$s. Click this link %2$s or this one %3$s to see the place on the map.\n\nThanks.</string>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -252,7 +252,7 @@
 	<string name="menu">Menu</string>
 	<!-- Text in menu -->
 	<string name="website">Website</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">News</string>
 	<!-- Text in menu -->
 	<string name="github">GitHub</string>
@@ -538,7 +538,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Owner: %s</string>
 	<string name="editor_category_unsuitable_title">Can\'t find a suitable category?</string>
-	<string name="editor_category_unsuitable_text">SARATHI allows to add simple point categories only, that means no towns, roads, lakes, building outlines, etc. Please add such categories directly to <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Check our <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guide</a> for detailed step by step instructions.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIallows to add simple point categories only, that means no towns, roads, lakes, building outlines, etc. Please add such categories directly to <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Check our <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guide</a> for detailed step by step instructions.</string>
 	<string name="downloader_no_downloaded_maps_title">You haven\'t downloaded any maps</string>
 	<string name="downloader_no_downloaded_maps_message">Download maps to search and navigate offline.</string>
 	<string name="current_location_unknown_error_title">Current location is unknown.</string>
@@ -804,7 +804,7 @@
 	<string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
 	<!-- A link to the TTS FAQ -->
 	<string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
@@ -831,9 +831,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Our main goal is to build fast, privacy-focused, easy-to-use maps that you will love.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">You are now using SARATHI on the phone screen</string>
+	<string name="car_used_on_the_phone_screen">You are now using SAARTHIon the phone screen</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">You are now using SARATHI on the car screen</string>
+	<string name="car_used_on_the_car_screen">You are now using SAARTHIon the car screen</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">You are connected to Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

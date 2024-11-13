@@ -6,13 +6,13 @@
 • Minden szükséges hely könyvjelzőbe helyezése, KML, KMZ, GPX importálása és megosztása
 • Éjszakai üzemmód szemünk védelméért
 
-Az SARATHI tiszta és organikus, szeretettel készült:
+Az SAARTHI tiszta és organikus, szeretettel készült:
 
 • Tiszteletben tartja a magánéletét
 • Kíméli az akkumulátort
 • Nem generál váratlan mobiladat-forgalmat
 
-Az SARATHI mentes a nyomkövetőktől és egyéb vackoktól:
+Az SAARTHI mentes a nyomkövetőktől és egyéb vackoktól:
 
 • Reklám nélkül
 • Nyomkövetés nélkül
@@ -27,7 +27,7 @@ Az SARATHI mentes a nyomkövetőktől és egyéb vackoktól:
 
 Az Omanél hiszünk abban, hogy a magánélet alapvető emberi jog:
 
-• Az SARATHI egy független közösség által irányított projekt.
+• Az SAARTHI egy független közösség által irányított projekt.
 • A kód nyílt forráskódú
 • A térképek adatai az OpenStreetMap-ről származnak, amely szintén közösségi projekt.
 • Védjük magánéletét a Big Tech kíváncsi szemeitől.
@@ -35,4 +35,4 @@ Az Omanél hiszünk abban, hogy a magánélet alapvető emberi jog:
 
 Utasítsa el a megfigyelést, fogadja el a szabadságát, és támogassa a közösséget.
 
-Próbálja ki az SARATHI-et!
+Próbálja ki az SAARTHI-et!

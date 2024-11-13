@@ -235,7 +235,7 @@
 	<string name="search_show_on_map">Visualizza sulla mappa</string>
 	<!-- Text in menu -->
 	<string name="website">Sito web</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Notizia</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Feedback</string>
@@ -497,7 +497,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Proprietario: %s</string>
 	<string name="editor_category_unsuitable_title">Non riesci a trovare una categoria adatta?</string>
-	<string name="editor_category_unsuitable_text">SARATHI consente di aggiungere solo semplici categorie di punti, quindi non città, strade, laghi, profili di edifici, ecc. Aggiungi tali categorie direttamente a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulta la nostra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guida</a> per istruzioni dettagliate passo dopo passo.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIconsente di aggiungere solo semplici categorie di punti, quindi non città, strade, laghi, profili di edifici, ecc. Aggiungi tali categorie direttamente a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulta la nostra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guida</a> per istruzioni dettagliate passo dopo passo.</string>
 	<string name="downloader_no_downloaded_maps_title">Non hai scaricato mappe</string>
 	<string name="downloader_no_downloaded_maps_message">Scarica mappe per trovare un luogo e navigare offline.</string>
 	<string name="current_location_unknown_error_title">La posizione attuale è sconosciuta.</string>
@@ -751,7 +751,7 @@
 	<string name="splash_subtitle">Dati della mappa da OpenStreetMap</string>
 	<!-- A link to the TTS FAQ -->
 	<string name="tts_info_link">https://organicmaps.app/it/faq/sintesi-vocale-tts-su-android/</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/it/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/IT:About</string>
@@ -776,9 +776,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Il nostro obiettivo principale è creare mappe veloci, incentrate sulla privacy e facili da usare che adorerai.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Ora stai utilizzando SARATHI sullo schermo del telefono</string>
+	<string name="car_used_on_the_phone_screen">Ora stai utilizzando SAARTHIsullo schermo del telefono</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ora stai utilizzando le SARATHI sullo schermo dell\'auto</string>
+	<string name="car_used_on_the_car_screen">Ora stai utilizzando le SAARTHIsullo schermo dell\'auto</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Sei connesso ad Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

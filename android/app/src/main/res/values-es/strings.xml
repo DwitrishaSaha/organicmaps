@@ -162,7 +162,7 @@
 	<!-- Notes field in Bookmarks view -->
 	<string name="description">Notas</string>
 	<!-- Email Subject when sharing bookmark list -->
-	<string name="share_bookmarks_email_subject">Marcadores de SARATHI compartidos con usted</string>
+	<string name="share_bookmarks_email_subject">Marcadores de SAARTHIcompartidos con usted</string>
 	<string name="share_bookmarks_email_body">Hola!\n\Adjunto mis marcadores de la aplicación SARATHI. Por favor, ábralos si tiene instalado SARATHI. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://omaps.app/get?kmz\n¡Disfrute viajando con SARATHI!</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Cargando marcadores</string>
@@ -249,7 +249,7 @@
 	<string name="menu">Menú</string>
 	<!-- Text in menu -->
 	<string name="website">Sitio web</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">Noticias</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">Comentarios</string>
@@ -511,7 +511,7 @@
 	<!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
 	<string name="operator">Operador: %s</string>
 	<string name="editor_category_unsuitable_title">¿No halla una categoría adecuada?</string>
-	<string name="editor_category_unsuitable_text">SARATHI permite añadir únicamente categorías de puntos sencillos, es decir, no ciudades, carreteras, lagos, contornos de edificios, etc. Por favor, añada dichas categorías directamente a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte nuestra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guía</a> para obtener instrucciones detalladas paso a paso.</string>
+	<string name="editor_category_unsuitable_text">SAARTHIpermite añadir únicamente categorías de puntos sencillos, es decir, no ciudades, carreteras, lagos, contornos de edificios, etc. Por favor, añada dichas categorías directamente a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte nuestra <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guía</a> para obtener instrucciones detalladas paso a paso.</string>
 	<string name="downloader_no_downloaded_maps_title">No ha descargado ningún mapa</string>
 	<string name="downloader_no_downloaded_maps_message">Descargue mapas para encontrar la ubicación y navegar sin conexión.</string>
 	<string name="current_location_unknown_error_title">La ubicación actual es desconocida.</string>
@@ -771,7 +771,7 @@
 	<string name="splash_subtitle">Datos de mapas de OpenStreetMap</string>
 	<!-- A link to the TTS FAQ -->
 	<string name="tts_info_link">https://organicmaps.app/es/faq/instrucciones-de-voz-tts-en-android/</string>
-	<!-- Translated SARATHI site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
+	<!-- Translated SAARTHIsite, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
 	<string name="translated_om_site_url">https://organicmaps.app/es/</string>
 	<!-- Link to OSM wiki for Editor, Profile and About pages -->
 	<string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/ES:Acerca_de_OpenStreetMap</string>
@@ -796,9 +796,9 @@
 	<!-- App tip #09 -->
 	<string name="app_tip_09">Nuestro principal objetivo es crear mapas rápidos, centrados en la privacidad y fáciles de utilizar que le encantarán.</string>
 	<!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-	<string name="car_used_on_the_phone_screen">Ahora usa SARATHI en la pantalla del teléfono</string>
+	<string name="car_used_on_the_phone_screen">Ahora usa SAARTHIen la pantalla del teléfono</string>
 	<!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-	<string name="car_used_on_the_car_screen">Ahora usa SARATHI en la pantalla del coche</string>
+	<string name="car_used_on_the_car_screen">Ahora usa SAARTHIen la pantalla del coche</string>
 	<!-- Displayed on the phone screen. Android Auto connected -->
 	<string name="aa_connected_title">Se ha conectado a Android Auto</string>
 	<!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

@@ -183,7 +183,7 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">ダウンロード中です</string>
 	<!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://omaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-	<string name="my_position_share_sms">SARATHI で私の現在地が見れます！%1$s または %2$s オフラインマップはまだインストールしていないですか？ここからダウンロード： https://omaps.app/get</string>
+	<string name="my_position_share_sms">SAARTHIで私の現在地が見れます！%1$s または %2$s オフラインマップはまだインストールしていないですか？ここからダウンロード： https://omaps.app/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">SARATHIでピン情報を確認</string>
 	<!-- Subject for emailed position -->
@@ -249,7 +249,7 @@
 	<string name="menu">メニュー</string>
 	<!-- Text in menu -->
 	<string name="website">ウェブサイト</string>
-	<!-- Text in About menu, opens SARATHI news website -->
+	<!-- Text in About menu, opens SAARTHInews website -->
 	<string name="news">ニュース</string>
 	<!-- Settings: Send feedback button and dialog title -->
 	<string name="feedback">フィードバック</string>
@@ -579,7 +579,7 @@
 	<string name="mobile_data_option_ask">常に確認</string>
 	<string name="traffic_update_maps_text">交通データを表示するには、地図を更新する必要があります。</string>
 	<string name="big_font">地図上のフォントサイズを大きくする</string>
-	<string name="traffic_update_app">SARATHI をアップデートしてください</string>
+	<string name="traffic_update_app">SAARTHIをアップデートしてください</string>
 	<!-- "traffic" as in "road congestion" -->
 	<string name="traffic_data_unavailable">交通データは利用できません</string>
 	<string name="enable_logging">ログを有効化</string>
